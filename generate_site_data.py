@@ -20,10 +20,10 @@ TRANSLATE_URL = "https://translate.googleapis.com/translate_a/single"
 XIVAPI_V2 = "https://v2.xivapi.com/api/sheet"
 
 SLOT_CONFIGS = [
-    {"slot_id": 3, "slot_cn": "头部", "data_idx": 3, "dye_idx": 15, "key": "slotThemes"},
-    {"slot_id": 4, "slot_cn": "身体", "data_idx": 4, "dye_idx": 16, "key": "slotThemes"},
-    {"slot_id": 7, "slot_cn": "腿部", "data_idx": 6, "dye_idx": 18, "key": "slotThemes"},
-    {"slot_id": 8, "slot_cn": "脚部", "data_idx": 7, "dye_idx": 19, "key": "slotThemes"},
+    {"slot_id": 3, "slot_key": "head", "slot_cn": "头部", "slot_en": "Head", "data_idx": 3, "dye_idx": 15, "key": "slotThemes"},
+    {"slot_id": 4, "slot_key": "body", "slot_cn": "身体", "slot_en": "Body", "data_idx": 4, "dye_idx": 16, "key": "slotThemes"},
+    {"slot_id": 7, "slot_key": "legs", "slot_cn": "腿部", "slot_en": "Legs", "data_idx": 6, "dye_idx": 18, "key": "slotThemes"},
+    {"slot_id": 8, "slot_key": "feet", "slot_cn": "脚部", "slot_en": "Feet", "data_idx": 7, "dye_idx": 19, "key": "slotThemes"},
 ]
 
 _session = requests.Session()
@@ -105,13 +105,7 @@ def translate_ja_to_cn(text):
         return _translate_cache[text]
     resp = _session.get(
         TRANSLATE_URL,
-        params={
-            "client": "gtx",
-            "sl": "ja",
-            "tl": "zh-CN",
-            "dt": "t",
-            "q": text,
-        },
+        params={"client": "gtx", "sl": "ja", "tl": "zh-CN", "dt": "t", "q": text},
         timeout=20,
     )
     resp.raise_for_status()
@@ -125,13 +119,11 @@ def fetch_theme_name(sheet_name, row_id, overrides, bucket):
     cache_key = (sheet_name, row_id, bucket)
     if cache_key in _theme_cache:
         return _theme_cache[cache_key]
-
     en_data = get_json(f"{XIVAPI_V2}/{sheet_name}/{row_id}", params={"fields": "Name"})
     ja_data = get_json(f"{XIVAPI_V2}/{sheet_name}/{row_id}", params={"fields": "Name", "language": "ja"})
     name_en = (en_data.get("fields") or {}).get("Name") or ""
     name_ja = (ja_data.get("fields") or {}).get("Name") or ""
     name_cn_auto = translate_ja_to_cn(name_ja) if name_ja else name_en
-
     override = overrides.get(bucket, {}).get(str(row_id), {})
     result = {
         "en": override.get("en") or name_en,
@@ -160,11 +152,22 @@ def fetch_item(item_id):
 
 def fetch_dye(dye_id):
     if not dye_id:
-        return {"dyeId": None, "dyeNameCn": ""}
+        return {
+            "dyeId": None,
+            "dyeNameCn": "",
+            "dyeDisplayCn": "无指定染色",
+            "dyeRequired": False,
+        }
     if dye_id in _dye_cache:
         return _dye_cache[dye_id]
     data = get_json(f"{ICON_BASE}/stain/{dye_id}?columns=Name")
-    result = {"dyeId": dye_id, "dyeNameCn": data.get("Name") or ""}
+    dye_name = data.get("Name") or ""
+    result = {
+        "dyeId": dye_id,
+        "dyeNameCn": dye_name,
+        "dyeDisplayCn": dye_name or "无指定染色",
+        "dyeRequired": bool(dye_name),
+    }
     _dye_cache[dye_id] = result
     return result
 
@@ -183,14 +186,18 @@ def find_wiki(name_cn):
             return {
                 "wikiMatched": True,
                 "wikiTitle": title_text,
+                "wikiPageTitle": title_text.split(" - ")[0],
                 "wikiUrl": clean,
                 "wikiSnippet": "",
+                "wikiStatusText": "已对词条",
             }
     return {
         "wikiMatched": False,
         "wikiTitle": "",
+        "wikiPageTitle": "",
         "wikiUrl": "",
         "wikiSnippet": "",
+        "wikiStatusText": "待补校验",
     }
 
 
@@ -208,7 +215,6 @@ def build_rows(latest_row, themes_rows, overrides):
 
     all_rows = []
     slot_summary = []
-
     for cfg in SLOT_CONFIGS:
         theme_id = int_or_none(latest_row[cfg["data_idx"]]) if len(latest_row) > cfg["data_idx"] else None
         if not theme_id:
@@ -218,13 +224,16 @@ def build_rows(latest_row, themes_rows, overrides):
         dye_info = fetch_dye(dye_id)
         item_ids = theme_item_map.get((theme_id, cfg["slot_id"]), [])
         hero_items = []
-
         for rank, item_id in enumerate(item_ids, start=1):
             item = fetch_item(item_id)
             wiki = find_wiki(item["nameCn"])
             row = {
                 "week": int_or_none(latest_row[0]),
                 "slot": cfg["slot_cn"],
+                "slotCn": cfg["slot_cn"],
+                "slotEn": cfg["slot_en"],
+                "slotKey": cfg["slot_key"],
+                "slotId": cfg["slot_id"],
                 "themeId": theme_id,
                 "themeNameEn": theme["en"],
                 "themeNameJa": theme["ja"],
@@ -237,20 +246,21 @@ def build_rows(latest_row, themes_rows, overrides):
             }
             hero_items.append(row)
             all_rows.append(row)
-
         slot_summary.append({
             "slot": cfg["slot_cn"],
+            "slotCn": cfg["slot_cn"],
+            "slotEn": cfg["slot_en"],
+            "slotKey": cfg["slot_key"],
+            "slotId": cfg["slot_id"],
             "themeId": theme_id,
             "themeNameEn": theme["en"],
             "themeNameJa": theme["ja"],
             "themeNameCn": theme["cn"],
             "themeCnSource": theme["source"],
             "candidateCount": len(item_ids),
-            "dyeId": dye_info["dyeId"],
-            "dyeNameCn": dye_info["dyeNameCn"],
+            **dye_info,
             "heroItems": hero_items,
         })
-
     return slot_summary, all_rows
 
 
@@ -261,14 +271,13 @@ def main():
     theme_rows = fetch_sheet(token, "Theme!A:C")
     if not data_rows:
         raise RuntimeError("Data sheet empty")
-
     latest = data_rows[-1]
     overrides = load_theme_overrides()
     weekly_theme_id = int_or_none(latest[1]) if len(latest) > 1 else None
     weekly_theme = fetch_theme_name("FashionCheckWeeklyTheme", weekly_theme_id, overrides, "weeklyThemes") if weekly_theme_id else {"en": "", "ja": "", "cn": "", "source": ""}
     slot_summary, rows = build_rows(latest, theme_rows, overrides)
-
     payload = {
+        "schemaVersion": 2,
         "generatedAt": int(time.time()),
         "week": int_or_none(latest[0]),
         "weeklyThemeId": weekly_theme_id,
@@ -281,12 +290,7 @@ def main():
     }
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUTPUT}")
-    print(json.dumps({
-        "week": payload["week"],
-        "weeklyThemeNameCn": payload["weeklyThemeNameCn"],
-        "slots": len(slot_summary),
-        "rows": len(rows),
-    }, ensure_ascii=False))
+    print(json.dumps({"week": payload["week"], "weeklyThemeNameCn": payload["weeklyThemeNameCn"], "slots": len(slot_summary), "rows": len(rows)}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

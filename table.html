@@ -39,7 +39,7 @@ footer{margin-top:24px;color:var(--muted);font-size:13px}
 </style></head><body><div class="wrap">
 <div class="topbar"><div><strong>FF14 时尚品鉴参考 / 装备检索</strong></div><div class="nav"><a href="./index.html">首页</a><a href="./table.html">搜索表格</a></div></div>
 <section class="hero"><h1>装备检索</h1><p class="muted">可按装备名、物品 ID、部位和词条状态筛选本周候选装备。</p><div class="searchbar"><input id="q" placeholder="搜索装备名称 / 物品 ID / 灰机词条"><select id="slot"><option value="">全部部位</option><option>头部</option><option>身体</option><option>腿部</option><option>脚部</option></select><select id="wiki"><option value="">全部词条状态</option><option value="yes">只看已匹配词条</option><option value="no">只看未匹配词条</option></select></div><div class="toolbar"><div class="count" id="count"></div><div class="count">当前周：第 <span id="week"></span> 周</div></div></section>
-<section class="panel" style="margin-top:18px"><div class="table-wrap"><table><thead><tr><th>装备</th><th>部位</th><th>时尚品鉴题目</th><th>候选序号</th><th>Theme ID</th><th>物品ID</th><th>IL</th><th>灰机词条</th><th>词条摘要</th></tr></thead><tbody id="tbody"></tbody></table></div></section>
+<section class="panel" style="margin-top:18px"><div class="table-wrap"><table><thead><tr><th>装备</th><th>部位</th><th>时尚品鉴题目</th><th>染色</th><th>候选序号</th><th>Theme ID</th><th>物品ID</th><th>IL</th><th>灰机词条</th><th>词条摘要</th></tr></thead><tbody id="tbody"></tbody></table></div></section>
 <footer>可搜索本周候选装备，并查看对应的灰机词条信息。</footer></div>
 <script>
 const DATA_URL = './site-data.json';
@@ -66,13 +66,13 @@ function boot(DATA) {
     const s = slot.value;
     const w = wiki.value;
     const rows = (DATA.rows || []).filter(r => {
-      if (s && r.slot !== s) return false;
+      if (s && r.slotCn !== s && r.slot !== s) return false;
       if (w === 'yes' && !r.wikiMatched) return false;
       if (w === 'no' && r.wikiMatched) return false;
       if (term) {
         const hay = [
-          r.nameCn, r.itemId, r.slot, r.themeNameCn, r.themeNameEn,
-          r.wikiTitle, r.wikiSnippet
+          r.nameCn, r.itemId, r.slotCn, r.slotEn, r.themeNameCn, r.themeNameEn,
+          r.dyeDisplayCn, r.wikiPageTitle, r.wikiTitle, r.wikiSnippet
         ].join(' ').toLowerCase();
         if (!hay.includes(term)) return false;
       }
@@ -87,17 +87,18 @@ function boot(DATA) {
             <img loading="lazy" src="${r.iconUrl || ''}" alt="${esc(r.nameCn)}">
             <div>
               <div><strong>${esc(r.nameCn)}</strong></div>
-              <div class="muted">${r.wikiMatched ? '<span class="badge ok">已对词条</span>' : '<span class="badge warn">待补校验</span>'}</div>
+              <div class="muted">${r.wikiStatusText || (r.wikiMatched ? '已对词条' : '待补校验')}</div>
             </div>
           </div>
         </td>
-        <td>${esc(r.slot)}</td>
-        <td><div>${esc(r.themeNameCn || r.themeNameEn || '—')}</div><div class="muted">${r.themeNameCn && r.themeNameEn ? esc(r.themeNameEn) : ''}</div></td>
+        <td><div>${esc(r.slotCn || r.slot || '')}</div><div class="muted">${esc(r.slotEn || '')}</div></td>
+        <td><div>${esc(r.themeNameCn || r.themeNameEn || '—')}</div><div class="muted">${esc(r.themeNameEn || '')}</div></td>
+        <td>${esc(r.dyeDisplayCn || '无指定染色')}</td>
         <td>${r.rank}</td>
         <td>${r.themeId}</td>
         <td>${r.itemId}</td>
         <td>${r.itemLevel}</td>
-        <td>${r.wikiUrl ? `<a href="${r.wikiUrl}" target="_blank" rel="noopener noreferrer">打开灰机词条</a><div class="muted">${esc(r.wikiTitle || '')}</div>` : '—'}</td>
+        <td>${r.wikiUrl ? `<a href="${r.wikiUrl}" target="_blank" rel="noopener noreferrer">${esc(r.wikiPageTitle || '打开灰机词条')}</a><div class="muted">${esc(r.wikiTitle || '')}</div>` : '—'}</td>
         <td class="muted">${esc(r.wikiSnippet || '')}</td>
       </tr>
     `).join('');

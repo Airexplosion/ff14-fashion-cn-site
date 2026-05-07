@@ -66,9 +66,10 @@ function renderIndex(DATA) {
     const el = document.createElement('section');
     el.className = 'slot-card';
     el.innerHTML = `
-      <h3>${esc(s.slot)}</h3>
+      <h3>${esc(s.slotCn || s.slot)}</h3>
       <p class="muted">题目：${esc(s.themeNameCn || s.themeNameEn || '—')}</p>
-      <p class="muted">${s.themeNameEn && s.themeNameCn ? esc(s.themeNameEn) : ''}</p>
+      <p class="muted">${s.themeNameEn ? esc(s.themeNameEn) : ''}</p>
+      <p class="muted">染色：${esc(s.dyeDisplayCn || '无指定染色')}</p>
       <p class="muted">候选 ${s.candidateCount || 0} 件</p>
       <div class="item-grid">${(s.heroItems || []).map(item => `
         <div class="item">
@@ -76,8 +77,9 @@ function renderIndex(DATA) {
           <div>
             <div class="item-name">${esc(item.nameCn)}</div>
             <div class="meta">物品ID：${item.itemId} · IL：${item.itemLevel}</div>
-            <div>${item.wikiUrl ? `<a href="${item.wikiUrl}" target="_blank" rel="noopener noreferrer">灰机词条</a>` : '—'}</div>
-            <span class="badge ${item.wikiMatched ? 'ok' : 'warn'}">${item.wikiMatched ? '已对词条' : '待补校验'}</span>
+            <div class="meta">染色：${esc(item.dyeDisplayCn || '无指定染色')}</div>
+            <div>${item.wikiUrl ? `<a href="${item.wikiUrl}" target="_blank" rel="noopener noreferrer">${esc(item.wikiPageTitle || '灰机词条')}</a>` : '—'}</div>
+            <span class="badge ${item.wikiMatched ? 'ok' : 'warn'}">${item.wikiStatusText || (item.wikiMatched ? '已对词条' : '待补校验')}</span>
           </div>
         </div>
       `).join('')}</div>`;
