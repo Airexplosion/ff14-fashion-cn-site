@@ -10,6 +10,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parent
 DATA_BIN = ROOT.parent / "FashionReport" / "FashionReport" / "Data.bin"
+DATA_BIN_URL = "https://raw.githubusercontent.com/TheRedheadedWitch/FashionReport/main/FashionReport/Data.bin"
 OUTPUT = ROOT / "site-data.json"
 THEME_OVERRIDE_PATH = ROOT / "theme_mappings.json"
 SHEET_ID = "1RWNR3MeKq49wfGVEBGIhDMtrJL40uhbtzuZtIpUbVw8"
@@ -40,7 +41,12 @@ def get_json(url, **kwargs):
 
 
 def load_google_credentials():
-    text = DATA_BIN.read_text("utf-8")
+    if DATA_BIN.exists():
+        text = DATA_BIN.read_text("utf-8")
+    else:
+        resp = _session.get(DATA_BIN_URL, timeout=30)
+        resp.raise_for_status()
+        text = resp.text
     fixed = "".join(chr((~ord(c)) & 0xFFFF) for c in text)
     return json.loads(fixed[fixed.find("{"):])
 
