@@ -1,157 +1,44 @@
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FF14 国服时尚品鉴中文原型</title>
-  <style>
-    :root {
-      --bg:#08111f; --panel:#101b32; --panel2:#14223e; --line:#263a67;
-      --text:#eef5ff; --muted:#9db0d4; --ok:#8ce99a; --warn:#ffd166; --bad:#ff8787; --brand:#7cc5ff;
-    }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; background:linear-gradient(180deg,#08111f,#0d1830 55%,#0b1222); color:var(--text); }
-    a { color:#b9e2ff; text-decoration:none; } a:hover { text-decoration:underline; }
-    .wrap { max-width:1180px; margin:0 auto; padding:28px 18px 70px; }
-    .hero,.panel,.slot { background:rgba(16,27,50,.92); border:1px solid var(--line); border-radius:22px; box-shadow:0 10px 26px rgba(0,0,0,.25); }
-    .hero { padding:28px; background:radial-gradient(circle at right top, rgba(124,197,255,.16), transparent 30%), rgba(16,27,50,.96); }
-    h1,h2,h3 { margin:0 0 12px; line-height:1.25; }
-    h1 { font-size:34px; }
-    h2 { font-size:24px; }
-    h3 { font-size:18px; }
-    p { margin:10px 0; line-height:1.75; }
-    .muted { color:var(--muted); }
-    .chips { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; }
-    .chip { padding:7px 12px; border-radius:999px; background:#1b2c54; border:1px solid #335392; font-size:13px; color:#d9e8ff; }
-    .grid { display:grid; grid-template-columns:repeat(12,1fr); gap:18px; margin-top:18px; }
-    .col-12 { grid-column:span 12; } .col-6 { grid-column:span 6; } .col-4 { grid-column:span 4; } .col-3 { grid-column:span 3; }
-    @media(max-width:900px){ .col-6,.col-4,.col-3,.col-12 { grid-column:span 12; } h1{font-size:28px;} }
-    .panel { padding:20px; }
-    .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:18px; }
-    @media(max-width:900px){ .stats{grid-template-columns:repeat(2,1fr);} }
-    .stat { background:rgba(255,255,255,.03); border:1px solid var(--line); border-radius:16px; padding:15px; }
-    .value { font-size:24px; font-weight:700; margin-bottom:6px; }
-    .ok { color:var(--ok); } .warn{color:var(--warn);} .bad{color:var(--bad);}
-    .slots { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }
-    @media(max-width:900px){ .slots{grid-template-columns:1fr;} }
-    .slot { padding:18px; }
-    .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:12px; }
-    .tag { padding:5px 10px; border-radius:999px; background:#19294f; border:1px solid #304c86; font-size:12px; color:#dbe9ff; }
-    .item { background:rgba(255,255,255,.03); border:1px solid var(--line); border-radius:16px; padding:14px; margin-top:12px; }
-    .item-top { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
-    .item-name { font-size:18px; font-weight:700; }
-    .badge { white-space:nowrap; border-radius:999px; padding:5px 10px; font-size:12px; border:1px solid var(--line); }
-    .badge.ok { background:rgba(140,233,154,.12); } .badge.warn { background:rgba(255,209,102,.12); }
-    .note { border-left:4px solid var(--brand); padding:12px 14px; background:rgba(124,197,255,.08); border-radius:12px; margin-top:14px; }
-    ul{margin:8px 0 0 18px;padding:0;} li{margin:6px 0;}
-    footer { margin-top:24px; color:var(--muted); font-size:13px; }
-    code{background:rgba(255,255,255,.06); padding:2px 6px; border-radius:8px;}
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <section class="hero">
-      <h1>FF14 国服时尚品鉴中文网页原型</h1>
-      <p class="muted">目标：先把“国服装备名称可读、可对照 Wiki、可继续接插件数据”的网页跑起来。当前页面已经接入公开 FashionReport 数据链路里的最新周次样本，并用国服中文物品名展示。</p>
-      <div class="chips">
-        <span class="chip">当前周次：第 <span id="week-chip"></span> 周</span>
-        <span class="chip">国服装备名</span>
-        <span class="chip">Wiki 对照</span>
-        <span class="chip">可继续接 Dalamud 插件</span>
-      </div>
-      <div class="stats">
-        <div class="stat"><div class="value ok" id="slot-count">0</div><div>当前展示部位</div></div>
-        <div class="stat"><div class="value ok" id="item-count">0</div><div>候选装备条目</div></div>
-        <div class="stat"><div class="value warn" id="wiki-count">0</div><div>已检到 Wiki 词条</div></div>
-        <div class="stat"><div class="value" id="gen-time">-</div><div>数据生成时间</div></div>
-      </div>
-    </section>
-
-    <div class="grid">
-      <section class="panel col-12">
-        <h2>我已经帮你比对的点</h2>
-        <ul>
-          <li>装备中文名来源：<code>cafemaker.wakingsands.com</code> 物品接口返回的中文物品名。</li>
-          <li>Wiki 对照方式：用搜索引擎已收录的灰机 Wiki 词条标题交叉验证，避免灰机站点的 Cloudflare 直连限制。</li>
-          <li>网页策略：先保证“国服中文名 + Wiki 能对上”，再继续往里接插件采集、样本上报、染色确认。</li>
-        </ul>
-        <div class="note">这页展示的是“已能对应上国服名字体系的候选装备原型”。它不是在冒充官方唯一满分答案，而是在为后面的真实采集网页打地基。</div>
-      </section>
-
-      <section class="panel col-12">
-        <h2>本周候选装备（国服中文）</h2>
-        <div class="slots" id="slots"></div>
-      </section>
-
-      <section class="panel col-6">
-        <h2>公开路线判断</h2>
-        <ul>
-          <li>公开插件能直接读取 <code>FashionCheck</code> / <code>FashionCheckScoreGauge</code> 的窗口数据。</li>
-          <li>但当前公开证据仍更支持“窗口采集 + 外部题库/众包样本”，而不是“客户端里直接藏着完整满分答案”。</li>
-          <li>所以最稳路线仍然是：网页前端 + 外部数据层 + 插件采样层。</li>
-        </ul>
-      </section>
-
-      <section class="panel col-6">
-        <h2>接下来最该做什么</h2>
-        <ul>
-          <li>把你想用的国服译名规范固定下来。</li>
-          <li>确定网页数据结构：周次、部位、候选装备、染色、证据样本。</li>
-          <li>再做 Dalamud 端上传：本周主题、玩家判分、染色、得分。</li>
-          <li>逆向继续并行做，重点盯更深层状态字段，而不是只赌“直接读完整答案”。</li>
-        </ul>
-      </section>
-    </div>
-
-    <footer>
-      页面原型由 Hermes 生成。当前数据源：公开 FashionReport 工作流 + 中文物品名接口 + 灰机 Wiki 搜索索引交叉校验。
-    </footer>
-  </div>
-
-  <script>
-    const DATA = {"generatedAt": 1778117577, "week": 405, "source": {"sheet": "FashionReport Google Sheet (public plugin workflow)", "cnNames": "cafemaker.wakingsands.com item name API", "wikiCompare": "DuckDuckGo indexed Huiji Wiki titles"}, "slots": [{"slot": "头部", "themeId": 248, "slotId": 3, "items": [{"id": 32798, "nameCn": "小牛皮骑手运动帽", "wikiMatched": true, "wikiTitle": "物品:小牛皮骑手运动帽 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E5%B0%8F%E7%89%9B%E7%9A%AE%E9%AA%91%E6%89%8B%E8%BF%90%E5%8A%A8%E5%B8%BD"}]}, {"slot": "身体", "themeId": 102, "slotId": 4, "items": [{"id": 8669, "nameCn": "纯情燕尾礼服", "wikiMatched": true, "wikiTitle": "物品:纯情燕尾礼服套装 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%BA%AF%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D%E5%A5%97%E8%A3%85"}, {"id": 8670, "nameCn": "激情燕尾礼服", "wikiMatched": true, "wikiTitle": "物品:激情燕尾礼服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%BF%80%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D"}, {"id": 8671, "nameCn": "钟情燕尾礼服", "wikiMatched": true, "wikiTitle": "物品:钟情燕尾礼服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E9%92%9F%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D"}]}, {"slot": "腿部", "themeId": 32, "slotId": 7, "items": [{"id": 7465, "nameCn": "狩猎者束膝裤", "wikiMatched": true, "wikiTitle": "物品:狩猎者束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%8B%A9%E7%8C%8E%E8%80%85%E6%9D%9F%E8%86%9D%E8%A3%A4"}, {"id": 10827, "nameCn": "祝圣青麻精准束膝裤", "wikiMatched": true, "wikiTitle": "物品:祝圣青麻精准束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%A5%9D%E5%9C%A3%E9%9D%92%E9%BA%BB%E7%B2%BE%E5%87%86%E6%9D%9F%E8%86%9D%E8%A3%A4"}, {"id": 10911, "nameCn": "祝圣青麻治愈束膝裤", "wikiMatched": true, "wikiTitle": "物品:祝圣青麻治愈束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%A5%9D%E5%9C%A3%E9%9D%92%E9%BA%BB%E6%B2%BB%E6%84%88%E6%9D%9F%E8%86%9D%E8%A3%A4"}]}, {"slot": "脚部", "themeId": 47, "slotId": 8, "items": [{"id": 9917, "nameCn": "恶魔强袭战靴", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"id": 9929, "nameCn": "恶魔游击战靴", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"id": 9935, "nameCn": "恶魔治愈凉鞋", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}]}], "canonicalChecks": [{"nameCn": "小牛皮骑手运动帽", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"nameCn": "伴郎礼服", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"nameCn": "管家燕尾服", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"nameCn": "狩猎者束膝裤", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"nameCn": "恶魔强袭战靴", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"nameCn": "真狮鹫革强袭战靴", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}], "notes": ["当前公开插件路线主要是读取时尚品鉴窗口已暴露信息，再配合外部数据库或众包样本。", "本页示例优先保证国服装备名称可与中文 Wiki 对应，不强行声称这些就是本周唯一满分解。", "灰机 Wiki 本站有 Cloudflare，程序直连受限；此处比对使用搜索引擎已收录的词条标题作交叉校验。"]};
-    const fmt = ts => new Date(ts * 1000).toLocaleString('zh-CN', { hour12:false });
-    document.getElementById('week-chip').textContent = DATA.week;
-    document.getElementById('slot-count').textContent = DATA.slots.length;
-    document.getElementById('item-count').textContent = DATA.slots.reduce((n,s)=>n+s.items.length,0);
-    document.getElementById('wiki-count').textContent = DATA.slots.reduce((n,s)=>n+s.items.filter(i=>i.wikiMatched).length,0);
-    document.getElementById('gen-time').textContent = fmt(DATA.generatedAt);
-
-    const slots = document.getElementById('slots');
-    for (const slot of DATA.slots) {
-      const section = document.createElement('section');
-      section.className = 'slot';
-      section.innerHTML = `
-        <h3>${slot.slot}</h3>
-        <div class="meta">
-          <span class="tag">Theme ID: ${slot.themeId}</span>
-          <span class="tag">Slot ID: ${slot.slotId}</span>
-          <span class="tag">候选 ${slot.items.length} 件</span>
-        </div>
-      `;
-      for (const item of slot.items) {
-        const div = document.createElement('div');
-        div.className = 'item';
-        const badge = item.wikiMatched
-          ? '<span class="badge ok">已对上灰机 Wiki</span>'
-          : '<span class="badge warn">待补强校验</span>';
-        const wiki = item.wikiUrl
-          ? `<p class="muted">Wiki：<a href="${item.wikiUrl}" target="_blank" rel="noopener noreferrer">${item.wikiTitle || item.wikiUrl}</a></p>`
-          : '<p class="muted">Wiki：当前搜索索引未稳定命中，后续可换直连接口或人工补词条。</p>';
-        div.innerHTML = `
-          <div class="item-top">
-            <div>
-              <div class="item-name">${item.nameCn}</div>
-              <div class="muted">物品 ID：${item.id}</div>
-            </div>
-            ${badge}
-          </div>
-          ${wiki}
-        `;
-        section.appendChild(div);
-      }
-      slots.appendChild(section);
-    }
-  </script>
-</body>
-</html>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>FF14 国服时尚品鉴</title><style>
+:root {
+  --bg:#070d18; --bg2:#0b1425; --panel:#0f1728; --panel2:#121d33; --line:#25375b;
+  --text:#eef4ff; --muted:#98a8c7; --brand:#84c5ff; --ok:#8ce99a; --warn:#ffd166; --soft:#1b2844;
+}
+*{box-sizing:border-box} html,body{margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(180deg,var(--bg),var(--bg2));color:var(--text)}
+a{color:#bfe4ff;text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1380px;margin:0 auto;padding:24px 18px 72px}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+.nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{padding:10px 14px;border:1px solid #37558f;background:#17233d;border-radius:999px;color:#e8f2ff}
+.hero,.panel,.slot-card{background:rgba(15,23,40,.92);border:1px solid var(--line);border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.28)}
+.hero{padding:28px;background:radial-gradient(circle at right top, rgba(132,197,255,.16), transparent 30%), rgba(15,23,40,.96)}
+h1,h2,h3{line-height:1.2;margin:0 0 12px} h1{font-size:34px} h2{font-size:24px} h3{font-size:18px}
+p{line-height:1.75;margin:8px 0}.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:18px}.col-12{grid-column:span 12}.col-8{grid-column:span 8}.col-4{grid-column:span 4}.col-6{grid-column:span 6}.col-3{grid-column:span 3}
+@media(max-width:980px){.col-8,.col-6,.col-4,.col-3,.col-12{grid-column:span 12}h1{font-size:28px}}
+.panel{padding:20px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}@media(max-width:980px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{padding:16px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.03)} .stat .value{font-size:26px;font-weight:800;margin-bottom:6px}
+.ok{color:var(--ok)} .warn{color:var(--warn)}
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.chip{padding:7px 12px;border-radius:999px;background:#1a2947;border:1px solid #335391;font-size:13px;color:#dce9ff}
+.slot-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}@media(max-width:980px){.slot-grid{grid-template-columns:1fr}}
+.slot-card{padding:18px}
+.item-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:14px}@media(max-width:700px){.item-grid{grid-template-columns:1fr}}
+.item{display:grid;grid-template-columns:68px 1fr;gap:12px;padding:12px;border-radius:16px;border:1px solid var(--line);background:rgba(255,255,255,.03)}
+.item img{width:68px;height:68px;border-radius:14px;background:#1a2740;object-fit:contain;padding:6px;border:1px solid #314d82}
+.item-name{font-size:16px;font-weight:700;margin-bottom:4px}.meta{font-size:13px;color:var(--muted)}
+.badge{display:inline-block;padding:4px 9px;border-radius:999px;font-size:12px;margin-top:6px;border:1px solid var(--line)} .badge.ok{background:rgba(140,233,154,.1)} .badge.warn{background:rgba(255,209,102,.12)}
+.note{border-left:4px solid var(--brand);padding:12px 14px;border-radius:14px;background:rgba(132,197,255,.08);margin-top:12px}
+.searchbar{display:flex;gap:12px;flex-wrap:wrap}.searchbar input,.searchbar select{background:#111b2e;color:var(--text);border:1px solid #315188;border-radius:14px;padding:12px 14px;font-size:15px}
+.searchbar input{min-width:320px;flex:1}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:18px;background:#0d1627;margin-top:16px}
+table{width:100%;border-collapse:separate;border-spacing:0;min-width:1200px}thead th{position:sticky;top:0;background:#142038;color:#eef5ff;z-index:2}
+th,td{padding:14px 12px;border-bottom:1px solid #223458;text-align:left;vertical-align:top;font-size:14px}tbody tr:hover{background:rgba(255,255,255,.03)}
+.thumb{display:flex;align-items:center;gap:10px}.thumb img{width:44px;height:44px;border-radius:10px;background:#192742;border:1px solid #304d83;padding:4px}
+.toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-top:12px}.count{color:var(--muted);font-size:14px}
+footer{margin-top:24px;color:var(--muted);font-size:13px}
+</style></head><body><div class="wrap">
+<div class="topbar"><div><strong>FF14 国服时尚品鉴</strong></div><div class="nav"><a href="./index.html">首页</a><a href="./table.html">搜索表格</a><a href="https://github.com/Airexplosion/ff14-fashion-cn-site" target="_blank">GitHub</a></div></div>
+<section class="hero"><h1>真能用的国服时尚品鉴页面</h1><p class="muted">先把页面做成能查、能搜、能点 Wiki、能看图标的状态。少讲概念，先给你能用的东西。</p><div class="chips"><span class="chip">当前周：第 <span id="week"></span> 周</span><span class="chip">大号搜索表格</span><span class="chip">国服中文装备名</span><span class="chip">带装备图标</span></div><div class="stats"><div class="stat"><div class="value ok" id="slotCount">0</div><div>部位</div></div><div class="stat"><div class="value ok" id="itemCount">0</div><div>候选装备</div></div><div class="stat"><div class="value warn" id="wikiCount">0</div><div>已对到灰机词条</div></div><div class="stat"><div class="value" id="buildTime">-</div><div>更新时间</div></div></div></section>
+<div class="grid"><section class="panel col-8"><h2>本周部位候选</h2><div class="slot-grid" id="slotGrid"></div></section><section class="panel col-4"><h2>快速入口</h2><div class="note"><strong>建议直接点“搜索表格”</strong><br>那页是大号表格，能按名称、部位、Wiki 命中状态筛。</div><div class="note"><strong>图片说明</strong><br>当前先用物品图标，Wiki 词条链接直接给到灰机。后面如果能稳定抓到灰机图，再补成更大的图册。</div><div class="note"><strong>下一步可继续加</strong><br>染色状态、样本证据、玩家提交、按职业/获取方式筛选。</div></section></div>
+<footer>数据基于公开 FashionReport 数据链路与中文物品接口生成。</footer></div>
+<script>const DATA={"generatedAt": 1778121317, "week": 405, "weeklyThemeId": 414, "weeklyThemeNameEn": "Genteel Jester", "slotSummary": [{"slot": "头部", "themeId": 248, "themeNameEn": "A Spot of Sport", "candidateCount": 1, "heroItems": [{"week": 405, "slot": "头部", "themeId": 248, "themeNameEn": "A Spot of Sport", "rank": 1, "itemId": 32798, "nameCn": "小牛皮骑手运动帽", "iconUrl": "https://cafemaker.wakingsands.com/i/041000/041520.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:小牛皮骑手运动帽 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E5%B0%8F%E7%89%9B%E7%9A%AE%E9%AA%91%E6%89%8B%E8%BF%90%E5%8A%A8%E5%B8%BD", "wikiSnippet": "修理等级 制革匠 1级或更高 修理材料 1级暗物质 精制魔晶石： 武具投影： 建议分解技能： 1.00 染色： 双染色 部队徽记： 投影台： 收藏柜："}]}, {"slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "candidateCount": 6, "heroItems": [{"week": 405, "slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "rank": 1, "itemId": 8669, "nameCn": "纯情燕尾礼服", "iconUrl": "https://cafemaker.wakingsands.com/i/042000/042406.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:纯情燕尾礼服套装 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%BA%AF%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D%E5%A5%97%E8%A3%85", "wikiSnippet": "最终幻想XIV中文维基，是由爱好者制作的网络游戏 《最终幻想14》 简体中文版的资讯站，该游戏由 SQUARE ENIX 制作，简体中文版由 盛趣游戏 运营。 本维基使用 灰机wiki 提供的免费Mediawiki平台，站点内所涉及的公司名称、商标、产品等均为其各自所有者的资产，仅供识别。站点内使用的游戏图片，其 ..."}, {"week": 405, "slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "rank": 2, "itemId": 8670, "nameCn": "激情燕尾礼服", "iconUrl": "https://cafemaker.wakingsands.com/i/042000/042407.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:激情燕尾礼服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%BF%80%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D", "wikiSnippet": "修理等级 裁衣匠 1级或更高 修理材料 1级暗物质 精制魔晶石： 武具投影： 道具分解： 染色： 双染色 部队徽记： 投影台 ..."}, {"week": 405, "slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "rank": 3, "itemId": 8671, "nameCn": "钟情燕尾礼服", "iconUrl": "https://cafemaker.wakingsands.com/i/042000/042408.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:钟情燕尾礼服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E9%92%9F%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D", "wikiSnippet": "修理等级 裁衣匠 1级或更高 修理材料 1级暗物质 精制魔晶石： 武具投影： 道具分解： 染色： 双染色 部队徽记： 投影台 ..."}, {"week": 405, "slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "rank": 4, "itemId": 9283, "nameCn": "伴郎礼服", "iconUrl": "https://cafemaker.wakingsands.com/i/042000/042392.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:伴郎礼服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E4%BC%B4%E9%83%8E%E7%A4%BC%E6%9C%8D", "wikiSnippet": "修理等级 裁衣匠 1级或更高 修理材料 1级暗物质 精制魔晶石： 武具投影： 建议分解技能： 1.00 染色： 双染色 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "rank": 5, "itemId": 14978, "nameCn": "管家燕尾服", "iconUrl": "https://cafemaker.wakingsands.com/i/042000/042506.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:管家燕尾服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%AE%A1%E5%AE%B6%E7%87%95%E5%B0%BE%E6%9C%8D", "wikiSnippet": "关注灰机 微博 知乎 Bilibili 微信公众号 huiji_game 下载狗头人App 联系邮箱 support@huiji.wiki 12.7K 条目 2.2M 编辑 30.3K 关注 灰机人机协议 | 灰机停机坪 | 维基家园计划 | 关于灰机wiki | 使用条款和声明 | 编辑条款 | 商务合作 Powered by MediaWiki 京ICP备15015138号 京公网安备 ..."}, {"week": 405, "slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "rank": 6, "itemId": 20495, "nameCn": "特制管家燕尾服", "iconUrl": "https://cafemaker.wakingsands.com/i/042000/042506.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:特制管家燕尾服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%89%B9%E5%88%B6%E7%AE%A1%E5%AE%B6%E7%87%95%E5%B0%BE%E6%9C%8D", "wikiSnippet": "最终幻想XIV中文维基，是由爱好者制作的网络游戏 《最终幻想14》 简体中文版的资讯站，该游戏由 SQUARE ENIX 制作，简体中文版由 盛趣游戏 运营。 本维基使用 灰机wiki 提供的免费Mediawiki平台，站点内所涉及的公司名称、商标、产品等均为其各自所有者的资产，仅供识别。站点内使用的游戏图片，其 ..."}]}, {"slot": "腿部", "themeId": 32, "themeNameEn": "Motley Crew", "candidateCount": 4, "heroItems": [{"week": 405, "slot": "腿部", "themeId": 32, "themeNameEn": "Motley Crew", "rank": 1, "itemId": 7465, "nameCn": "狩猎者束膝裤", "iconUrl": "https://cafemaker.wakingsands.com/i/045000/045421.png", "itemLevel": 70, "wikiMatched": true, "wikiTitle": "物品:狩猎者束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%8B%A9%E7%8C%8E%E8%80%85%E6%9D%9F%E8%86%9D%E8%A3%A4", "wikiSnippet": "修理等级 裁衣匠 40或更高等级 修理材料 5级暗物质 精制魔晶石： 武具投影： 建议分解技能： 70.00 染色： 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "腿部", "themeId": 32, "themeNameEn": "Motley Crew", "rank": 2, "itemId": 10827, "nameCn": "祝圣青麻精准束膝裤", "iconUrl": "https://cafemaker.wakingsands.com/i/045000/045665.png", "itemLevel": 139, "wikiMatched": true, "wikiTitle": "物品:祝圣青麻精准束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%A5%9D%E5%9C%A3%E9%9D%92%E9%BA%BB%E7%B2%BE%E5%87%86%E6%9D%9F%E8%86%9D%E8%A3%A4", "wikiSnippet": "修理等级 裁衣匠 46级或更高 修理材料 6级暗物质 镶嵌魔晶石等级 能工巧匠 56级或更高 精制魔晶石： 武具投影： 建议分解技能： 139.00 染色： 单染色 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "腿部", "themeId": 32, "themeNameEn": "Motley Crew", "rank": 3, "itemId": 10911, "nameCn": "祝圣青麻治愈束膝裤", "iconUrl": "https://cafemaker.wakingsands.com/i/045000/045666.png", "itemLevel": 139, "wikiMatched": true, "wikiTitle": "物品:祝圣青麻治愈束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%A5%9D%E5%9C%A3%E9%9D%92%E9%BA%BB%E6%B2%BB%E6%84%88%E6%9D%9F%E8%86%9D%E8%A3%A4", "wikiSnippet": "修理等级 裁衣匠 46级或更高 修理材料 6级暗物质 镶嵌魔晶石等级 能工巧匠 56级或更高 精制魔晶石： 武具投影： 建议分解技能： 139.00 染色： 单染色 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "腿部", "themeId": 32, "themeNameEn": "Motley Crew", "rank": 4, "itemId": 10953, "nameCn": "祝圣青麻咏咒束膝裤", "iconUrl": "https://cafemaker.wakingsands.com/i/045000/045667.png", "itemLevel": 139, "wikiMatched": true, "wikiTitle": "物品:祝圣青麻咏咒束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%A5%9D%E5%9C%A3%E9%9D%92%E9%BA%BB%E5%92%8F%E5%92%92%E6%9D%9F%E8%86%9D%E8%A3%A4", "wikiSnippet": "修理等级 裁衣匠 46级或更高 修理材料 6级暗物质 镶嵌魔晶石等级 能工巧匠 56级或更高 精制魔晶石： 武具投影： 建议分解技能： 139.00 染色： 单染色 部队徽记： 投影台： 收藏柜："}]}, {"slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "candidateCount": 8, "heroItems": [{"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 1, "itemId": 9917, "nameCn": "恶魔强袭战靴", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049837.png", "itemLevel": 120, "wikiMatched": true, "wikiTitle": "物品:恶魔强袭战靴 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%81%B6%E9%AD%94%E5%BC%BA%E8%A2%AD%E6%88%98%E9%9D%B4", "wikiSnippet": "修理等级 制革匠 40级或更高 修理材料 5级暗物质 精制魔晶石： 武具投影： 建议分解技能： 120.00 染色： 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 2, "itemId": 9929, "nameCn": "恶魔游击战靴", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049838.png", "itemLevel": 120, "wikiMatched": true, "wikiTitle": "物品:恶魔游击战靴 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%81%B6%E9%AD%94%E6%B8%B8%E5%87%BB%E6%88%98%E9%9D%B4", "wikiSnippet": "修理等级 制革匠 40级或更高 修理材料 5级暗物质 精制魔晶石： 武具投影： 建议分解技能： 120.00 染色： 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 3, "itemId": 9935, "nameCn": "恶魔治愈凉鞋", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049836.png", "itemLevel": 120, "wikiMatched": true, "wikiTitle": "物品:恶魔治愈凉鞋 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%81%B6%E9%AD%94%E6%B2%BB%E6%84%88%E5%87%89%E9%9E%8B", "wikiSnippet": "修理等级 制革匠 40级或更高 修理材料 5级暗物质 精制魔晶石： 武具投影： 建议分解技能： 120.00 染色： 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 4, "itemId": 9941, "nameCn": "恶魔咏咒凉鞋", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049835.png", "itemLevel": 120, "wikiMatched": true, "wikiTitle": "物品:恶魔咏咒凉鞋 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%81%B6%E9%AD%94%E5%92%8F%E5%92%92%E5%87%89%E9%9E%8B", "wikiSnippet": "修理等级 制革匠 40级或更高 修理材料 5级暗物质 精制魔晶石： 武具投影： 建议分解技能： 120.00 染色： 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 5, "itemId": 19001, "nameCn": "真狮鹫革强袭战靴", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049850.png", "itemLevel": 320, "wikiMatched": true, "wikiTitle": "物品:真狮鹫革强袭战靴 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%9C%9F%E7%8B%AE%E9%B9%AB%E9%9D%A9%E5%BC%BA%E8%A2%AD%E6%88%98%E9%9D%B4", "wikiSnippet": "修理等级 制革匠 60级或更高 修理材料 7级暗物质 镶嵌魔晶石等级 能工巧匠 70级或更高 精制魔晶石： 武具投影： 建议分解技能： 320.00 染色： 单染色 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 6, "itemId": 19013, "nameCn": "真狮鹫革游击战靴", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049851.png", "itemLevel": 320, "wikiMatched": true, "wikiTitle": "物品:真狮鹫革游击战靴 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%9C%9F%E7%8B%AE%E9%B9%AB%E9%9D%A9%E6%B8%B8%E5%87%BB%E6%88%98%E9%9D%B4", "wikiSnippet": "修理等级 制革匠 60级或更高 修理材料 7级暗物质 镶嵌魔晶石等级 能工巧匠 70级或更高 精制魔晶石： 武具投影： 建议分解技能： 320.00 染色： 单染色 部队徽记： 投影台： 收藏柜："}]}], "rows": [{"week": 405, "slot": "头部", "themeId": 248, "themeNameEn": "A Spot of Sport", "rank": 1, "itemId": 32798, "nameCn": "小牛皮骑手运动帽", "iconUrl": "https://cafemaker.wakingsands.com/i/041000/041520.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:小牛皮骑手运动帽 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E5%B0%8F%E7%89%9B%E7%9A%AE%E9%AA%91%E6%89%8B%E8%BF%90%E5%8A%A8%E5%B8%BD", "wikiSnippet": "修理等级 制革匠 1级或更高 修理材料 1级暗物质 精制魔晶石： 武具投影： 建议分解技能： 1.00 染色： 双染色 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "rank": 1, "itemId": 8669, "nameCn": "纯情燕尾礼服", "iconUrl": "https://cafemaker.wakingsands.com/i/042000/042406.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:纯情燕尾礼服套装 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%BA%AF%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D%E5%A5%97%E8%A3%85", "wikiSnippet": "最终幻想XIV中文维基，是由爱好者制作的网络游戏 《最终幻想14》 简体中文版的资讯站，该游戏由 SQUARE ENIX 制作，简体中文版由 盛趣游戏 运营。 本维基使用 灰机wiki 提供的免费Mediawiki平台，站点内所涉及的公司名称、商标、产品等均为其各自所有者的资产，仅供识别。站点内使用的游戏图片，其 ..."}, {"week": 405, "slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "rank": 2, "itemId": 8670, "nameCn": "激情燕尾礼服", "iconUrl": "https://cafemaker.wakingsands.com/i/042000/042407.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:激情燕尾礼服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%BF%80%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D", "wikiSnippet": "修理等级 裁衣匠 1级或更高 修理材料 1级暗物质 精制魔晶石： 武具投影： 道具分解： 染色： 双染色 部队徽记： 投影台 ..."}, {"week": 405, "slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "rank": 3, "itemId": 8671, "nameCn": "钟情燕尾礼服", "iconUrl": "https://cafemaker.wakingsands.com/i/042000/042408.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:钟情燕尾礼服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E9%92%9F%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D", "wikiSnippet": "修理等级 裁衣匠 1级或更高 修理材料 1级暗物质 精制魔晶石： 武具投影： 道具分解： 染色： 双染色 部队徽记： 投影台 ..."}, {"week": 405, "slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "rank": 4, "itemId": 9283, "nameCn": "伴郎礼服", "iconUrl": "https://cafemaker.wakingsands.com/i/042000/042392.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:伴郎礼服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E4%BC%B4%E9%83%8E%E7%A4%BC%E6%9C%8D", "wikiSnippet": "修理等级 裁衣匠 1级或更高 修理材料 1级暗物质 精制魔晶石： 武具投影： 建议分解技能： 1.00 染色： 双染色 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "rank": 5, "itemId": 14978, "nameCn": "管家燕尾服", "iconUrl": "https://cafemaker.wakingsands.com/i/042000/042506.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:管家燕尾服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%AE%A1%E5%AE%B6%E7%87%95%E5%B0%BE%E6%9C%8D", "wikiSnippet": "关注灰机 微博 知乎 Bilibili 微信公众号 huiji_game 下载狗头人App 联系邮箱 support@huiji.wiki 12.7K 条目 2.2M 编辑 30.3K 关注 灰机人机协议 | 灰机停机坪 | 维基家园计划 | 关于灰机wiki | 使用条款和声明 | 编辑条款 | 商务合作 Powered by MediaWiki 京ICP备15015138号 京公网安备 ..."}, {"week": 405, "slot": "身体", "themeId": 102, "themeNameEn": "Well-suited", "rank": 6, "itemId": 20495, "nameCn": "特制管家燕尾服", "iconUrl": "https://cafemaker.wakingsands.com/i/042000/042506.png", "itemLevel": 1, "wikiMatched": true, "wikiTitle": "物品:特制管家燕尾服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%89%B9%E5%88%B6%E7%AE%A1%E5%AE%B6%E7%87%95%E5%B0%BE%E6%9C%8D", "wikiSnippet": "最终幻想XIV中文维基，是由爱好者制作的网络游戏 《最终幻想14》 简体中文版的资讯站，该游戏由 SQUARE ENIX 制作，简体中文版由 盛趣游戏 运营。 本维基使用 灰机wiki 提供的免费Mediawiki平台，站点内所涉及的公司名称、商标、产品等均为其各自所有者的资产，仅供识别。站点内使用的游戏图片，其 ..."}, {"week": 405, "slot": "腿部", "themeId": 32, "themeNameEn": "Motley Crew", "rank": 1, "itemId": 7465, "nameCn": "狩猎者束膝裤", "iconUrl": "https://cafemaker.wakingsands.com/i/045000/045421.png", "itemLevel": 70, "wikiMatched": true, "wikiTitle": "物品:狩猎者束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%8B%A9%E7%8C%8E%E8%80%85%E6%9D%9F%E8%86%9D%E8%A3%A4", "wikiSnippet": "修理等级 裁衣匠 40或更高等级 修理材料 5级暗物质 精制魔晶石： 武具投影： 建议分解技能： 70.00 染色： 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "腿部", "themeId": 32, "themeNameEn": "Motley Crew", "rank": 2, "itemId": 10827, "nameCn": "祝圣青麻精准束膝裤", "iconUrl": "https://cafemaker.wakingsands.com/i/045000/045665.png", "itemLevel": 139, "wikiMatched": true, "wikiTitle": "物品:祝圣青麻精准束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%A5%9D%E5%9C%A3%E9%9D%92%E9%BA%BB%E7%B2%BE%E5%87%86%E6%9D%9F%E8%86%9D%E8%A3%A4", "wikiSnippet": "修理等级 裁衣匠 46级或更高 修理材料 6级暗物质 镶嵌魔晶石等级 能工巧匠 56级或更高 精制魔晶石： 武具投影： 建议分解技能： 139.00 染色： 单染色 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "腿部", "themeId": 32, "themeNameEn": "Motley Crew", "rank": 3, "itemId": 10911, "nameCn": "祝圣青麻治愈束膝裤", "iconUrl": "https://cafemaker.wakingsands.com/i/045000/045666.png", "itemLevel": 139, "wikiMatched": true, "wikiTitle": "物品:祝圣青麻治愈束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%A5%9D%E5%9C%A3%E9%9D%92%E9%BA%BB%E6%B2%BB%E6%84%88%E6%9D%9F%E8%86%9D%E8%A3%A4", "wikiSnippet": "修理等级 裁衣匠 46级或更高 修理材料 6级暗物质 镶嵌魔晶石等级 能工巧匠 56级或更高 精制魔晶石： 武具投影： 建议分解技能： 139.00 染色： 单染色 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "腿部", "themeId": 32, "themeNameEn": "Motley Crew", "rank": 4, "itemId": 10953, "nameCn": "祝圣青麻咏咒束膝裤", "iconUrl": "https://cafemaker.wakingsands.com/i/045000/045667.png", "itemLevel": 139, "wikiMatched": true, "wikiTitle": "物品:祝圣青麻咏咒束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%A5%9D%E5%9C%A3%E9%9D%92%E9%BA%BB%E5%92%8F%E5%92%92%E6%9D%9F%E8%86%9D%E8%A3%A4", "wikiSnippet": "修理等级 裁衣匠 46级或更高 修理材料 6级暗物质 镶嵌魔晶石等级 能工巧匠 56级或更高 精制魔晶石： 武具投影： 建议分解技能： 139.00 染色： 单染色 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 1, "itemId": 9917, "nameCn": "恶魔强袭战靴", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049837.png", "itemLevel": 120, "wikiMatched": true, "wikiTitle": "物品:恶魔强袭战靴 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%81%B6%E9%AD%94%E5%BC%BA%E8%A2%AD%E6%88%98%E9%9D%B4", "wikiSnippet": "修理等级 制革匠 40级或更高 修理材料 5级暗物质 精制魔晶石： 武具投影： 建议分解技能： 120.00 染色： 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 2, "itemId": 9929, "nameCn": "恶魔游击战靴", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049838.png", "itemLevel": 120, "wikiMatched": true, "wikiTitle": "物品:恶魔游击战靴 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%81%B6%E9%AD%94%E6%B8%B8%E5%87%BB%E6%88%98%E9%9D%B4", "wikiSnippet": "修理等级 制革匠 40级或更高 修理材料 5级暗物质 精制魔晶石： 武具投影： 建议分解技能： 120.00 染色： 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 3, "itemId": 9935, "nameCn": "恶魔治愈凉鞋", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049836.png", "itemLevel": 120, "wikiMatched": true, "wikiTitle": "物品:恶魔治愈凉鞋 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%81%B6%E9%AD%94%E6%B2%BB%E6%84%88%E5%87%89%E9%9E%8B", "wikiSnippet": "修理等级 制革匠 40级或更高 修理材料 5级暗物质 精制魔晶石： 武具投影： 建议分解技能： 120.00 染色： 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 4, "itemId": 9941, "nameCn": "恶魔咏咒凉鞋", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049835.png", "itemLevel": 120, "wikiMatched": true, "wikiTitle": "物品:恶魔咏咒凉鞋 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%81%B6%E9%AD%94%E5%92%8F%E5%92%92%E5%87%89%E9%9E%8B", "wikiSnippet": "修理等级 制革匠 40级或更高 修理材料 5级暗物质 精制魔晶石： 武具投影： 建议分解技能： 120.00 染色： 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 5, "itemId": 19001, "nameCn": "真狮鹫革强袭战靴", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049850.png", "itemLevel": 320, "wikiMatched": true, "wikiTitle": "物品:真狮鹫革强袭战靴 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%9C%9F%E7%8B%AE%E9%B9%AB%E9%9D%A9%E5%BC%BA%E8%A2%AD%E6%88%98%E9%9D%B4", "wikiSnippet": "修理等级 制革匠 60级或更高 修理材料 7级暗物质 镶嵌魔晶石等级 能工巧匠 70级或更高 精制魔晶石： 武具投影： 建议分解技能： 320.00 染色： 单染色 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 6, "itemId": 19013, "nameCn": "真狮鹫革游击战靴", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049851.png", "itemLevel": 320, "wikiMatched": true, "wikiTitle": "物品:真狮鹫革游击战靴 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%9C%9F%E7%8B%AE%E9%B9%AB%E9%9D%A9%E6%B8%B8%E5%87%BB%E6%88%98%E9%9D%B4", "wikiSnippet": "修理等级 制革匠 60级或更高 修理材料 7级暗物质 镶嵌魔晶石等级 能工巧匠 70级或更高 精制魔晶石： 武具投影： 建议分解技能： 320.00 染色： 单染色 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 7, "itemId": 19019, "nameCn": "真狮鹫革治愈凉鞋", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049849.png", "itemLevel": 320, "wikiMatched": true, "wikiTitle": "物品:真狮鹫革治愈凉鞋 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%9C%9F%E7%8B%AE%E9%B9%AB%E9%9D%A9%E6%B2%BB%E6%84%88%E5%87%89%E9%9E%8B", "wikiSnippet": "修理等级 制革匠 60级或更高 修理材料 7级暗物质 镶嵌魔晶石等级 能工巧匠 70级或更高 精制魔晶石： 武具投影： 建议分解技能： 320.00 染色： 单染色 部队徽记： 投影台： 收藏柜："}, {"week": 405, "slot": "脚部", "themeId": 47, "themeNameEn": "On Ceremony", "rank": 8, "itemId": 19025, "nameCn": "真狮鹫革咏咒凉鞋", "iconUrl": "https://cafemaker.wakingsands.com/i/049000/049848.png", "itemLevel": 320, "wikiMatched": true, "wikiTitle": "物品:真狮鹫革咏咒凉鞋 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%9C%9F%E7%8B%AE%E9%B9%AB%E9%9D%A9%E5%92%8F%E5%92%92%E5%87%89%E9%9E%8B", "wikiSnippet": "修理等级 制革匠 60级或更高 修理材料 7级暗物质 镶嵌魔晶石等级 能工巧匠 70级或更高 精制魔晶石： 武具投影： 建议分解技能： 320.00 染色： 单染色 部队徽记： 投影台： 收藏柜："}]}; const fmt=t=>new Date(t*1000).toLocaleString('zh-CN',{hour12:false}); week.textContent=DATA.week; slotCount.textContent=DATA.slotSummary.length; itemCount.textContent=DATA.rows.length; wikiCount.textContent=DATA.rows.filter(r=>r.wikiMatched).length; buildTime.textContent=fmt(DATA.generatedAt); const grid=document.getElementById('slotGrid'); DATA.slotSummary.forEach(s=>{ const el=document.createElement('section'); el.className='slot-card'; el.innerHTML=`<h3>${s.slot}</h3><p class="muted">Theme ID: ${s.themeId} · 候选 ${s.candidateCount} 件</p><div class="item-grid">${s.heroItems.map(item=>`<div class="item"><img loading="lazy" src="${item.iconUrl}" alt="${item.nameCn}"><div><div class="item-name">${item.nameCn}</div><div class="meta">物品ID：${item.itemId} · IL：${item.itemLevel}</div><div>${item.wikiUrl?`<a href="${item.wikiUrl}" target="_blank" rel="noopener noreferrer">灰机词条</a>`:'—'}</div><span class="badge ${item.wikiMatched?'ok':'warn'}">${item.wikiMatched?'已对词条':'待补校验'}</span></div></div>`).join('')}</div>`; grid.appendChild(el); });</script></body></html>
