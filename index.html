@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FF14 国服时尚品鉴中文原型</title>
+  <style>
+    :root {
+      --bg:#08111f; --panel:#101b32; --panel2:#14223e; --line:#263a67;
+      --text:#eef5ff; --muted:#9db0d4; --ok:#8ce99a; --warn:#ffd166; --bad:#ff8787; --brand:#7cc5ff;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; background:linear-gradient(180deg,#08111f,#0d1830 55%,#0b1222); color:var(--text); }
+    a { color:#b9e2ff; text-decoration:none; } a:hover { text-decoration:underline; }
+    .wrap { max-width:1180px; margin:0 auto; padding:28px 18px 70px; }
+    .hero,.panel,.slot { background:rgba(16,27,50,.92); border:1px solid var(--line); border-radius:22px; box-shadow:0 10px 26px rgba(0,0,0,.25); }
+    .hero { padding:28px; background:radial-gradient(circle at right top, rgba(124,197,255,.16), transparent 30%), rgba(16,27,50,.96); }
+    h1,h2,h3 { margin:0 0 12px; line-height:1.25; }
+    h1 { font-size:34px; }
+    h2 { font-size:24px; }
+    h3 { font-size:18px; }
+    p { margin:10px 0; line-height:1.75; }
+    .muted { color:var(--muted); }
+    .chips { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; }
+    .chip { padding:7px 12px; border-radius:999px; background:#1b2c54; border:1px solid #335392; font-size:13px; color:#d9e8ff; }
+    .grid { display:grid; grid-template-columns:repeat(12,1fr); gap:18px; margin-top:18px; }
+    .col-12 { grid-column:span 12; } .col-6 { grid-column:span 6; } .col-4 { grid-column:span 4; } .col-3 { grid-column:span 3; }
+    @media(max-width:900px){ .col-6,.col-4,.col-3,.col-12 { grid-column:span 12; } h1{font-size:28px;} }
+    .panel { padding:20px; }
+    .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:18px; }
+    @media(max-width:900px){ .stats{grid-template-columns:repeat(2,1fr);} }
+    .stat { background:rgba(255,255,255,.03); border:1px solid var(--line); border-radius:16px; padding:15px; }
+    .value { font-size:24px; font-weight:700; margin-bottom:6px; }
+    .ok { color:var(--ok); } .warn{color:var(--warn);} .bad{color:var(--bad);}
+    .slots { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }
+    @media(max-width:900px){ .slots{grid-template-columns:1fr;} }
+    .slot { padding:18px; }
+    .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:12px; }
+    .tag { padding:5px 10px; border-radius:999px; background:#19294f; border:1px solid #304c86; font-size:12px; color:#dbe9ff; }
+    .item { background:rgba(255,255,255,.03); border:1px solid var(--line); border-radius:16px; padding:14px; margin-top:12px; }
+    .item-top { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
+    .item-name { font-size:18px; font-weight:700; }
+    .badge { white-space:nowrap; border-radius:999px; padding:5px 10px; font-size:12px; border:1px solid var(--line); }
+    .badge.ok { background:rgba(140,233,154,.12); } .badge.warn { background:rgba(255,209,102,.12); }
+    .note { border-left:4px solid var(--brand); padding:12px 14px; background:rgba(124,197,255,.08); border-radius:12px; margin-top:14px; }
+    ul{margin:8px 0 0 18px;padding:0;} li{margin:6px 0;}
+    footer { margin-top:24px; color:var(--muted); font-size:13px; }
+    code{background:rgba(255,255,255,.06); padding:2px 6px; border-radius:8px;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>FF14 国服时尚品鉴中文网页原型</h1>
+      <p class="muted">目标：先把“国服装备名称可读、可对照 Wiki、可继续接插件数据”的网页跑起来。当前页面已经接入公开 FashionReport 数据链路里的最新周次样本，并用国服中文物品名展示。</p>
+      <div class="chips">
+        <span class="chip">当前周次：第 <span id="week-chip"></span> 周</span>
+        <span class="chip">国服装备名</span>
+        <span class="chip">Wiki 对照</span>
+        <span class="chip">可继续接 Dalamud 插件</span>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="value ok" id="slot-count">0</div><div>当前展示部位</div></div>
+        <div class="stat"><div class="value ok" id="item-count">0</div><div>候选装备条目</div></div>
+        <div class="stat"><div class="value warn" id="wiki-count">0</div><div>已检到 Wiki 词条</div></div>
+        <div class="stat"><div class="value" id="gen-time">-</div><div>数据生成时间</div></div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="panel col-12">
+        <h2>我已经帮你比对的点</h2>
+        <ul>
+          <li>装备中文名来源：<code>cafemaker.wakingsands.com</code> 物品接口返回的中文物品名。</li>
+          <li>Wiki 对照方式：用搜索引擎已收录的灰机 Wiki 词条标题交叉验证，避免灰机站点的 Cloudflare 直连限制。</li>
+          <li>网页策略：先保证“国服中文名 + Wiki 能对上”，再继续往里接插件采集、样本上报、染色确认。</li>
+        </ul>
+        <div class="note">这页展示的是“已能对应上国服名字体系的候选装备原型”。它不是在冒充官方唯一满分答案，而是在为后面的真实采集网页打地基。</div>
+      </section>
+
+      <section class="panel col-12">
+        <h2>本周候选装备（国服中文）</h2>
+        <div class="slots" id="slots"></div>
+      </section>
+
+      <section class="panel col-6">
+        <h2>公开路线判断</h2>
+        <ul>
+          <li>公开插件能直接读取 <code>FashionCheck</code> / <code>FashionCheckScoreGauge</code> 的窗口数据。</li>
+          <li>但当前公开证据仍更支持“窗口采集 + 外部题库/众包样本”，而不是“客户端里直接藏着完整满分答案”。</li>
+          <li>所以最稳路线仍然是：网页前端 + 外部数据层 + 插件采样层。</li>
+        </ul>
+      </section>
+
+      <section class="panel col-6">
+        <h2>接下来最该做什么</h2>
+        <ul>
+          <li>把你想用的国服译名规范固定下来。</li>
+          <li>确定网页数据结构：周次、部位、候选装备、染色、证据样本。</li>
+          <li>再做 Dalamud 端上传：本周主题、玩家判分、染色、得分。</li>
+          <li>逆向继续并行做，重点盯更深层状态字段，而不是只赌“直接读完整答案”。</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      页面原型由 Hermes 生成。当前数据源：公开 FashionReport 工作流 + 中文物品名接口 + 灰机 Wiki 搜索索引交叉校验。
+    </footer>
+  </div>
+
+  <script>
+    const DATA = {"generatedAt": 1778117577, "week": 405, "source": {"sheet": "FashionReport Google Sheet (public plugin workflow)", "cnNames": "cafemaker.wakingsands.com item name API", "wikiCompare": "DuckDuckGo indexed Huiji Wiki titles"}, "slots": [{"slot": "头部", "themeId": 248, "slotId": 3, "items": [{"id": 32798, "nameCn": "小牛皮骑手运动帽", "wikiMatched": true, "wikiTitle": "物品:小牛皮骑手运动帽 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E5%B0%8F%E7%89%9B%E7%9A%AE%E9%AA%91%E6%89%8B%E8%BF%90%E5%8A%A8%E5%B8%BD"}]}, {"slot": "身体", "themeId": 102, "slotId": 4, "items": [{"id": 8669, "nameCn": "纯情燕尾礼服", "wikiMatched": true, "wikiTitle": "物品:纯情燕尾礼服套装 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%BA%AF%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D%E5%A5%97%E8%A3%85"}, {"id": 8670, "nameCn": "激情燕尾礼服", "wikiMatched": true, "wikiTitle": "物品:激情燕尾礼服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%BF%80%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D"}, {"id": 8671, "nameCn": "钟情燕尾礼服", "wikiMatched": true, "wikiTitle": "物品:钟情燕尾礼服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E9%92%9F%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D"}]}, {"slot": "腿部", "themeId": 32, "slotId": 7, "items": [{"id": 7465, "nameCn": "狩猎者束膝裤", "wikiMatched": true, "wikiTitle": "物品:狩猎者束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%8B%A9%E7%8C%8E%E8%80%85%E6%9D%9F%E8%86%9D%E8%A3%A4"}, {"id": 10827, "nameCn": "祝圣青麻精准束膝裤", "wikiMatched": true, "wikiTitle": "物品:祝圣青麻精准束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%A5%9D%E5%9C%A3%E9%9D%92%E9%BA%BB%E7%B2%BE%E5%87%86%E6%9D%9F%E8%86%9D%E8%A3%A4"}, {"id": 10911, "nameCn": "祝圣青麻治愈束膝裤", "wikiMatched": true, "wikiTitle": "物品:祝圣青麻治愈束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司", "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%A5%9D%E5%9C%A3%E9%9D%92%E9%BA%BB%E6%B2%BB%E6%84%88%E6%9D%9F%E8%86%9D%E8%A3%A4"}]}, {"slot": "脚部", "themeId": 47, "slotId": 8, "items": [{"id": 9917, "nameCn": "恶魔强袭战靴", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"id": 9929, "nameCn": "恶魔游击战靴", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"id": 9935, "nameCn": "恶魔治愈凉鞋", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}]}], "canonicalChecks": [{"nameCn": "小牛皮骑手运动帽", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"nameCn": "伴郎礼服", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"nameCn": "管家燕尾服", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"nameCn": "狩猎者束膝裤", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"nameCn": "恶魔强袭战靴", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}, {"nameCn": "真狮鹫革强袭战靴", "wikiMatched": false, "wikiTitle": "", "wikiUrl": ""}], "notes": ["当前公开插件路线主要是读取时尚品鉴窗口已暴露信息，再配合外部数据库或众包样本。", "本页示例优先保证国服装备名称可与中文 Wiki 对应，不强行声称这些就是本周唯一满分解。", "灰机 Wiki 本站有 Cloudflare，程序直连受限；此处比对使用搜索引擎已收录的词条标题作交叉校验。"]};
+    const fmt = ts => new Date(ts * 1000).toLocaleString('zh-CN', { hour12:false });
+    document.getElementById('week-chip').textContent = DATA.week;
+    document.getElementById('slot-count').textContent = DATA.slots.length;
+    document.getElementById('item-count').textContent = DATA.slots.reduce((n,s)=>n+s.items.length,0);
+    document.getElementById('wiki-count').textContent = DATA.slots.reduce((n,s)=>n+s.items.filter(i=>i.wikiMatched).length,0);
+    document.getElementById('gen-time').textContent = fmt(DATA.generatedAt);
+
+    const slots = document.getElementById('slots');
+    for (const slot of DATA.slots) {
+      const section = document.createElement('section');
+      section.className = 'slot';
+      section.innerHTML = `
+        <h3>${slot.slot}</h3>
+        <div class="meta">
+          <span class="tag">Theme ID: ${slot.themeId}</span>
+          <span class="tag">Slot ID: ${slot.slotId}</span>
+          <span class="tag">候选 ${slot.items.length} 件</span>
+        </div>
+      `;
+      for (const item of slot.items) {
+        const div = document.createElement('div');
+        div.className = 'item';
+        const badge = item.wikiMatched
+          ? '<span class="badge ok">已对上灰机 Wiki</span>'
+          : '<span class="badge warn">待补强校验</span>';
+        const wiki = item.wikiUrl
+          ? `<p class="muted">Wiki：<a href="${item.wikiUrl}" target="_blank" rel="noopener noreferrer">${item.wikiTitle || item.wikiUrl}</a></p>`
+          : '<p class="muted">Wiki：当前搜索索引未稳定命中，后续可换直连接口或人工补词条。</p>';
+        div.innerHTML = `
+          <div class="item-top">
+            <div>
+              <div class="item-name">${item.nameCn}</div>
+              <div class="muted">物品 ID：${item.id}</div>
+            </div>
+            ${badge}
+          </div>
+          ${wiki}
+        `;
+        section.appendChild(div);
+      }
+      slots.appendChild(section);
+    }
+  </script>
+</body>
+</html>

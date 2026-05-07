@@ -1,0 +1,152 @@
+{
+  "generatedAt": 1778117577,
+  "week": 405,
+  "source": {
+    "sheet": "FashionReport Google Sheet (public plugin workflow)",
+    "cnNames": "cafemaker.wakingsands.com item name API",
+    "wikiCompare": "DuckDuckGo indexed Huiji Wiki titles"
+  },
+  "slots": [
+    {
+      "slot": "头部",
+      "themeId": 248,
+      "slotId": 3,
+      "items": [
+        {
+          "id": 32798,
+          "nameCn": "小牛皮骑手运动帽",
+          "wikiMatched": true,
+          "wikiTitle": "物品:小牛皮骑手运动帽 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司",
+          "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E5%B0%8F%E7%89%9B%E7%9A%AE%E9%AA%91%E6%89%8B%E8%BF%90%E5%8A%A8%E5%B8%BD"
+        }
+      ]
+    },
+    {
+      "slot": "身体",
+      "themeId": 102,
+      "slotId": 4,
+      "items": [
+        {
+          "id": 8669,
+          "nameCn": "纯情燕尾礼服",
+          "wikiMatched": true,
+          "wikiTitle": "物品:纯情燕尾礼服套装 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司",
+          "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%BA%AF%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D%E5%A5%97%E8%A3%85"
+        },
+        {
+          "id": 8670,
+          "nameCn": "激情燕尾礼服",
+          "wikiMatched": true,
+          "wikiTitle": "物品:激情燕尾礼服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司",
+          "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E6%BF%80%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D"
+        },
+        {
+          "id": 8671,
+          "nameCn": "钟情燕尾礼服",
+          "wikiMatched": true,
+          "wikiTitle": "物品:钟情燕尾礼服 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司",
+          "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E9%92%9F%E6%83%85%E7%87%95%E5%B0%BE%E7%A4%BC%E6%9C%8D"
+        }
+      ]
+    },
+    {
+      "slot": "腿部",
+      "themeId": 32,
+      "slotId": 7,
+      "items": [
+        {
+          "id": 7465,
+          "nameCn": "狩猎者束膝裤",
+          "wikiMatched": true,
+          "wikiTitle": "物品:狩猎者束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司",
+          "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%8B%A9%E7%8C%8E%E8%80%85%E6%9D%9F%E8%86%9D%E8%A3%A4"
+        },
+        {
+          "id": 10827,
+          "nameCn": "祝圣青麻精准束膝裤",
+          "wikiMatched": true,
+          "wikiTitle": "物品:祝圣青麻精准束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司",
+          "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%A5%9D%E5%9C%A3%E9%9D%92%E9%BA%BB%E7%B2%BE%E5%87%86%E6%9D%9F%E8%86%9D%E8%A3%A4"
+        },
+        {
+          "id": 10911,
+          "nameCn": "祝圣青麻治愈束膝裤",
+          "wikiMatched": true,
+          "wikiTitle": "物品:祝圣青麻治愈束膝裤 - 最终幻想XIV中文维基 - 灰机wiki - 北京嘉闻杰诺网络科技有限公司",
+          "wikiUrl": "https://ff14.huijiwiki.com/wiki/%E7%89%A9%E5%93%81:%E7%A5%9D%E5%9C%A3%E9%9D%92%E9%BA%BB%E6%B2%BB%E6%84%88%E6%9D%9F%E8%86%9D%E8%A3%A4"
+        }
+      ]
+    },
+    {
+      "slot": "脚部",
+      "themeId": 47,
+      "slotId": 8,
+      "items": [
+        {
+          "id": 9917,
+          "nameCn": "恶魔强袭战靴",
+          "wikiMatched": false,
+          "wikiTitle": "",
+          "wikiUrl": ""
+        },
+        {
+          "id": 9929,
+          "nameCn": "恶魔游击战靴",
+          "wikiMatched": false,
+          "wikiTitle": "",
+          "wikiUrl": ""
+        },
+        {
+          "id": 9935,
+          "nameCn": "恶魔治愈凉鞋",
+          "wikiMatched": false,
+          "wikiTitle": "",
+          "wikiUrl": ""
+        }
+      ]
+    }
+  ],
+  "canonicalChecks": [
+    {
+      "nameCn": "小牛皮骑手运动帽",
+      "wikiMatched": false,
+      "wikiTitle": "",
+      "wikiUrl": ""
+    },
+    {
+      "nameCn": "伴郎礼服",
+      "wikiMatched": false,
+      "wikiTitle": "",
+      "wikiUrl": ""
+    },
+    {
+      "nameCn": "管家燕尾服",
+      "wikiMatched": false,
+      "wikiTitle": "",
+      "wikiUrl": ""
+    },
+    {
+      "nameCn": "狩猎者束膝裤",
+      "wikiMatched": false,
+      "wikiTitle": "",
+      "wikiUrl": ""
+    },
+    {
+      "nameCn": "恶魔强袭战靴",
+      "wikiMatched": false,
+      "wikiTitle": "",
+      "wikiUrl": ""
+    },
+    {
+      "nameCn": "真狮鹫革强袭战靴",
+      "wikiMatched": false,
+      "wikiTitle": "",
+      "wikiUrl": ""
+    }
+  ],
+  "notes": [
+    "当前公开插件路线主要是读取时尚品鉴窗口已暴露信息，再配合外部数据库或众包样本。",
+    "本页示例优先保证国服装备名称可与中文 Wiki 对应，不强行声称这些就是本周唯一满分解。",
+    "灰机 Wiki 本站有 Cloudflare，程序直连受限；此处比对使用搜索引擎已收录的词条标题作交叉校验。"
+  ]
+}
