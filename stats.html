@@ -1,0 +1,37 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>FF14 时尚品鉴题目统计</title><style>
+:root { --bg:#070d18; --bg2:#0b1425; --panel:#0f1728; --line:#25375b; --text:#eef4ff; --muted:#98a8c7; --brand:#84c5ff; }
+*{box-sizing:border-box} html,body{margin:0;padding:0} body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(180deg,var(--bg),var(--bg2));color:var(--text)}
+a{color:#bfe4ff;text-decoration:none}.wrap{max-width:1480px;margin:0 auto;padding:24px 18px 72px}.topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:18px;flex-wrap:wrap}.nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{padding:10px 14px;border:1px solid #37558f;background:#17233d;border-radius:999px;color:#e8f2ff}
+.hero,.panel{background:rgba(15,23,40,.92);border:1px solid var(--line);border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.28)} .hero,.panel{padding:20px} .hero{padding:28px;background:radial-gradient(circle at right top, rgba(132,197,255,.16), transparent 30%), rgba(15,23,40,.96)}
+h1,h2,h3{line-height:1.2;margin:0 0 12px} h1{font-size:34px} p{line-height:1.75;margin:8px 0}.muted{color:var(--muted)} @media(max-width:980px){h1{font-size:28px}}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}@media(max-width:980px){.cards{grid-template-columns:1fr}}
+.card{border:1px solid var(--line);border-radius:18px;padding:16px;background:rgba(255,255,255,.03)}
+.list{display:grid;gap:10px}.row{display:grid;grid-template-columns:1fr auto;gap:10px;padding:12px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.03)}
+.small{font-size:13px;color:var(--muted)}
+</style></head><body><div class="wrap">
+<div class="topbar"><div><strong>FF14 时尚品鉴参考 / 题目统计</strong></div><div class="nav"><a href="./index.html">首页</a><a href="./table.html">搜索表格</a><a href="./history.html">往期题目</a><a href="./stats.html">题目统计</a></div></div>
+<section class="hero"><h1>题目与答案统计</h1><p class="muted">统计历次每周大题目、各部位对应词条，以及染色要求出现频率。</p><p class="muted">这里的“答案统计”按各部位对应词条来汇总，便于回看哪类答案最常出现。</p></section>
+<section class="cards"><div class="panel"><h2>概览</h2><div id="summary"></div></div><div class="panel"><h2>每周大题目前 20</h2><div class="list" id="weekly"></div></div><div class="panel"><h2>头部词条前 20</h2><div class="list" id="head"></div></div></section>
+<section class="cards"><div class="panel"><h2>身体词条前 20</h2><div class="list" id="body"></div></div><div class="panel"><h2>腿部词条前 20</h2><div class="list" id="legs"></div></div><div class="panel"><h2>脚部词条前 20</h2><div class="list" id="feet"></div></div></section>
+<section class="cards"><div class="panel"><h2>头部染色前 10</h2><div class="list" id="headDye"></div></div><div class="panel"><h2>身体染色前 10</h2><div class="list" id="bodyDye"></div></div><div class="panel"><h2>腿部 / 脚部染色前 10</h2><div class="list" id="legsFeetDye"></div></div></section>
+</div><script>
+const DATA_URL = './site-data.json';
+const esc = s => (s || '').replace(/[&<>"]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m]));
+async function loadData(){ const resp = await fetch(DATA_URL, { cache: 'no-store' }); if(!resp.ok) throw new Error(`HTTP ${resp.status}`); return resp.json(); }
+function renderList(id, items, format){ document.getElementById(id).innerHTML = (items || []).slice(0, format.limit || 20).map(item => format.row(item)).join('') || '<div class="small">暂无数据</div>'; }
+function boot(DATA){
+  const stats = DATA.stats || {};
+  document.getElementById('summary').innerHTML = `
+    <div class="row"><div>总周数</div><div>${stats.totalWeeks || 0}</div></div>
+    <div class="row"><div>当前周</div><div>${DATA.week || '-'}</div></div>
+    <div class="row"><div>当前周候选装备</div><div>${(DATA.rows || []).length}</div></div>
+    <div class="row"><div>当前周已对灰机词条</div><div>${(DATA.rows || []).filter(r => r.wikiMatched).length}</div></div>`;
+  renderList('weekly', stats.weeklyThemeCounts, {limit:20, row:item=>`<div class="row"><div><div>${esc(item.themeNameCn || item.themeNameEn || '—')}</div><div class="small">${esc(item.themeNameEn || '')}</div></div><div>${item.count}</div></div>`});
+  ['head','body','legs','feet'].forEach(key => renderList(key, (stats.slotThemeCounts||{})[key], {limit:20, row:item=>`<div class="row"><div><div>${esc(item.themeNameCn || item.themeNameEn || '—')}</div><div class="small">${esc(item.slotCn || '')} / ${esc(item.themeNameEn || '')}</div></div><div>${item.count}</div></div>`}));
+  renderList('headDye', (stats.dyeCounts||{}).head, {limit:10, row:item=>`<div class="row"><div>${esc(item.dyeDisplayCn || '无指定染色')}</div><div>${item.count}</div></div>`});
+  renderList('bodyDye', (stats.dyeCounts||{}).body, {limit:10, row:item=>`<div class="row"><div>${esc(item.dyeDisplayCn || '无指定染色')}</div><div>${item.count}</div></div>`});
+  const merged = [ ...((stats.dyeCounts||{}).legs || []).map(x => ({...x, slot:'腿部'})), ...((stats.dyeCounts||{}).feet || []).map(x => ({...x, slot:'脚部'})) ];
+  renderList('legsFeetDye', merged.sort((a,b)=>b.count-a.count), {limit:10, row:item=>`<div class="row"><div><div>${esc(item.dyeDisplayCn || '无指定染色')}</div><div class="small">${esc(item.slot || '')}</div></div><div>${item.count}</div></div>`});
+}
+loadData().then(boot).catch(err => { document.getElementById('summary').innerHTML = `<div class="row"><div>加载失败</div><div>${esc(String(err))}</div></div>`; });
+</script></body></html>

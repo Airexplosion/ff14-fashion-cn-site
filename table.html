@@ -6,51 +6,36 @@
 *{box-sizing:border-box} html,body{margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(180deg,var(--bg),var(--bg2));color:var(--text)}
 a{color:#bfe4ff;text-decoration:none} a:hover{text-decoration:underline}
-.wrap{max-width:1380px;margin:0 auto;padding:24px 18px 72px}
+.wrap{max-width:1480px;margin:0 auto;padding:24px 18px 72px}
 .topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:18px;flex-wrap:wrap}
 .nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{padding:10px 14px;border:1px solid #37558f;background:#17233d;border-radius:999px;color:#e8f2ff}
-.hero,.panel,.slot-card{background:rgba(15,23,40,.92);border:1px solid var(--line);border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.28)}
+.hero,.panel{background:rgba(15,23,40,.92);border:1px solid var(--line);border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.28)}
 .hero{padding:28px;background:radial-gradient(circle at right top, rgba(132,197,255,.16), transparent 30%), rgba(15,23,40,.96)}
-h1,h2,h3{line-height:1.2;margin:0 0 12px} h1{font-size:34px} h2{font-size:24px} h3{font-size:18px}
+h1,h2,h3{line-height:1.2;margin:0 0 12px} h1{font-size:34px}
 p{line-height:1.75;margin:8px 0}.muted{color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:18px}.col-12{grid-column:span 12}.col-8{grid-column:span 8}.col-4{grid-column:span 4}.col-6{grid-column:span 6}.col-3{grid-column:span 3}
-@media(max-width:980px){.col-8,.col-6,.col-4,.col-3,.col-12{grid-column:span 12}h1{font-size:28px}}
+@media(max-width:980px){h1{font-size:28px}}
 .panel{padding:20px}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}@media(max-width:980px){.stats{grid-template-columns:repeat(2,1fr)}}
-.stat{padding:16px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.03)} .stat .value{font-size:26px;font-weight:800;margin-bottom:6px}
-.ok{color:var(--ok)} .warn{color:var(--warn)}
-.chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.chip{padding:7px 12px;border-radius:999px;background:#1a2947;border:1px solid #335391;font-size:13px;color:#dce9ff}
-.slot-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}@media(max-width:980px){.slot-grid{grid-template-columns:1fr}}
-.slot-card{padding:18px}
-.item-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:14px}@media(max-width:700px){.item-grid{grid-template-columns:1fr}}
-.item{display:grid;grid-template-columns:68px 1fr;gap:12px;padding:12px;border-radius:16px;border:1px solid var(--line);background:rgba(255,255,255,.03)}
-.item img{width:68px;height:68px;border-radius:14px;background:#1a2740;object-fit:contain;padding:6px;border:1px solid #314d82}
-.item-name{font-size:16px;font-weight:700;margin-bottom:4px}.meta{font-size:13px;color:var(--muted)}
-.badge{display:inline-block;padding:4px 9px;border-radius:999px;font-size:12px;margin-top:6px;border:1px solid var(--line)} .badge.ok{background:rgba(140,233,154,.1)} .badge.warn{background:rgba(255,209,102,.12)}
-.note{border-left:4px solid var(--brand);padding:12px 14px;border-radius:14px;background:rgba(132,197,255,.08);margin-top:12px}
 .searchbar{display:flex;gap:12px;flex-wrap:wrap}.searchbar input,.searchbar select{background:#111b2e;color:var(--text);border:1px solid #315188;border-radius:14px;padding:12px 14px;font-size:15px}
 .searchbar input{min-width:320px;flex:1}
 .table-wrap{overflow:auto;border:1px solid var(--line);border-radius:18px;background:#0d1627;margin-top:16px}
-table{width:100%;border-collapse:separate;border-spacing:0;min-width:1200px}thead th{position:sticky;top:0;background:#142038;color:#eef5ff;z-index:2}
+table{width:100%;border-collapse:separate;border-spacing:0;min-width:1480px}thead th{position:sticky;top:0;background:#142038;color:#eef5ff;z-index:2}
 th,td{padding:14px 12px;border-bottom:1px solid #223458;text-align:left;vertical-align:top;font-size:14px}tbody tr:hover{background:rgba(255,255,255,.03)}
 .thumb{display:flex;align-items:center;gap:10px}.thumb img{width:44px;height:44px;border-radius:10px;background:#192742;border:1px solid #304d83;padding:4px}
 .toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-top:12px}.count{color:var(--muted);font-size:14px}
 footer{margin-top:24px;color:var(--muted);font-size:13px}
 </style></head><body><div class="wrap">
-<div class="topbar"><div><strong>FF14 时尚品鉴参考 / 装备检索</strong></div><div class="nav"><a href="./index.html">首页</a><a href="./table.html">搜索表格</a></div></div>
-<section class="hero"><h1>装备检索</h1><p class="muted">可按装备名、物品 ID、部位和词条状态筛选本周候选装备。</p><div class="searchbar"><input id="q" placeholder="搜索装备名称 / 物品 ID / 灰机词条"><select id="slot"><option value="">全部部位</option><option>头部</option><option>身体</option><option>腿部</option><option>脚部</option></select><select id="wiki"><option value="">全部词条状态</option><option value="yes">只看已匹配词条</option><option value="no">只看未匹配词条</option></select></div><div class="toolbar"><div class="count" id="count"></div><div class="count">当前周：第 <span id="week"></span> 周</div></div></section>
-<section class="panel" style="margin-top:18px"><div class="table-wrap"><table><thead><tr><th>装备</th><th>部位</th><th>时尚品鉴题目</th><th>染色</th><th>候选序号</th><th>Theme ID</th><th>物品ID</th><th>IL</th><th>灰机词条</th><th>词条摘要</th></tr></thead><tbody id="tbody"></tbody></table></div></section>
+<div class="topbar"><div><strong>FF14 时尚品鉴参考 / 装备检索</strong></div><div class="nav"><a href="./index.html">首页</a><a href="./table.html">搜索表格</a><a href="./history.html">往期题目</a><a href="./stats.html">题目统计</a></div></div>
+<section class="hero"><h1>装备检索</h1><p class="muted">可按装备名、部位中文、部位英文、时尚品鉴词条中英和灰机词条状态筛选本周候选装备。</p><div class="searchbar"><input id="q" placeholder="搜索装备名称 / 物品 ID / 灰机词条 / 词条中英文"><select id="slot"><option value="">全部部位</option><option>头部</option><option>身体</option><option>腿部</option><option>脚部</option></select><select id="wiki"><option value="">全部词条状态</option><option value="yes">只看已匹配词条</option><option value="no">只看未匹配词条</option></select></div><div class="toolbar"><div class="count" id="count"></div><div class="count">当前周：第 <span id="week"></span> 周</div></div></section>
+<section class="panel" style="margin-top:18px"><div class="table-wrap"><table><thead><tr><th>装备</th><th>部位中文 / 英文</th><th>时尚品鉴词条（中英）</th><th>染色</th><th>候选序号</th><th>Theme ID</th><th>物品ID</th><th>IL</th><th>灰机词条</th><th>词条摘要</th></tr></thead><tbody id="tbody"></tbody></table></div></section>
 <footer>可搜索本周候选装备，并查看对应的灰机词条信息。</footer></div>
 <script>
 const DATA_URL = './site-data.json';
 const esc = s => (s || '').replace(/[&<>"]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m]));
-
 async function loadData() {
   const resp = await fetch(DATA_URL, { cache: 'no-store' });
   if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
   return resp.json();
 }
-
 function boot(DATA) {
   const weekEl = document.getElementById('week');
   const tbody = document.getElementById('tbody');
@@ -58,9 +43,7 @@ function boot(DATA) {
   const slot = document.getElementById('slot');
   const wiki = document.getElementById('wiki');
   const count = document.getElementById('count');
-
   weekEl.textContent = DATA.week || '-';
-
   function render() {
     const term = q.value.trim().toLowerCase();
     const s = slot.value;
@@ -70,15 +53,11 @@ function boot(DATA) {
       if (w === 'yes' && !r.wikiMatched) return false;
       if (w === 'no' && r.wikiMatched) return false;
       if (term) {
-        const hay = [
-          r.nameCn, r.itemId, r.slotCn, r.slotEn, r.themeNameCn, r.themeNameEn,
-          r.dyeDisplayCn, r.wikiPageTitle, r.wikiTitle, r.wikiSnippet
-        ].join(' ').toLowerCase();
+        const hay = [r.nameCn, r.itemId, r.slotCn, r.slotEn, r.themeNameCn, r.themeNameEn, r.dyeDisplayCn, r.wikiPageTitle, r.wikiTitle, r.wikiSnippet].join(' ').toLowerCase();
         if (!hay.includes(term)) return false;
       }
       return true;
     });
-
     count.textContent = `共 ${rows.length} 条结果 / 总计 ${(DATA.rows || []).length} 条`;
     tbody.innerHTML = rows.map(r => `
       <tr>
@@ -103,13 +82,11 @@ function boot(DATA) {
       </tr>
     `).join('');
   }
-
   q.addEventListener('input', render);
   slot.addEventListener('change', render);
   wiki.addEventListener('change', render);
   render();
 }
-
 loadData().then(boot).catch(err => {
   document.getElementById('count').textContent = `加载失败：${String(err)}`;
 });

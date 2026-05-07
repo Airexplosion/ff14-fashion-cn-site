@@ -3,6 +3,7 @@ import json
 import re
 import time
 import urllib.parse
+from collections import Counter, defaultdict
 from pathlib import Path
 
 import jwt
@@ -32,6 +33,7 @@ _theme_cache = {}
 _item_cache = {}
 _dye_cache = {}
 _translate_cache = {}
+_wiki_cache = {}
 
 
 def get_json(url, **kwargs):
@@ -103,14 +105,17 @@ def translate_ja_to_cn(text):
         return ""
     if text in _translate_cache:
         return _translate_cache[text]
-    resp = _session.get(
-        TRANSLATE_URL,
-        params={"client": "gtx", "sl": "ja", "tl": "zh-CN", "dt": "t", "q": text},
-        timeout=20,
-    )
-    resp.raise_for_status()
-    data = resp.json()
-    translated = "".join(part[0] for part in data[0] if part and part[0])
+    try:
+        resp = _session.get(
+            TRANSLATE_URL,
+            params={"client": "gtx", "sl": "ja", "tl": "zh-CN", "dt": "t", "q": text},
+            timeout=20,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        translated = "".join(part[0] for part in data[0] if part and part[0])
+    except Exception:
+        translated = text
     _translate_cache[text] = translated
     return translated
 
@@ -152,12 +157,7 @@ def fetch_item(item_id):
 
 def fetch_dye(dye_id):
     if not dye_id:
-        return {
-            "dyeId": None,
-            "dyeNameCn": "",
-            "dyeDisplayCn": "无指定染色",
-            "dyeRequired": False,
-        }
+        return {"dyeId": None, "dyeNameCn": "", "dyeDisplayCn": "无指定染色", "dyeRequired": False}
     if dye_id in _dye_cache:
         return _dye_cache[dye_id]
     data = get_json(f"{ICON_BASE}/stain/{dye_id}?columns=Name")
@@ -172,26 +172,76 @@ def fetch_dye(dye_id):
     return result
 
 
-def find_wiki(name_cn):
-    q = urllib.parse.quote(f"{name_cn} 灰机wiki")
-    resp = _session.get(f"https://duckduckgo.com/html/?q={q}", timeout=20)
-    resp.raise_for_status()
-    links = re.findall(r'nofollow\" class=\"result__a\" href=\"(.*?)\">(.*?)</a>', resp.text)
-    for href, title in links[:8]:
+def parse_ddg_results(text):
+    links = re.findall(r'nofollow" class="result__a" href="(.*?)">(.*?)</a>', text)
+    results = []
+    for href, title in links:
         href = html.unescape(href)
-        m = re.search(r"uddg=([^&]+)", href)
+        m = re.search(r'uddg=([^&]+)', href)
         clean = urllib.parse.unquote(m.group(1)) if m else href
-        title_text = re.sub("<.*?>", "", title)
-        if "最终幻想XIV中文维基" in title_text and name_cn in title_text:
+        title_text = re.sub('<.*?>', '', title)
+        results.append((title_text, clean))
+    return results
+
+
+def parse_bing_results(text):
+    results = []
+    for m in re.finditer(r'<li class="b_algo".*?<h2><a href="(.*?)"[^>]*>(.*?)</a></h2>', text, re.S):
+        href = html.unescape(m.group(1))
+        title_text = re.sub('<.*?>', '', m.group(2))
+        results.append((title_text, href))
+    return results
+
+
+def evaluate_wiki_candidates(name_cn, candidates):
+    for title_text, clean in candidates:
+        if 'ff14.huijiwiki.com/wiki/' not in clean:
+            continue
+        if ('最终幻想XIV中文维基' in title_text or '灰机wiki' in title_text) and name_cn in title_text:
             return {
                 "wikiMatched": True,
                 "wikiTitle": title_text,
-                "wikiPageTitle": title_text.split(" - ")[0],
+                "wikiPageTitle": title_text.split(' - ')[0],
                 "wikiUrl": clean,
                 "wikiSnippet": "",
                 "wikiStatusText": "已对词条",
             }
-    return {
+    return None
+
+
+def find_wiki(name_cn):
+    if name_cn in _wiki_cache:
+        return _wiki_cache[name_cn]
+
+    queries = [
+        f'{name_cn} 灰机wiki',
+        f'物品:{name_cn} 灰机wiki',
+        f'{name_cn} 最终幻想XIV中文维基',
+    ]
+
+    for q in queries:
+        url = 'https://duckduckgo.com/html/?q=' + urllib.parse.quote(q)
+        try:
+            resp = _session.get(url, timeout=20)
+            if resp.status_code == 200:
+                hit = evaluate_wiki_candidates(name_cn, parse_ddg_results(resp.text))
+                if hit:
+                    _wiki_cache[name_cn] = hit
+                    return hit
+        except Exception:
+            pass
+        try:
+            bing = _session.get('https://www.bing.com/search?q=' + urllib.parse.quote(q), timeout=20)
+            if bing.status_code == 200:
+                hit = evaluate_wiki_candidates(name_cn, parse_bing_results(bing.text))
+                if hit:
+                    _wiki_cache[name_cn] = hit
+                    return hit
+        except Exception:
+            pass
+        time.sleep(0.2)
+
+    miss = {
         "wikiMatched": False,
         "wikiTitle": "",
         "wikiPageTitle": "",
@@ -199,9 +249,11 @@ def find_wiki(name_cn):
         "wikiSnippet": "",
         "wikiStatusText": "待补校验",
     }
+    _wiki_cache[name_cn] = miss
+    return miss
 
 
-def build_rows(latest_row, themes_rows, overrides):
+def build_theme_item_map(themes_rows):
     theme_item_map = {}
     for row in themes_rows:
         if len(row) < 3:
@@ -212,9 +264,30 @@ def build_rows(latest_row, themes_rows, overrides):
         if not (theme_id and item_id and slot_id):
             continue
         theme_item_map.setdefault((theme_id, slot_id), []).append(item_id)
+    return theme_item_map
 
+
+def row_base(cfg, week, theme_id, theme, dye_info):
+    return {
+        "week": week,
+        "slot": cfg["slot_cn"],
+        "slotCn": cfg["slot_cn"],
+        "slotEn": cfg["slot_en"],
+        "slotKey": cfg["slot_key"],
+        "slotId": cfg["slot_id"],
+        "themeId": theme_id,
+        "themeNameEn": theme["en"],
+        "themeNameJa": theme["ja"],
+        "themeNameCn": theme["cn"],
+        "themeCnSource": theme["source"],
+        **dye_info,
+    }
+
+
+def build_current_rows(latest_row, theme_item_map, overrides):
     all_rows = []
     slot_summary = []
+    week = int_or_none(latest_row[0])
     for cfg in SLOT_CONFIGS:
         theme_id = int_or_none(latest_row[cfg["data_idx"]]) if len(latest_row) > cfg["data_idx"] else None
         if not theme_id:
@@ -228,40 +301,98 @@ def build_rows(latest_row, themes_rows, overrides):
             item = fetch_item(item_id)
             wiki = find_wiki(item["nameCn"])
             row = {
-                "week": int_or_none(latest_row[0]),
-                "slot": cfg["slot_cn"],
-                "slotCn": cfg["slot_cn"],
-                "slotEn": cfg["slot_en"],
-                "slotKey": cfg["slot_key"],
-                "slotId": cfg["slot_id"],
-                "themeId": theme_id,
-                "themeNameEn": theme["en"],
-                "themeNameJa": theme["ja"],
-                "themeNameCn": theme["cn"],
-                "themeCnSource": theme["source"],
+                **row_base(cfg, week, theme_id, theme, dye_info),
                 "rank": rank,
                 **item,
                 **wiki,
-                **dye_info,
             }
             hero_items.append(row)
             all_rows.append(row)
         slot_summary.append({
-            "slot": cfg["slot_cn"],
-            "slotCn": cfg["slot_cn"],
-            "slotEn": cfg["slot_en"],
-            "slotKey": cfg["slot_key"],
-            "slotId": cfg["slot_id"],
-            "themeId": theme_id,
-            "themeNameEn": theme["en"],
-            "themeNameJa": theme["ja"],
-            "themeNameCn": theme["cn"],
-            "themeCnSource": theme["source"],
+            **row_base(cfg, week, theme_id, theme, dye_info),
             "candidateCount": len(item_ids),
-            **dye_info,
             "heroItems": hero_items,
         })
     return slot_summary, all_rows
+
+
+def build_history(data_rows, overrides):
+    history = []
+    slot_theme_counter = defaultdict(Counter)
+    weekly_theme_counter = Counter()
+    dye_counter = defaultdict(Counter)
+
+    for raw in data_rows:
+        week = int_or_none(raw[0]) if raw else None
+        if not week:
+            continue
+        weekly_theme_id = int_or_none(raw[1]) if len(raw) > 1 else None
+        weekly_theme = fetch_theme_name("FashionCheckWeeklyTheme", weekly_theme_id, overrides, "weeklyThemes") if weekly_theme_id else {"en":"","ja":"","cn":"","source":""}
+        weekly_theme_counter[weekly_theme_id] += 1
+        slot_entries = []
+        for cfg in SLOT_CONFIGS:
+            theme_id = int_or_none(raw[cfg["data_idx"]]) if len(raw) > cfg["data_idx"] else None
+            if not theme_id:
+                continue
+            theme = fetch_theme_name("FashionCheckThemeCategory", theme_id, overrides, cfg["key"])
+            dye_id = int_or_none(raw[cfg["dye_idx"]]) if len(raw) > cfg["dye_idx"] else None
+            dye_info = fetch_dye(dye_id)
+            slot_entries.append({
+                **row_base(cfg, week, theme_id, theme, dye_info),
+            })
+            slot_theme_counter[cfg["slot_key"]][theme_id] += 1
+            dye_counter[cfg["slot_key"]][dye_info["dyeDisplayCn"]] += 1
+        history.append({
+            "week": week,
+            "timestamp": int_or_none(raw[13]) if len(raw) > 13 else None,
+            "weeklyThemeId": weekly_theme_id,
+            "weeklyThemeNameEn": weekly_theme["en"],
+            "weeklyThemeNameJa": weekly_theme["ja"],
+            "weeklyThemeNameCn": weekly_theme["cn"],
+            "slots": slot_entries,
+        })
+
+    history.sort(key=lambda x: x["week"], reverse=True)
+
+    weekly_theme_stats = []
+    for theme_id, count in weekly_theme_counter.most_common():
+        theme = fetch_theme_name("FashionCheckWeeklyTheme", theme_id, overrides, "weeklyThemes") if theme_id else {"en":"","ja":"","cn":"","source":""}
+        weekly_theme_stats.append({
+            "themeId": theme_id,
+            "themeNameCn": theme["cn"],
+            "themeNameEn": theme["en"],
+            "count": count,
+        })
+
+    slot_theme_stats = {}
+    for cfg in SLOT_CONFIGS:
+        items = []
+        for theme_id, count in slot_theme_counter[cfg["slot_key"]].most_common():
+            theme = fetch_theme_name("FashionCheckThemeCategory", theme_id, overrides, cfg["key"])
+            items.append({
+                "slotKey": cfg["slot_key"],
+                "slotCn": cfg["slot_cn"],
+                "slotEn": cfg["slot_en"],
+                "themeId": theme_id,
+                "themeNameCn": theme["cn"],
+                "themeNameEn": theme["en"],
+                "count": count,
+            })
+        slot_theme_stats[cfg["slot_key"]] = items
+
+    dye_stats = {}
+    for cfg in SLOT_CONFIGS:
+        dye_stats[cfg["slot_key"]] = [
+            {"slotCn": cfg["slot_cn"], "slotEn": cfg["slot_en"], "dyeDisplayCn": dye_name, "count": count}
+            for dye_name, count in dye_counter[cfg["slot_key"]].most_common()
+        ]
+
+    return history, {
+        "totalWeeks": len(history),
+        "weeklyThemeCounts": weekly_theme_stats,
+        "slotThemeCounts": slot_theme_stats,
+        "dyeCounts": dye_stats,
+    }
 
 
 def main():
@@ -275,9 +406,11 @@ def main():
     overrides = load_theme_overrides()
     weekly_theme_id = int_or_none(latest[1]) if len(latest) > 1 else None
     weekly_theme = fetch_theme_name("FashionCheckWeeklyTheme", weekly_theme_id, overrides, "weeklyThemes") if weekly_theme_id else {"en": "", "ja": "", "cn": "", "source": ""}
-    slot_summary, rows = build_rows(latest, theme_rows, overrides)
+    theme_item_map = build_theme_item_map(theme_rows)
+    slot_summary, rows = build_current_rows(latest, theme_item_map, overrides)
+    history, stats = build_history(data_rows, overrides)
     payload = {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "generatedAt": int(time.time()),
         "week": int_or_none(latest[0]),
         "weeklyThemeId": weekly_theme_id,
@@ -287,10 +420,18 @@ def main():
         "weeklyThemeCnSource": weekly_theme["source"],
         "slotSummary": slot_summary,
         "rows": rows,
+        "historyWeeks": history,
+        "stats": stats,
     }
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUTPUT}")
-    print(json.dumps({"week": payload["week"], "weeklyThemeNameCn": payload["weeklyThemeNameCn"], "slots": len(slot_summary), "rows": len(rows)}, ensure_ascii=False))
+    print(json.dumps({
+        "week": payload["week"],
+        "weeklyThemeNameCn": payload["weeklyThemeNameCn"],
+        "rows": len(rows),
+        "historyWeeks": len(history),
+        "wikiMatched": sum(1 for r in rows if r.get("wikiMatched")),
+    }, ensure_ascii=False))
 
 
 if __name__ == "__main__":

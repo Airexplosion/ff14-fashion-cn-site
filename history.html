@@ -1,0 +1,53 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>FF14 时尚品鉴往期题目</title><style>
+:root { --bg:#070d18; --bg2:#0b1425; --panel:#0f1728; --line:#25375b; --text:#eef4ff; --muted:#98a8c7; --brand:#84c5ff; }
+*{box-sizing:border-box} html,body{margin:0;padding:0} body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(180deg,var(--bg),var(--bg2));color:var(--text)}
+a{color:#bfe4ff;text-decoration:none}.wrap{max-width:1380px;margin:0 auto;padding:24px 18px 72px}.topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:18px;flex-wrap:wrap}.nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{padding:10px 14px;border:1px solid #37558f;background:#17233d;border-radius:999px;color:#e8f2ff}
+.hero,.panel,.week-card{background:rgba(15,23,40,.92);border:1px solid var(--line);border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.28)} .hero,.panel,.week-card{padding:20px} .hero{padding:28px;background:radial-gradient(circle at right top, rgba(132,197,255,.16), transparent 30%), rgba(15,23,40,.96)}
+h1,h2,h3{line-height:1.2;margin:0 0 12px} h1{font-size:34px} p{line-height:1.75;margin:8px 0}.muted{color:var(--muted)} @media(max-width:980px){h1{font-size:28px}}
+.filters{display:flex;gap:12px;flex-wrap:wrap}.filters input,.filters select{background:#111b2e;color:var(--text);border:1px solid #315188;border-radius:14px;padding:12px 14px;font-size:15px}.filters input{min-width:260px;flex:1}
+.list{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:18px}@media(max-width:980px){.list{grid-template-columns:1fr}}
+.slots{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:14px}@media(max-width:760px){.slots{grid-template-columns:1fr}}
+.slot{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.03)} .count{color:var(--muted);font-size:14px;margin-top:10px}
+</style></head><body><div class="wrap">
+<div class="topbar"><div><strong>FF14 时尚品鉴参考 / 往期题目</strong></div><div class="nav"><a href="./index.html">首页</a><a href="./table.html">搜索表格</a><a href="./history.html">往期题目</a><a href="./stats.html">题目统计</a></div></div>
+<section class="hero"><h1>往期题目</h1><p class="muted">按周查看历次时尚品鉴题目、各部位词条中英对照与染色要求。</p><div class="filters"><input id="q" placeholder="搜索周次 / 每周大题目 / 部位词条"><select id="limit"><option value="20">最近 20 周</option><option value="50">最近 50 周</option><option value="100">最近 100 周</option><option value="9999">全部周次</option></select></div><div class="count" id="count"></div></section>
+<section class="list" id="list"></section>
+</div><script>
+const DATA_URL = './site-data.json';
+const esc = s => (s || '').replace(/[&<>"]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m]));
+async function loadData(){ const resp = await fetch(DATA_URL, { cache: 'no-store' }); if(!resp.ok) throw new Error(`HTTP ${resp.status}`); return resp.json(); }
+function boot(DATA){
+  const q = document.getElementById('q');
+  const limit = document.getElementById('limit');
+  const list = document.getElementById('list');
+  const count = document.getElementById('count');
+  const history = DATA.historyWeeks || [];
+  function render(){
+    const term = q.value.trim().toLowerCase();
+    const cap = Number(limit.value || 20);
+    const rows = history.filter(w => {
+      if (!term) return true;
+      const hay = [w.week, w.weeklyThemeNameCn, w.weeklyThemeNameEn, ...(w.slots||[]).flatMap(s => [s.slotCn, s.slotEn, s.themeNameCn, s.themeNameEn, s.dyeDisplayCn])].join(' ').toLowerCase();
+      return hay.includes(term);
+    }).slice(0, cap);
+    count.textContent = `显示 ${rows.length} 周 / 共 ${history.length} 周`;
+    list.innerHTML = rows.map(w => `
+      <article class="week-card">
+        <h2>第 ${w.week} 周</h2>
+        <p class="muted">每周大题目：${esc(w.weeklyThemeNameCn || w.weeklyThemeNameEn || '—')}</p>
+        <p class="muted">Weekly Theme: ${esc(w.weeklyThemeNameEn || '')}</p>
+        <div class="slots">${(w.slots || []).map(s => `
+          <div class="slot">
+            <div><strong>${esc(s.slotCn || '')}</strong> <span class="muted">${esc(s.slotEn || '')}</span></div>
+            <div class="muted">词条中文：${esc(s.themeNameCn || s.themeNameEn || '—')}</div>
+            <div class="muted">词条英文：${esc(s.themeNameEn || '')}</div>
+            <div class="muted">染色：${esc(s.dyeDisplayCn || '无指定染色')}</div>
+          </div>
+        `).join('')}</div>
+      </article>
+    `).join('');
+  }
+  q.addEventListener('input', render); limit.addEventListener('change', render); render();
+}
+loadData().then(boot).catch(err => { document.getElementById('list').innerHTML = `<section class="panel"><strong>加载失败</strong><br>${esc(String(err))}</section>`; });
+</script></body></html>

@@ -13,8 +13,8 @@ a{color:#bfe4ff;text-decoration:none} a:hover{text-decoration:underline}
 .hero{padding:28px;background:radial-gradient(circle at right top, rgba(132,197,255,.16), transparent 30%), rgba(15,23,40,.96)}
 h1,h2,h3{line-height:1.2;margin:0 0 12px} h1{font-size:34px} h2{font-size:24px} h3{font-size:18px}
 p{line-height:1.75;margin:8px 0}.muted{color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:18px}.col-12{grid-column:span 12}.col-8{grid-column:span 8}.col-4{grid-column:span 4}.col-6{grid-column:span 6}.col-3{grid-column:span 3}
-@media(max-width:980px){.col-8,.col-6,.col-4,.col-3,.col-12{grid-column:span 12}h1{font-size:28px}}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:18px}.col-12{grid-column:span 12}.col-8{grid-column:span 8}.col-4{grid-column:span 4}
+@media(max-width:980px){.col-8,.col-4,.col-12{grid-column:span 12}h1{font-size:28px}}
 .panel{padding:20px}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}@media(max-width:980px){.stats{grid-template-columns:repeat(2,1fr)}}
 .stat{padding:16px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.03)} .stat .value{font-size:26px;font-weight:800;margin-bottom:6px}
@@ -28,18 +28,11 @@ p{line-height:1.75;margin:8px 0}.muted{color:var(--muted)}
 .item-name{font-size:16px;font-weight:700;margin-bottom:4px}.meta{font-size:13px;color:var(--muted)}
 .badge{display:inline-block;padding:4px 9px;border-radius:999px;font-size:12px;margin-top:6px;border:1px solid var(--line)} .badge.ok{background:rgba(140,233,154,.1)} .badge.warn{background:rgba(255,209,102,.12)}
 .note{border-left:4px solid var(--brand);padding:12px 14px;border-radius:14px;background:rgba(132,197,255,.08);margin-top:12px}
-.searchbar{display:flex;gap:12px;flex-wrap:wrap}.searchbar input,.searchbar select{background:#111b2e;color:var(--text);border:1px solid #315188;border-radius:14px;padding:12px 14px;font-size:15px}
-.searchbar input{min-width:320px;flex:1}
-.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:18px;background:#0d1627;margin-top:16px}
-table{width:100%;border-collapse:separate;border-spacing:0;min-width:1200px}thead th{position:sticky;top:0;background:#142038;color:#eef5ff;z-index:2}
-th,td{padding:14px 12px;border-bottom:1px solid #223458;text-align:left;vertical-align:top;font-size:14px}tbody tr:hover{background:rgba(255,255,255,.03)}
-.thumb{display:flex;align-items:center;gap:10px}.thumb img{width:44px;height:44px;border-radius:10px;background:#192742;border:1px solid #304d83;padding:4px}
-.toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-top:12px}.count{color:var(--muted);font-size:14px}
 footer{margin-top:24px;color:var(--muted);font-size:13px}
 </style></head><body><div class="wrap">
-<div class="topbar"><div><strong>FF14 时尚品鉴参考</strong></div><div class="nav"><a href="./index.html">首页</a><a href="./table.html">搜索表格</a><a href="https://github.com/Airexplosion/ff14-fashion-cn-site" target="_blank">GitHub</a></div></div>
-<section class="hero"><h1>本周时尚品鉴参考</h1><p class="muted">按部位查看本周候选装备，支持搜索、查看图标和跳转灰机词条。</p><div class="chips"><span class="chip">当前周：第 <span id="week"></span> 周</span><span class="chip">装备检索</span><span class="chip">中文装备名</span><span class="chip">灰机词条</span></div><div class="stats"><div class="stat"><div class="value ok" id="slotCount">0</div><div>部位</div></div><div class="stat"><div class="value ok" id="itemCount">0</div><div>候选装备</div></div><div class="stat"><div class="value warn" id="wikiCount">0</div><div>已对到灰机词条</div></div><div class="stat"><div class="value" id="buildTime">-</div><div>更新时间</div></div></div></section>
-<div class="grid"><section class="panel col-8"><h2>本周部位参考</h2><div class="slot-grid" id="slotGrid"></div></section><section class="panel col-4"><h2>使用说明</h2><div class="note"><strong>查看全部候选装备</strong><br>可进入“搜索表格”按名称、部位和词条状态筛选。</div><div class="note"><strong>查看词条详情</strong><br>已匹配的装备可直接跳转到灰机词条页面。</div><div class="note"><strong>数据说明</strong><br>页面用于整理本周时尚品鉴候选装备，方便快速检索与对照。</div></section></div>
+<div class="topbar"><div><strong>FF14 时尚品鉴参考</strong></div><div class="nav"><a href="./index.html">首页</a><a href="./table.html">搜索表格</a><a href="./history.html">往期题目</a><a href="./stats.html">题目统计</a><a href="https://github.com/Airexplosion/ff14-fashion-cn-site" target="_blank">GitHub</a></div></div>
+<section class="hero"><h1>本周时尚品鉴参考</h1><p class="muted">按部位查看本周候选装备，支持中文部位、时尚品鉴词条中英对照、染色要求与灰机词条跳转。</p><div class="chips"><span class="chip">当前周：第 <span id="week"></span> 周</span><span class="chip">装备检索</span><span class="chip">部位中文</span><span class="chip">词条中英对照</span><span class="chip">染色要求</span></div><div class="stats"><div class="stat"><div class="value ok" id="slotCount">0</div><div>部位</div></div><div class="stat"><div class="value ok" id="itemCount">0</div><div>候选装备</div></div><div class="stat"><div class="value warn" id="wikiCount">0</div><div>已对到灰机词条</div></div><div class="stat"><div class="value" id="buildTime">-</div><div>更新时间</div></div></div></section>
+<div class="grid"><section class="panel col-8"><h2>本周部位参考</h2><div class="slot-grid" id="slotGrid"></div></section><section class="panel col-4"><h2>使用说明</h2><div class="note"><strong>每个部位</strong><br>显示部位中文、部位英文、对应时尚品鉴词条中文与英文。</div><div class="note"><strong>染色</strong><br>若数据源提供染色要求，则直接显示染料中文；没有则显示“无指定染色”。</div><div class="note"><strong>词条</strong><br>已匹配的装备可直接跳转到灰机对应词条。</div></section></div>
 <footer>数据整理自公开 Fashion Report 数据与中文物品资料，仅供时尚品鉴参考。</footer></div>
 <script>
 const DATA_URL = './site-data.json';
@@ -53,13 +46,18 @@ async function loadData() {
 }
 
 function renderIndex(DATA) {
-  week.textContent = DATA.week || '-';
-  slotCount.textContent = DATA.slotSummary?.length || 0;
-  itemCount.textContent = DATA.rows?.length || 0;
-  wikiCount.textContent = (DATA.rows || []).filter(r => r.wikiMatched).length;
-  buildTime.textContent = DATA.generatedAt ? fmt(DATA.generatedAt) : '-';
-
+  const weekEl = document.getElementById('week');
+  const slotCountEl = document.getElementById('slotCount');
+  const itemCountEl = document.getElementById('itemCount');
+  const wikiCountEl = document.getElementById('wikiCount');
+  const buildTimeEl = document.getElementById('buildTime');
   const grid = document.getElementById('slotGrid');
+
+  weekEl.textContent = DATA.week || '-';
+  slotCountEl.textContent = DATA.slotSummary?.length || 0;
+  itemCountEl.textContent = DATA.rows?.length || 0;
+  wikiCountEl.textContent = (DATA.rows || []).filter(r => r.wikiMatched).length;
+  buildTimeEl.textContent = DATA.generatedAt ? fmt(DATA.generatedAt) : '-';
   grid.innerHTML = '';
 
   (DATA.slotSummary || []).forEach(s => {
@@ -67,8 +65,9 @@ function renderIndex(DATA) {
     el.className = 'slot-card';
     el.innerHTML = `
       <h3>${esc(s.slotCn || s.slot)}</h3>
-      <p class="muted">题目：${esc(s.themeNameCn || s.themeNameEn || '—')}</p>
-      <p class="muted">${s.themeNameEn ? esc(s.themeNameEn) : ''}</p>
+      <p class="muted">部位英文：${esc(s.slotEn || '')}</p>
+      <p class="muted">词条中文：${esc(s.themeNameCn || s.themeNameEn || '—')}</p>
+      <p class="muted">词条英文：${esc(s.themeNameEn || '')}</p>
       <p class="muted">染色：${esc(s.dyeDisplayCn || '无指定染色')}</p>
       <p class="muted">候选 ${s.candidateCount || 0} 件</p>
       <div class="item-grid">${(s.heroItems || []).map(item => `
