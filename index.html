@@ -56,7 +56,7 @@ function renderIndex(DATA) {
   weekEl.textContent = DATA.week || '-';
   slotCountEl.textContent = DATA.slotSummary?.length || 0;
   itemCountEl.textContent = DATA.rows?.length || 0;
-  wikiCountEl.textContent = (DATA.rows || []).filter(r => r.wikiMatched).length;
+  wikiCountEl.textContent = (DATA.rows || []).filter(r => r.wikiUrl).length;
   buildTimeEl.textContent = DATA.generatedAt ? fmt(DATA.generatedAt) : '-';
   grid.innerHTML = '';
 

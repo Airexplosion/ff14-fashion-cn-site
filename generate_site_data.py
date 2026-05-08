@@ -241,13 +241,15 @@ def find_wiki(name_cn):
             pass
         time.sleep(0.2)
 
+    direct_title = f"物品:{name_cn}"
+    direct_url = "https://ff14.huijiwiki.com/wiki/" + urllib.parse.quote(direct_title, safe=':/')
     miss = {
         "wikiMatched": False,
-        "wikiTitle": "",
-        "wikiPageTitle": "",
-        "wikiUrl": "",
+        "wikiTitle": direct_title,
+        "wikiPageTitle": direct_title,
+        "wikiUrl": direct_url,
         "wikiSnippet": "",
-        "wikiStatusText": "待补校验",
+        "wikiStatusText": "可直达灰机",
     }
     _wiki_cache[name_cn] = miss
     return miss
