@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1778250527,
+  "generatedAt": 1778299303,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -16611,7 +16611,7 @@
       "weeklyThemeId": 161,
       "weeklyThemeNameEn": "Trenchant Trapeze Artist",
       "weeklyThemeNameJa": "知的な軽業師",
-      "weeklyThemeNameCn": "知的な軽業師",
+      "weeklyThemeNameCn": "聪明的杂技演员",
       "slots": [
         {
           "week": 152,
@@ -26789,7 +26789,7 @@
       },
       {
         "themeId": 161,
-        "themeNameCn": "知的な軽業師",
+        "themeNameCn": "聪明的杂技演员",
         "themeNameEn": "Trenchant Trapeze Artist",
         "count": 1
       },
