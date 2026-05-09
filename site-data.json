@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1778314700,
+  "generatedAt": 1778335925,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯卡",
+      "weeklyThemeNameCn": "野生达尔马斯坎",
       "slots": [
         {
           "week": 388,
@@ -2775,7 +2775,7 @@
       "weeklyThemeId": 387,
       "weeklyThemeNameEn": "Hunter Caster",
       "weeklyThemeNameJa": "狩人のマジシャン",
-      "weeklyThemeNameCn": "猎人魔法师",
+      "weeklyThemeNameCn": "狩人のマジシャン",
       "slots": [
         {
           "week": 378,
@@ -3944,7 +3944,7 @@
       "weeklyThemeId": 367,
       "weeklyThemeNameEn": "Flair for Genius",
       "weeklyThemeNameJa": "洒落者の俊英",
-      "weeklyThemeNameCn": "时尚的俊英",
+      "weeklyThemeNameCn": "时尚的俊秀",
       "slots": [
         {
           "week": 358,
@@ -4078,7 +4078,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "狼人",
+          "themeNameCn": "加罗",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -5189,7 +5189,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "狼人",
+          "themeNameCn": "加罗",
           "themeCnSource": "jp_translate",
           "dyeId": 93,
           "dyeNameCn": "珍珠白",
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝出道十周年的人们",
+      "weeklyThemeNameCn": "庆祝成立十周年",
       "slots": [
         {
           "week": 289,
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬衣",
+      "weeklyThemeNameCn": "帝都风格冬装",
       "slots": [
         {
           "week": 262,
@@ -18336,7 +18336,7 @@
       "weeklyThemeId": 133,
       "weeklyThemeNameEn": "Rebel with a Cause",
       "weeklyThemeNameJa": "反乱の信徒",
-      "weeklyThemeNameCn": "反叛信徒",
+      "weeklyThemeNameCn": "叛逆的信徒",
       "slots": [
         {
           "week": 124,
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻装甲战斗机",
+      "weeklyThemeNameCn": "轻甲战士",
       "slots": [
         {
           "week": 90,
@@ -23172,7 +23172,7 @@
       "weeklyThemeId": 54,
       "weeklyThemeNameEn": "Weekend Knights",
       "weeklyThemeNameJa": "休日の騎士",
-      "weeklyThemeNameCn": "假日骑士",
+      "weeklyThemeNameCn": "度假的骑士",
       "slots": [
         {
           "week": 45,
@@ -26153,7 +26153,7 @@
       },
       {
         "themeId": 54,
-        "themeNameCn": "假日骑士",
+        "themeNameCn": "度假的骑士",
         "themeNameEn": "Weekend Knights",
         "count": 1
       },
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻装甲战斗机",
+        "themeNameCn": "轻甲战士",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -26621,7 +26621,7 @@
       },
       {
         "themeId": 133,
-        "themeNameCn": "反叛信徒",
+        "themeNameCn": "叛逆的信徒",
         "themeNameEn": "Rebel with a Cause",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬衣",
+        "themeNameCn": "帝都风格冬装",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝出道十周年的人们",
+        "themeNameCn": "庆祝成立十周年",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -28019,7 +28019,7 @@
       },
       {
         "themeId": 367,
-        "themeNameCn": "时尚的俊英",
+        "themeNameCn": "时尚的俊秀",
         "themeNameEn": "Flair for Genius",
         "count": 1
       },
@@ -28139,7 +28139,7 @@
       },
       {
         "themeId": 387,
-        "themeNameCn": "猎人魔法师",
+        "themeNameCn": "狩人のマジシャン",
         "themeNameEn": "Hunter Caster",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯卡",
+        "themeNameCn": "野生达尔马斯坎",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -29818,7 +29818,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 37,
-          "themeNameCn": "狼人",
+          "themeNameCn": "加罗",
           "themeNameEn": "Going Garo",
           "count": 1
         },
@@ -30911,7 +30911,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 37,
-          "themeNameCn": "狼人",
+          "themeNameCn": "加罗",
           "themeNameEn": "Going Garo",
           "count": 1
         },
