@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1778335925,
+  "generatedAt": 1778356419,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1816,7 +1816,7 @@
       "weeklyThemeId": 403,
       "weeklyThemeNameEn": "Advanced Explorer",
       "weeklyThemeNameJa": "未来を進む探検家",
-      "weeklyThemeNameCn": "迈向未来的探索者",
+      "weeklyThemeNameCn": "一个走向未来的探索者",
       "slots": [
         {
           "week": 394,
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯坎",
+      "weeklyThemeNameCn": "野生达尔马斯卡",
       "slots": [
         {
           "week": 388,
@@ -2775,7 +2775,7 @@
       "weeklyThemeId": 387,
       "weeklyThemeNameEn": "Hunter Caster",
       "weeklyThemeNameJa": "狩人のマジシャン",
-      "weeklyThemeNameCn": "狩人のマジシャン",
+      "weeklyThemeNameCn": "猎人魔法师",
       "slots": [
         {
           "week": 378,
@@ -3107,7 +3107,7 @@
       "weeklyThemeId": 381,
       "weeklyThemeNameEn": "Blooming Builder",
       "weeklyThemeNameJa": "花好きの作業員",
-      "weeklyThemeNameCn": "一个爱花的工作者",
+      "weeklyThemeNameCn": "一个爱花的工人",
       "slots": [
         {
           "week": 372,
@@ -3944,7 +3944,7 @@
       "weeklyThemeId": 367,
       "weeklyThemeNameEn": "Flair for Genius",
       "weeklyThemeNameJa": "洒落者の俊英",
-      "weeklyThemeNameCn": "时尚的俊秀",
+      "weeklyThemeNameCn": "时尚的俊英",
       "slots": [
         {
           "week": 358,
@@ -4078,7 +4078,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "加罗",
+          "themeNameCn": "狼人",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -4242,7 +4242,7 @@
       "weeklyThemeId": 361,
       "weeklyThemeNameEn": "Sport Support",
       "weeklyThemeNameJa": "応援スタイルの観客",
-      "weeklyThemeNameCn": "欢呼式的观众",
+      "weeklyThemeNameCn": "応援スタイルの観客",
       "slots": [
         {
           "week": 352,
@@ -4984,7 +4984,7 @@
       "weeklyThemeId": 348,
       "weeklyThemeNameEn": "Iniquitous Archon",
       "weeklyThemeNameJa": "悪魔的な賢人",
-      "weeklyThemeNameCn": "恶魔般的聪明人",
+      "weeklyThemeNameCn": "恶魔般的智者",
       "slots": [
         {
           "week": 339,
@@ -5030,7 +5030,7 @@
           "themeId": 190,
           "themeNameEn": "Patten on the Back",
           "themeNameJa": "パッテン",
-          "themeNameCn": "彭定康",
+          "themeNameCn": "パッテン",
           "themeCnSource": "jp_translate",
           "dyeId": 29,
           "dyeNameCn": "山栗棕",
@@ -5189,7 +5189,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "加罗",
+          "themeNameCn": "狼人",
           "themeCnSource": "jp_translate",
           "dyeId": 93,
           "dyeNameCn": "珍珠白",
@@ -5753,7 +5753,7 @@
       "weeklyThemeId": 334,
       "weeklyThemeNameEn": "Dueling Spectacle",
       "weeklyThemeNameJa": "洒落者の決闘士",
-      "weeklyThemeNameCn": "时尚的决斗者",
+      "weeklyThemeNameCn": "洒落者の決闘士",
       "slots": [
         {
           "week": 325,
@@ -7636,7 +7636,7 @@
           "themeId": 190,
           "themeNameEn": "Patten on the Back",
           "themeNameJa": "パッテン",
-          "themeNameCn": "彭定康",
+          "themeNameCn": "パッテン",
           "themeCnSource": "jp_translate",
           "dyeId": 26,
           "dyeNameCn": "南瓜橙",
@@ -9788,7 +9788,7 @@
           "themeId": 190,
           "themeNameEn": "Patten on the Back",
           "themeNameJa": "パッテン",
-          "themeNameCn": "彭定康",
+          "themeNameCn": "パッテン",
           "themeCnSource": "jp_translate",
           "dyeId": 31,
           "dyeNameCn": "页岩棕",
@@ -10379,7 +10379,7 @@
       "weeklyThemeId": 259,
       "weeklyThemeNameEn": "Overdressed Laborer",
       "weeklyThemeNameJa": "洒落た労働者",
-      "weeklyThemeNameCn": "时尚工人",
+      "weeklyThemeNameCn": "洒落た労働者",
       "slots": [
         {
           "week": 250,
@@ -10545,7 +10545,7 @@
       "weeklyThemeId": 256,
       "weeklyThemeNameEn": "Piratical Painter",
       "weeklyThemeNameJa": "海賊の絵描き",
-      "weeklyThemeNameCn": "海盗图画",
+      "weeklyThemeNameCn": "海賊の絵描き",
       "slots": [
         {
           "week": 247,
@@ -11052,7 +11052,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -12033,7 +12033,7 @@
       "weeklyThemeId": 233,
       "weeklyThemeNameEn": "Animalistic Advisor",
       "weeklyThemeNameJa": "獣の参謀",
-      "weeklyThemeNameCn": "野兽的法杖",
+      "weeklyThemeNameCn": "野兽之杖",
       "slots": [
         {
           "week": 224,
@@ -12365,7 +12365,7 @@
       "weeklyThemeId": 227,
       "weeklyThemeNameEn": "Mountain Tribal",
       "weeklyThemeNameJa": "山岳民の洒落者",
-      "weeklyThemeNameCn": "山里人的小丑",
+      "weeklyThemeNameCn": "山里人的时尚达人",
       "slots": [
         {
           "week": 218,
@@ -13219,7 +13219,7 @@
       "weeklyThemeId": 213,
       "weeklyThemeNameEn": "Patrician Magician",
       "weeklyThemeNameJa": "高貴な魔法使い",
-      "weeklyThemeNameCn": "高贵的魔法师",
+      "weeklyThemeNameCn": "高貴な魔法使い",
       "slots": [
         {
           "week": 204,
@@ -13248,7 +13248,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔般的",
+          "themeNameCn": "恶魔的",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -13907,7 +13907,7 @@
       "weeklyThemeId": 202,
       "weeklyThemeNameEn": "Simple Chef",
       "weeklyThemeNameJa": "地味な調理師",
-      "weeklyThemeNameCn": "一个谦虚的厨师",
+      "weeklyThemeNameCn": "一个卑微的厨师",
       "slots": [
         {
           "week": 193,
@@ -15535,7 +15535,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔般的",
+          "themeNameCn": "恶魔的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -16169,7 +16169,7 @@
           "themeId": 190,
           "themeNameEn": "Patten on the Back",
           "themeNameJa": "パッテン",
-          "themeNameCn": "彭定康",
+          "themeNameCn": "パッテン",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -17372,7 +17372,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -17387,7 +17387,7 @@
       "weeklyThemeId": 148,
       "weeklyThemeNameEn": "Warm and Cozy",
       "weeklyThemeNameJa": "冬の普段着",
-      "weeklyThemeNameCn": "冬季日常穿搭",
+      "weeklyThemeNameCn": "冬の普段着",
       "slots": [
         {
           "week": 139,
@@ -17433,7 +17433,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔般的",
+          "themeNameCn": "恶魔的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -18336,7 +18336,7 @@
       "weeklyThemeId": 133,
       "weeklyThemeNameEn": "Rebel with a Cause",
       "weeklyThemeNameJa": "反乱の信徒",
-      "weeklyThemeNameCn": "叛逆的信徒",
+      "weeklyThemeNameCn": "反叛信徒",
       "slots": [
         {
           "week": 124,
@@ -18763,7 +18763,7 @@
       "weeklyThemeId": 126,
       "weeklyThemeNameEn": "Draped to Chill",
       "weeklyThemeNameJa": "休日のドレープ",
-      "weeklyThemeNameCn": "节日窗帘",
+      "weeklyThemeNameCn": "休日のドレープ",
       "slots": [
         {
           "week": 117,
@@ -18980,7 +18980,7 @@
       "weeklyThemeId": 123,
       "weeklyThemeNameEn": "Near Eastern",
       "weeklyThemeNameJa": "サベネアの旅商人",
-      "weeklyThemeNameCn": "塔瓦尼亚的旅行商人",
+      "weeklyThemeNameCn": "サベネアの旅商人",
       "slots": [
         {
           "week": 114,
@@ -19041,7 +19041,7 @@
       "weeklyThemeId": 122,
       "weeklyThemeNameEn": "Go West, Young Man",
       "weeklyThemeNameJa": "新大陸の労働者",
-      "weeklyThemeNameCn": "新世界工人",
+      "weeklyThemeNameCn": "新大陸の労働者",
       "slots": [
         {
           "week": 113,
@@ -19234,7 +19234,7 @@
       "weeklyThemeId": 118,
       "weeklyThemeNameEn": "Wild 'n Mild",
       "weeklyThemeNameJa": "ワイルドランド・カジュアル",
-      "weeklyThemeNameCn": "荒野休闲",
+      "weeklyThemeNameCn": "ワイルドランド・カジュアル",
       "slots": [
         {
           "week": 109,
@@ -19312,7 +19312,7 @@
       "weeklyThemeId": 117,
       "weeklyThemeNameEn": "Wasteland Liberator",
       "weeklyThemeNameJa": "荒野の革命闘士",
-      "weeklyThemeNameCn": "荒野中的革命战士",
+      "weeklyThemeNameCn": "荒野の革命闘士",
       "slots": [
         {
           "week": 108,
@@ -19358,7 +19358,7 @@
           "themeId": 190,
           "themeNameEn": "Patten on the Back",
           "themeNameJa": "パッテン",
-          "themeNameCn": "彭定康",
+          "themeNameCn": "パッテン",
           "themeCnSource": "jp_translate",
           "dyeId": 18,
           "dyeNameCn": "树皮棕",
@@ -19373,7 +19373,7 @@
       "weeklyThemeId": 116,
       "weeklyThemeNameEn": "Chocoback Rider",
       "weeklyThemeNameJa": "義賊の騎乗兵",
-      "weeklyThemeNameCn": "强盗骑兵士兵",
+      "weeklyThemeNameCn": "義賊の騎乗兵",
       "slots": [
         {
           "week": 107,
@@ -20339,7 +20339,7 @@
       "weeklyThemeId": 101,
       "weeklyThemeNameEn": "Dashing Duelist",
       "weeklyThemeNameJa": "決闘士の一張羅",
-      "weeklyThemeNameCn": "决斗者一郎",
+      "weeklyThemeNameCn": "决斗者市春",
       "slots": [
         {
           "week": 92,
@@ -21071,7 +21071,7 @@
       "weeklyThemeId": 89,
       "weeklyThemeNameEn": "Garlond Says",
       "weeklyThemeNameJa": "ガーロンド社の作業員",
-      "weeklyThemeNameCn": "嘉隆德工人",
+      "weeklyThemeNameCn": "嘉隆工人",
       "slots": [
         {
           "week": 80,
@@ -22606,7 +22606,7 @@
       "weeklyThemeId": 63,
       "weeklyThemeNameEn": "Letters from the New World",
       "weeklyThemeNameJa": "新大陸の民",
-      "weeklyThemeNameCn": "新大陆人民",
+      "weeklyThemeNameCn": "新大陆的人们",
       "slots": [
         {
           "week": 54,
@@ -24570,7 +24570,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24831,7 +24831,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -25273,7 +25273,7 @@
       "weeklyThemeId": 19,
       "weeklyThemeNameEn": "Dragonrider",
       "weeklyThemeNameJa": "ドラゴンライダー",
-      "weeklyThemeNameCn": "龙骑士",
+      "weeklyThemeNameCn": "ドラゴンライダー",
       "slots": [
         {
           "week": 10,
@@ -25943,7 +25943,7 @@
       },
       {
         "themeId": 19,
-        "themeNameCn": "龙骑士",
+        "themeNameCn": "ドラゴンライダー",
         "themeNameEn": "Dragonrider",
         "count": 1
       },
@@ -26207,7 +26207,7 @@
       },
       {
         "themeId": 63,
-        "themeNameCn": "新大陆人民",
+        "themeNameCn": "新大陆的人们",
         "themeNameEn": "Letters from the New World",
         "count": 1
       },
@@ -26363,7 +26363,7 @@
       },
       {
         "themeId": 89,
-        "themeNameCn": "嘉隆德工人",
+        "themeNameCn": "嘉隆工人",
         "themeNameEn": "Garlond Says",
         "count": 1
       },
@@ -26435,7 +26435,7 @@
       },
       {
         "themeId": 101,
-        "themeNameCn": "决斗者一郎",
+        "themeNameCn": "决斗者市春",
         "themeNameEn": "Dashing Duelist",
         "count": 1
       },
@@ -26519,19 +26519,19 @@
       },
       {
         "themeId": 116,
-        "themeNameCn": "强盗骑兵士兵",
+        "themeNameCn": "義賊の騎乗兵",
         "themeNameEn": "Chocoback Rider",
         "count": 1
       },
       {
         "themeId": 117,
-        "themeNameCn": "荒野中的革命战士",
+        "themeNameCn": "荒野の革命闘士",
         "themeNameEn": "Wasteland Liberator",
         "count": 1
       },
       {
         "themeId": 118,
-        "themeNameCn": "荒野休闲",
+        "themeNameCn": "ワイルドランド・カジュアル",
         "themeNameEn": "Wild 'n Mild",
         "count": 1
       },
@@ -26555,13 +26555,13 @@
       },
       {
         "themeId": 122,
-        "themeNameCn": "新世界工人",
+        "themeNameCn": "新大陸の労働者",
         "themeNameEn": "Go West, Young Man",
         "count": 1
       },
       {
         "themeId": 123,
-        "themeNameCn": "塔瓦尼亚的旅行商人",
+        "themeNameCn": "サベネアの旅商人",
         "themeNameEn": "Near Eastern",
         "count": 1
       },
@@ -26579,7 +26579,7 @@
       },
       {
         "themeId": 126,
-        "themeNameCn": "节日窗帘",
+        "themeNameCn": "休日のドレープ",
         "themeNameEn": "Draped to Chill",
         "count": 1
       },
@@ -26621,7 +26621,7 @@
       },
       {
         "themeId": 133,
-        "themeNameCn": "叛逆的信徒",
+        "themeNameCn": "反叛信徒",
         "themeNameEn": "Rebel with a Cause",
         "count": 1
       },
@@ -26711,7 +26711,7 @@
       },
       {
         "themeId": 148,
-        "themeNameCn": "冬季日常穿搭",
+        "themeNameCn": "冬の普段着",
         "themeNameEn": "Warm and Cozy",
         "count": 1
       },
@@ -27035,7 +27035,7 @@
       },
       {
         "themeId": 202,
-        "themeNameCn": "一个谦虚的厨师",
+        "themeNameCn": "一个卑微的厨师",
         "themeNameEn": "Simple Chef",
         "count": 1
       },
@@ -27101,7 +27101,7 @@
       },
       {
         "themeId": 213,
-        "themeNameCn": "高贵的魔法师",
+        "themeNameCn": "高貴な魔法使い",
         "themeNameEn": "Patrician Magician",
         "count": 1
       },
@@ -27185,7 +27185,7 @@
       },
       {
         "themeId": 227,
-        "themeNameCn": "山里人的小丑",
+        "themeNameCn": "山里人的时尚达人",
         "themeNameEn": "Mountain Tribal",
         "count": 1
       },
@@ -27221,7 +27221,7 @@
       },
       {
         "themeId": 233,
-        "themeNameCn": "野兽的法杖",
+        "themeNameCn": "野兽之杖",
         "themeNameEn": "Animalistic Advisor",
         "count": 1
       },
@@ -27359,7 +27359,7 @@
       },
       {
         "themeId": 256,
-        "themeNameCn": "海盗图画",
+        "themeNameCn": "海賊の絵描き",
         "themeNameEn": "Piratical Painter",
         "count": 1
       },
@@ -27377,7 +27377,7 @@
       },
       {
         "themeId": 259,
-        "themeNameCn": "时尚工人",
+        "themeNameCn": "洒落た労働者",
         "themeNameEn": "Overdressed Laborer",
         "count": 1
       },
@@ -27827,7 +27827,7 @@
       },
       {
         "themeId": 334,
-        "themeNameCn": "时尚的决斗者",
+        "themeNameCn": "洒落者の決闘士",
         "themeNameEn": "Dueling Spectacle",
         "count": 1
       },
@@ -27911,7 +27911,7 @@
       },
       {
         "themeId": 348,
-        "themeNameCn": "恶魔般的聪明人",
+        "themeNameCn": "恶魔般的智者",
         "themeNameEn": "Iniquitous Archon",
         "count": 1
       },
@@ -27983,7 +27983,7 @@
       },
       {
         "themeId": 361,
-        "themeNameCn": "欢呼式的观众",
+        "themeNameCn": "応援スタイルの観客",
         "themeNameEn": "Sport Support",
         "count": 1
       },
@@ -28019,7 +28019,7 @@
       },
       {
         "themeId": 367,
-        "themeNameCn": "时尚的俊秀",
+        "themeNameCn": "时尚的俊英",
         "themeNameEn": "Flair for Genius",
         "count": 1
       },
@@ -28103,7 +28103,7 @@
       },
       {
         "themeId": 381,
-        "themeNameCn": "一个爱花的工作者",
+        "themeNameCn": "一个爱花的工人",
         "themeNameEn": "Blooming Builder",
         "count": 1
       },
@@ -28139,7 +28139,7 @@
       },
       {
         "themeId": 387,
-        "themeNameCn": "狩人のマジシャン",
+        "themeNameCn": "猎人魔法师",
         "themeNameEn": "Hunter Caster",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯坎",
+        "themeNameCn": "野生达尔马斯卡",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -28235,7 +28235,7 @@
       },
       {
         "themeId": 403,
-        "themeNameCn": "迈向未来的探索者",
+        "themeNameCn": "一个走向未来的探索者",
         "themeNameEn": "Advanced Explorer",
         "count": 1
       },
@@ -29818,7 +29818,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 37,
-          "themeNameCn": "加罗",
+          "themeNameCn": "狼人",
           "themeNameEn": "Going Garo",
           "count": 1
         },
@@ -30108,7 +30108,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 120,
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeNameEn": "Flutterbye",
           "count": 4
         },
@@ -30279,7 +30279,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 178,
-          "themeNameCn": "恶魔般的",
+          "themeNameCn": "恶魔的",
           "themeNameEn": "Diabolical",
           "count": 3
         },
@@ -30677,7 +30677,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 190,
-          "themeNameCn": "彭定康",
+          "themeNameCn": "パッテン",
           "themeNameEn": "Patten on the Back",
           "count": 5
         },
@@ -30911,7 +30911,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 37,
-          "themeNameCn": "加罗",
+          "themeNameCn": "狼人",
           "themeNameEn": "Going Garo",
           "count": 1
         },
