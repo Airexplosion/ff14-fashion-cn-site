@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1778474580,
+  "generatedAt": 1778493890,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -4078,7 +4078,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "加罗",
+          "themeNameCn": "狼人",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -5189,7 +5189,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "加罗",
+          "themeNameCn": "狼人",
           "themeCnSource": "jp_translate",
           "dyeId": 93,
           "dyeNameCn": "珍珠白",
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "燃烧的战士",
+      "weeklyThemeNameCn": "火热的战士",
       "slots": [
         {
           "week": 295,
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "深红节参加者",
+      "weeklyThemeNameCn": "红莲祭参加者",
       "slots": [
         {
           "week": 225,
@@ -18336,7 +18336,7 @@
       "weeklyThemeId": 133,
       "weeklyThemeNameEn": "Rebel with a Cause",
       "weeklyThemeNameJa": "反乱の信徒",
-      "weeklyThemeNameCn": "叛逆的信徒",
+      "weeklyThemeNameCn": "反叛信徒",
       "slots": [
         {
           "week": 124,
@@ -20339,7 +20339,7 @@
       "weeklyThemeId": 101,
       "weeklyThemeNameEn": "Dashing Duelist",
       "weeklyThemeNameJa": "決闘士の一張羅",
-      "weeklyThemeNameCn": "决斗者一郎",
+      "weeklyThemeNameCn": "决斗者市春",
       "slots": [
         {
           "week": 92,
@@ -23172,7 +23172,7 @@
       "weeklyThemeId": 54,
       "weeklyThemeNameEn": "Weekend Knights",
       "weeklyThemeNameJa": "休日の騎士",
-      "weeklyThemeNameCn": "度假的骑士",
+      "weeklyThemeNameCn": "假日骑士",
       "slots": [
         {
           "week": 45,
@@ -26153,7 +26153,7 @@
       },
       {
         "themeId": 54,
-        "themeNameCn": "度假的骑士",
+        "themeNameCn": "假日骑士",
         "themeNameEn": "Weekend Knights",
         "count": 1
       },
@@ -26435,7 +26435,7 @@
       },
       {
         "themeId": 101,
-        "themeNameCn": "决斗者一郎",
+        "themeNameCn": "决斗者市春",
         "themeNameEn": "Dashing Duelist",
         "count": 1
       },
@@ -26621,7 +26621,7 @@
       },
       {
         "themeId": 133,
-        "themeNameCn": "叛逆的信徒",
+        "themeNameCn": "反叛信徒",
         "themeNameEn": "Rebel with a Cause",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "深红节参加者",
+        "themeNameCn": "红莲祭参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "燃烧的战士",
+        "themeNameCn": "火热的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
@@ -29818,7 +29818,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 37,
-          "themeNameCn": "加罗",
+          "themeNameCn": "狼人",
           "themeNameEn": "Going Garo",
           "count": 1
         },
@@ -30911,7 +30911,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 37,
-          "themeNameCn": "加罗",
+          "themeNameCn": "狼人",
           "themeNameEn": "Going Garo",
           "count": 1
         },
