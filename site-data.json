@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1778530284,
+  "generatedAt": 1778559095,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "燃烧的战士",
+      "weeklyThemeNameCn": "火热的战士",
       "slots": [
         {
           "week": 295,
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "燃烧的战士",
+        "themeNameCn": "火热的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
