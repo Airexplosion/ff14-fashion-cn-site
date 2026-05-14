@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1778732542,
+  "generatedAt": 1778750065,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -3944,7 +3944,7 @@
       "weeklyThemeId": 367,
       "weeklyThemeNameEn": "Flair for Genius",
       "weeklyThemeNameJa": "洒落者の俊英",
-      "weeklyThemeNameCn": "时尚的俊英",
+      "weeklyThemeNameCn": "时尚的俊秀",
       "slots": [
         {
           "week": 358,
@@ -5616,7 +5616,7 @@
           "themeId": 247,
           "themeNameEn": "Floral Delight",
           "themeNameJa": "フローラル",
-          "themeNameCn": "フローラル",
+          "themeNameCn": "花的",
           "themeCnSource": "jp_translate",
           "dyeId": 12,
           "dyeNameCn": "果酒红",
@@ -5633,7 +5633,7 @@
           "themeId": 247,
           "themeNameEn": "Floral Delight",
           "themeNameJa": "フローラル",
-          "themeNameCn": "フローラル",
+          "themeNameCn": "花的",
           "themeCnSource": "jp_translate",
           "dyeId": 111,
           "dyeNameCn": "黑暗紫",
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "燃烧的战士",
+      "weeklyThemeNameCn": "火热的战士",
       "slots": [
         {
           "week": 295,
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬衣",
+      "weeklyThemeNameCn": "帝都风格冬装",
       "slots": [
         {
           "week": 262,
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "深红节参加者",
+      "weeklyThemeNameCn": "红莲祭参加者",
       "slots": [
         {
           "week": 225,
@@ -13248,7 +13248,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -15535,7 +15535,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -17433,7 +17433,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "深红节参加者",
+        "themeNameCn": "红莲祭参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬衣",
+        "themeNameCn": "帝都风格冬装",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "燃烧的战士",
+        "themeNameCn": "火热的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
@@ -28019,7 +28019,7 @@
       },
       {
         "themeId": 367,
-        "themeNameCn": "时尚的俊英",
+        "themeNameCn": "时尚的俊秀",
         "themeNameEn": "Flair for Genius",
         "count": 1
       },
@@ -29809,7 +29809,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 247,
-          "themeNameCn": "フローラル",
+          "themeNameCn": "花的",
           "themeNameEn": "Floral Delight",
           "count": 1
         },
@@ -30279,7 +30279,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 178,
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeNameEn": "Diabolical",
           "count": 3
         },
@@ -30441,7 +30441,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 247,
-          "themeNameCn": "フローラル",
+          "themeNameCn": "花的",
           "themeNameEn": "Floral Delight",
           "count": 1
         },
