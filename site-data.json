@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1778856039,
+  "generatedAt": 1778875861,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -2360,7 +2360,7 @@
           "themeId": 242,
           "themeNameEn": "Love & Peace",
           "themeNameJa": "ピースラヴァー",
-          "themeNameCn": "和平爱好者",
+          "themeNameCn": "ピースラヴァー",
           "themeCnSource": "jp_translate",
           "dyeId": 48,
           "dyeNameCn": "橄榄绿",
@@ -3014,7 +3014,7 @@
           "themeId": 242,
           "themeNameEn": "Love & Peace",
           "themeNameJa": "ピースラヴァー",
-          "themeNameCn": "和平爱好者",
+          "themeNameCn": "ピースラヴァー",
           "themeCnSource": "jp_translate",
           "dyeId": 59,
           "dyeNameCn": "魔花绿",
@@ -3580,7 +3580,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉姆希甘",
+          "themeNameCn": "阿拉米甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -3944,7 +3944,7 @@
       "weeklyThemeId": 367,
       "weeklyThemeNameEn": "Flair for Genius",
       "weeklyThemeNameJa": "洒落者の俊英",
-      "weeklyThemeNameCn": "时尚的俊秀",
+      "weeklyThemeNameCn": "时尚的俊英",
       "slots": [
         {
           "week": 358,
@@ -4530,7 +4530,7 @@
       "weeklyThemeId": 356,
       "weeklyThemeNameEn": "More or Less Traditional",
       "weeklyThemeNameJa": "大胆ナル伝統",
-      "weeklyThemeNameCn": "大胆的传统",
+      "weeklyThemeNameCn": "大胆ナル伝統",
       "slots": [
         {
           "week": 347,
@@ -4574,7 +4574,7 @@
       "weeklyThemeId": 355,
       "weeklyThemeNameEn": "Officer of the Outlaw",
       "weeklyThemeNameJa": "野盗の参謀",
-      "weeklyThemeNameCn": "强盗法杖",
+      "weeklyThemeNameCn": "野盗の参謀",
       "slots": [
         {
           "week": 346,
@@ -4635,7 +4635,7 @@
       "weeklyThemeId": 354,
       "weeklyThemeNameEn": "Autumnal Ensemble",
       "weeklyThemeNameJa": "秋山の装い",
-      "weeklyThemeNameCn": "秋山的着装",
+      "weeklyThemeNameCn": "秋山の装い",
       "slots": [
         {
           "week": 345,
@@ -5982,7 +5982,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉姆希甘",
+          "themeNameCn": "阿拉米甘",
           "themeCnSource": "jp_translate",
           "dyeId": 1,
           "dyeNameCn": "素雪白",
@@ -7390,7 +7390,7 @@
       "weeklyThemeId": 308,
       "weeklyThemeNameEn": "Muscly Magician",
       "weeklyThemeNameJa": "肉体派の手品師",
-      "weeklyThemeNameCn": "物理魔术师",
+      "weeklyThemeNameCn": "肉体派の手品師",
       "slots": [
         {
           "week": 299,
@@ -7480,7 +7480,7 @@
           "themeId": 242,
           "themeNameEn": "Love & Peace",
           "themeNameJa": "ピースラヴァー",
-          "themeNameCn": "和平爱好者",
+          "themeNameCn": "ピースラヴァー",
           "themeCnSource": "jp_translate",
           "dyeId": 57,
           "dyeNameCn": "天上蓝",
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "火热的战士",
+      "weeklyThemeNameCn": "燃烧的战士",
       "slots": [
         {
           "week": 295,
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝出道十周年的人们",
+      "weeklyThemeNameCn": "庆祝成立十周年",
       "slots": [
         {
           "week": 289,
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬装",
+      "weeklyThemeNameCn": "帝都风格冬衣",
       "slots": [
         {
           "week": 262,
@@ -14406,7 +14406,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉姆希甘",
+          "themeNameCn": "阿拉米甘",
           "themeCnSource": "jp_translate",
           "dyeId": 112,
           "dyeNameCn": "闪耀银",
@@ -16474,7 +16474,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉姆希甘",
+          "themeNameCn": "阿拉米甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16657,7 +16657,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉姆希甘",
+          "themeNameCn": "阿拉米甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -18014,7 +18014,7 @@
       "weeklyThemeId": 138,
       "weeklyThemeNameEn": "Garlond Go-getter",
       "weeklyThemeNameJa": "ガーロンド社の調査員",
-      "weeklyThemeNameCn": "加隆德调查员",
+      "weeklyThemeNameCn": "ガーロンド社の調査員",
       "slots": [
         {
           "week": 129,
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻甲战士",
+      "weeklyThemeNameCn": "轻装甲战斗机",
       "slots": [
         {
           "week": 90,
@@ -21571,7 +21571,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉姆希甘",
+          "themeNameCn": "阿拉米甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -21647,7 +21647,7 @@
       "weeklyThemeId": 79,
       "weeklyThemeNameEn": "The Only Good Chimera",
       "weeklyThemeNameJa": "キマイラハンター",
-      "weeklyThemeNameCn": "奇美拉猎人",
+      "weeklyThemeNameCn": "キマイラハンター",
       "slots": [
         {
           "week": 70,
@@ -22772,7 +22772,7 @@
       "weeklyThemeId": 60,
       "weeklyThemeNameEn": "Wild, yet Sophisticated",
       "weeklyThemeNameJa": "野性的な洒落者",
-      "weeklyThemeNameCn": "狂野的时尚人士",
+      "weeklyThemeNameCn": "野性的な洒落者",
       "slots": [
         {
           "week": 51,
@@ -26189,7 +26189,7 @@
       },
       {
         "themeId": 60,
-        "themeNameCn": "狂野的时尚人士",
+        "themeNameCn": "野性的な洒落者",
         "themeNameEn": "Wild, yet Sophisticated",
         "count": 1
       },
@@ -26303,7 +26303,7 @@
       },
       {
         "themeId": 79,
-        "themeNameCn": "奇美拉猎人",
+        "themeNameCn": "キマイラハンター",
         "themeNameEn": "The Only Good Chimera",
         "count": 1
       },
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻甲战士",
+        "themeNameCn": "轻装甲战斗机",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -26651,7 +26651,7 @@
       },
       {
         "themeId": 138,
-        "themeNameCn": "加隆德调查员",
+        "themeNameCn": "ガーロンド社の調査員",
         "themeNameEn": "Garlond Go-getter",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬装",
+        "themeNameCn": "帝都风格冬衣",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝出道十周年的人们",
+        "themeNameCn": "庆祝成立十周年",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "火热的战士",
+        "themeNameCn": "燃烧的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
@@ -27671,7 +27671,7 @@
       },
       {
         "themeId": 308,
-        "themeNameCn": "物理魔术师",
+        "themeNameCn": "肉体派の手品師",
         "themeNameEn": "Muscly Magician",
         "count": 1
       },
@@ -27947,19 +27947,19 @@
       },
       {
         "themeId": 354,
-        "themeNameCn": "秋山的着装",
+        "themeNameCn": "秋山の装い",
         "themeNameEn": "Autumnal Ensemble",
         "count": 1
       },
       {
         "themeId": 355,
-        "themeNameCn": "强盗法杖",
+        "themeNameCn": "野盗の参謀",
         "themeNameEn": "Officer of the Outlaw",
         "count": 1
       },
       {
         "themeId": 356,
-        "themeNameCn": "大胆的传统",
+        "themeNameCn": "大胆ナル伝統",
         "themeNameEn": "More or Less Traditional",
         "count": 1
       },
@@ -28019,7 +28019,7 @@
       },
       {
         "themeId": 367,
-        "themeNameCn": "时尚的俊秀",
+        "themeNameCn": "时尚的俊英",
         "themeNameEn": "Flair for Genius",
         "count": 1
       },
@@ -29566,7 +29566,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 242,
-          "themeNameCn": "和平爱好者",
+          "themeNameCn": "ピースラヴァー",
           "themeNameEn": "Love & Peace",
           "count": 3
         },
@@ -30171,7 +30171,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 181,
-          "themeNameCn": "阿拉姆希甘",
+          "themeNameCn": "阿拉米甘",
           "themeNameEn": "“Ala” Carte",
           "count": 4
         },
@@ -30812,7 +30812,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 181,
-          "themeNameCn": "阿拉姆希甘",
+          "themeNameCn": "阿拉米甘",
           "themeNameEn": "“Ala” Carte",
           "count": 2
         },
