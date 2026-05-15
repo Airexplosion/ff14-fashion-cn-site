@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1778789328,
+  "generatedAt": 1778819678,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1828,7 +1828,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -3107,7 +3107,7 @@
       "weeklyThemeId": 381,
       "weeklyThemeNameEn": "Blooming Builder",
       "weeklyThemeNameJa": "花好きの作業員",
-      "weeklyThemeNameCn": "一个爱花的工作者",
+      "weeklyThemeNameCn": "一个爱花的工人",
       "slots": [
         {
           "week": 372,
@@ -3319,7 +3319,7 @@
           "themeId": 245,
           "themeNameEn": "Traveling Dawn",
           "themeNameJa": "サイオンズトラベラー",
-          "themeNameCn": "子孙旅行者",
+          "themeNameCn": "サイオンズトラベラー",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -3668,7 +3668,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -4708,7 +4708,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -5221,7 +5221,7 @@
       "weeklyThemeId": 343,
       "weeklyThemeNameEn": "Jester on the Job",
       "weeklyThemeNameJa": "作業着の道化",
-      "weeklyThemeNameCn": "穿着工作服的小丑",
+      "weeklyThemeNameCn": "作業着の道化",
       "slots": [
         {
           "week": 334,
@@ -5948,7 +5948,7 @@
           "themeId": 245,
           "themeNameEn": "Traveling Dawn",
           "themeNameJa": "サイオンズトラベラー",
-          "themeNameCn": "子孙旅行者",
+          "themeNameCn": "サイオンズトラベラー",
           "themeCnSource": "jp_translate",
           "dyeId": 32,
           "dyeNameCn": "鼹鼠棕",
@@ -5965,7 +5965,7 @@
           "themeId": 245,
           "themeNameEn": "Traveling Dawn",
           "themeNameJa": "サイオンズトラベラー",
-          "themeNameCn": "子孙旅行者",
+          "themeNameCn": "サイオンズトラベラー",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -6953,7 +6953,7 @@
       "weeklyThemeId": 316,
       "weeklyThemeNameEn": "Beast by Starlight",
       "weeklyThemeNameJa": "星芒祭の獣",
-      "weeklyThemeNameCn": "七夕兽节",
+      "weeklyThemeNameCn": "星芒祭の獣",
       "slots": [
         {
           "week": 307,
@@ -8888,7 +8888,7 @@
       "weeklyThemeId": 284,
       "weeklyThemeNameEn": "New World, New Workfolk",
       "weeklyThemeNameJa": "新大陸のフィールドワーカー",
-      "weeklyThemeNameCn": "新大陆的野外工作人员",
+      "weeklyThemeNameCn": "新大陆的现场工作者",
       "slots": [
         {
           "week": 275,
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬衣",
+      "weeklyThemeNameCn": "帝都风格冬装",
       "slots": [
         {
           "week": 262,
@@ -11052,7 +11052,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -11523,7 +11523,7 @@
           "themeId": 205,
           "themeNameEn": "Darkside of a Hero",
           "themeNameJa": "英雄の影身",
-          "themeNameCn": "英雄的影子",
+          "themeNameCn": "英雄の影身",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -11906,7 +11906,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -12033,7 +12033,7 @@
       "weeklyThemeId": 233,
       "weeklyThemeNameEn": "Animalistic Advisor",
       "weeklyThemeNameJa": "獣の参謀",
-      "weeklyThemeNameCn": "野兽的法杖",
+      "weeklyThemeNameCn": "野兽之杖",
       "slots": [
         {
           "week": 224,
@@ -13248,7 +13248,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔般的",
+          "themeNameCn": "恶魔的",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -13907,7 +13907,7 @@
       "weeklyThemeId": 202,
       "weeklyThemeNameEn": "Simple Chef",
       "weeklyThemeNameJa": "地味な調理師",
-      "weeklyThemeNameCn": "一个谦虚的厨师",
+      "weeklyThemeNameCn": "一个卑微的厨师",
       "slots": [
         {
           "week": 193,
@@ -15535,7 +15535,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔般的",
+          "themeNameCn": "恶魔的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -16257,7 +16257,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16440,7 +16440,7 @@
           "themeId": 205,
           "themeNameEn": "Darkside of a Hero",
           "themeNameJa": "英雄の影身",
-          "themeNameCn": "英雄的影子",
+          "themeNameCn": "英雄の影身",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -17372,7 +17372,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -17433,7 +17433,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔般的",
+          "themeNameCn": "恶魔的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -17738,7 +17738,7 @@
           "themeId": 103,
           "themeNameEn": "Turn-coatee",
           "themeNameJa": "コーティ",
-          "themeNameCn": "浣熊",
+          "themeNameCn": "长鼻浣熊",
           "themeCnSource": "jp_translate",
           "dyeId": 73,
           "dyeNameCn": "皇室蓝",
@@ -17953,7 +17953,7 @@
       "weeklyThemeId": 139,
       "weeklyThemeNameEn": "Dedicated to the Craft",
       "weeklyThemeNameJa": "努力家の職人",
-      "weeklyThemeNameCn": "勤劳的工匠",
+      "weeklyThemeNameCn": "努力家の職人",
       "slots": [
         {
           "week": 130,
@@ -18014,7 +18014,7 @@
       "weeklyThemeId": 138,
       "weeklyThemeNameEn": "Garlond Go-getter",
       "weeklyThemeNameJa": "ガーロンド社の調査員",
-      "weeklyThemeNameCn": "加隆德调查员",
+      "weeklyThemeNameCn": "ガーロンド社の調査員",
       "slots": [
         {
           "week": 129,
@@ -18075,7 +18075,7 @@
       "weeklyThemeId": 137,
       "weeklyThemeNameEn": "Dangerous Dealer",
       "weeklyThemeNameJa": "破天荒なディーラー",
-      "weeklyThemeNameCn": "令人难以置信的经销商",
+      "weeklyThemeNameCn": "破天荒なディーラー",
       "slots": [
         {
           "week": 128,
@@ -18136,7 +18136,7 @@
       "weeklyThemeId": 136,
       "weeklyThemeNameEn": "Jester-in-training",
       "weeklyThemeNameJa": "見習い道化師",
-      "weeklyThemeNameCn": "小丑学徒",
+      "weeklyThemeNameCn": "見習い道化師",
       "slots": [
         {
           "week": 127,
@@ -18214,7 +18214,7 @@
       "weeklyThemeId": 135,
       "weeklyThemeNameEn": "Snazzy Spy",
       "weeklyThemeNameJa": "おしゃれな密偵",
-      "weeklyThemeNameCn": "时尚间谍",
+      "weeklyThemeNameCn": "おしゃれな密偵",
       "slots": [
         {
           "week": 126,
@@ -18519,7 +18519,7 @@
       "weeklyThemeId": 130,
       "weeklyThemeNameEn": "Swords and Plowshares",
       "weeklyThemeNameJa": "好戦的なファーマー",
-      "weeklyThemeNameCn": "好战的农民",
+      "weeklyThemeNameCn": "好戦的なファーマー",
       "slots": [
         {
           "week": 121,
@@ -18580,7 +18580,7 @@
       "weeklyThemeId": 129,
       "weeklyThemeNameEn": "Casual Quester",
       "weeklyThemeNameJa": "軽装の冒険家",
-      "weeklyThemeNameCn": "轻冒险家",
+      "weeklyThemeNameCn": "軽装の冒険家",
       "slots": [
         {
           "week": 120,
@@ -18592,7 +18592,7 @@
           "themeId": 245,
           "themeNameEn": "Traveling Dawn",
           "themeNameJa": "サイオンズトラベラー",
-          "themeNameCn": "子孙旅行者",
+          "themeNameCn": "サイオンズトラベラー",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -18624,7 +18624,7 @@
       "weeklyThemeId": 128,
       "weeklyThemeNameEn": "Masked Marauder",
       "weeklyThemeNameJa": "覆面の逆賊",
-      "weeklyThemeNameCn": "蒙面反叛者",
+      "weeklyThemeNameCn": "覆面の逆賊",
       "slots": [
         {
           "week": 119,
@@ -18636,7 +18636,7 @@
           "themeId": 205,
           "themeNameEn": "Darkside of a Hero",
           "themeNameJa": "英雄の影身",
-          "themeNameCn": "英雄的影子",
+          "themeNameCn": "英雄の影身",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -21144,7 +21144,7 @@
           "themeId": 103,
           "themeNameEn": "Turn-coatee",
           "themeNameJa": "コーティ",
-          "themeNameCn": "浣熊",
+          "themeNameCn": "长鼻浣熊",
           "themeCnSource": "jp_translate",
           "dyeId": 72,
           "dyeNameCn": "虚空蓝",
@@ -22606,7 +22606,7 @@
       "weeklyThemeId": 63,
       "weeklyThemeNameEn": "Letters from the New World",
       "weeklyThemeNameJa": "新大陸の民",
-      "weeklyThemeNameCn": "新大陆人民",
+      "weeklyThemeNameCn": "新大陆的人们",
       "slots": [
         {
           "week": 54,
@@ -22923,7 +22923,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -24326,7 +24326,7 @@
           "themeId": 103,
           "themeNameEn": "Turn-coatee",
           "themeNameJa": "コーティ",
-          "themeNameCn": "浣熊",
+          "themeNameCn": "长鼻浣熊",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24358,7 +24358,7 @@
       "weeklyThemeId": 34,
       "weeklyThemeNameEn": "The 48th Ronin",
       "weeklyThemeNameJa": "さすらいの浪人",
-      "weeklyThemeNameCn": "流浪浪人",
+      "weeklyThemeNameCn": "浪人",
       "slots": [
         {
           "week": 25,
@@ -24570,7 +24570,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24831,7 +24831,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -26033,7 +26033,7 @@
       },
       {
         "themeId": 34,
-        "themeNameCn": "流浪浪人",
+        "themeNameCn": "浪人",
         "themeNameEn": "The 48th Ronin",
         "count": 1
       },
@@ -26207,7 +26207,7 @@
       },
       {
         "themeId": 63,
-        "themeNameCn": "新大陆人民",
+        "themeNameCn": "新大陆的人们",
         "themeNameEn": "Letters from the New World",
         "count": 1
       },
@@ -26591,19 +26591,19 @@
       },
       {
         "themeId": 128,
-        "themeNameCn": "蒙面反叛者",
+        "themeNameCn": "覆面の逆賊",
         "themeNameEn": "Masked Marauder",
         "count": 1
       },
       {
         "themeId": 129,
-        "themeNameCn": "轻冒险家",
+        "themeNameCn": "軽装の冒険家",
         "themeNameEn": "Casual Quester",
         "count": 1
       },
       {
         "themeId": 130,
-        "themeNameCn": "好战的农民",
+        "themeNameCn": "好戦的なファーマー",
         "themeNameEn": "Swords and Plowshares",
         "count": 1
       },
@@ -26633,31 +26633,31 @@
       },
       {
         "themeId": 135,
-        "themeNameCn": "时尚间谍",
+        "themeNameCn": "おしゃれな密偵",
         "themeNameEn": "Snazzy Spy",
         "count": 1
       },
       {
         "themeId": 136,
-        "themeNameCn": "小丑学徒",
+        "themeNameCn": "見習い道化師",
         "themeNameEn": "Jester-in-training",
         "count": 1
       },
       {
         "themeId": 137,
-        "themeNameCn": "令人难以置信的经销商",
+        "themeNameCn": "破天荒なディーラー",
         "themeNameEn": "Dangerous Dealer",
         "count": 1
       },
       {
         "themeId": 138,
-        "themeNameCn": "加隆德调查员",
+        "themeNameCn": "ガーロンド社の調査員",
         "themeNameEn": "Garlond Go-getter",
         "count": 1
       },
       {
         "themeId": 139,
-        "themeNameCn": "勤劳的工匠",
+        "themeNameCn": "努力家の職人",
         "themeNameEn": "Dedicated to the Craft",
         "count": 1
       },
@@ -27035,7 +27035,7 @@
       },
       {
         "themeId": 202,
-        "themeNameCn": "一个谦虚的厨师",
+        "themeNameCn": "一个卑微的厨师",
         "themeNameEn": "Simple Chef",
         "count": 1
       },
@@ -27221,7 +27221,7 @@
       },
       {
         "themeId": 233,
-        "themeNameCn": "野兽的法杖",
+        "themeNameCn": "野兽之杖",
         "themeNameEn": "Animalistic Advisor",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬衣",
+        "themeNameCn": "帝都风格冬装",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -27527,7 +27527,7 @@
       },
       {
         "themeId": 284,
-        "themeNameCn": "新大陆的野外工作人员",
+        "themeNameCn": "新大陆的现场工作者",
         "themeNameEn": "New World, New Workfolk",
         "count": 1
       },
@@ -27719,7 +27719,7 @@
       },
       {
         "themeId": 316,
-        "themeNameCn": "七夕兽节",
+        "themeNameCn": "星芒祭の獣",
         "themeNameEn": "Beast by Starlight",
         "count": 1
       },
@@ -27881,7 +27881,7 @@
       },
       {
         "themeId": 343,
-        "themeNameCn": "穿着工作服的小丑",
+        "themeNameCn": "作業着の道化",
         "themeNameEn": "Jester on the Job",
         "count": 1
       },
@@ -28103,7 +28103,7 @@
       },
       {
         "themeId": 381,
-        "themeNameCn": "一个爱花的工作者",
+        "themeNameCn": "一个爱花的工人",
         "themeNameEn": "Blooming Builder",
         "count": 1
       },
@@ -28403,7 +28403,7 @@
           "slotCn": "头部",
           "slotEn": "Head",
           "themeId": 151,
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeNameEn": "Future Arma",
           "count": 6
         },
@@ -28655,7 +28655,7 @@
           "slotCn": "头部",
           "slotEn": "Head",
           "themeId": 205,
-          "themeNameCn": "英雄的影子",
+          "themeNameCn": "英雄の影身",
           "themeNameEn": "Darkside of a Hero",
           "count": 3
         },
@@ -28943,7 +28943,7 @@
           "slotCn": "头部",
           "slotEn": "Head",
           "themeId": 245,
-          "themeNameCn": "子孙旅行者",
+          "themeNameCn": "サイオンズトラベラー",
           "themeNameEn": "Traveling Dawn",
           "count": 1
         },
@@ -29485,7 +29485,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 103,
-          "themeNameCn": "浣熊",
+          "themeNameCn": "长鼻浣熊",
           "themeNameEn": "Turn-coatee",
           "count": 3
         },
@@ -29521,7 +29521,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 245,
-          "themeNameCn": "子孙旅行者",
+          "themeNameCn": "サイオンズトラベラー",
           "themeNameEn": "Traveling Dawn",
           "count": 3
         },
@@ -30108,7 +30108,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 120,
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeNameEn": "Flutterbye",
           "count": 4
         },
@@ -30279,7 +30279,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 178,
-          "themeNameCn": "恶魔般的",
+          "themeNameCn": "恶魔的",
           "themeNameEn": "Diabolical",
           "count": 3
         },
