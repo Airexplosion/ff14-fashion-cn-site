@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1779252127,
+  "generatedAt": 1779271495,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1816,7 +1816,7 @@
       "weeklyThemeId": 403,
       "weeklyThemeNameEn": "Advanced Explorer",
       "weeklyThemeNameJa": "未来を進む探検家",
-      "weeklyThemeNameCn": "一个走向未来的探索者",
+      "weeklyThemeNameCn": "迈向未来的探索者",
       "slots": [
         {
           "week": 394,
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯卡",
+      "weeklyThemeNameCn": "野生达尔马斯坎",
       "slots": [
         {
           "week": 388,
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝成立十周年",
+      "weeklyThemeNameCn": "庆祝出道十周年的人们",
       "slots": [
         {
           "week": 289,
@@ -11006,7 +11006,7 @@
       "weeklyThemeId": 249,
       "weeklyThemeNameEn": "Deepforest Magician",
       "weeklyThemeNameJa": "深森の魔法使い",
-      "weeklyThemeNameCn": "森林深处的巫师",
+      "weeklyThemeNameCn": "深森の魔法使い",
       "slots": [
         {
           "week": 240,
@@ -13248,7 +13248,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -13785,7 +13785,7 @@
       "weeklyThemeId": 204,
       "weeklyThemeNameEn": "Anonymous Supporter",
       "weeklyThemeNameJa": "マスカレイド",
-      "weeklyThemeNameCn": "化装舞会",
+      "weeklyThemeNameCn": "マスカレイド",
       "slots": [
         {
           "week": 195,
@@ -15535,7 +15535,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -17433,7 +17433,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻甲战士",
+      "weeklyThemeNameCn": "軽装の闘士",
       "slots": [
         {
           "week": 90,
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻甲战士",
+        "themeNameCn": "軽装の闘士",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -27047,7 +27047,7 @@
       },
       {
         "themeId": 204,
-        "themeNameCn": "化装舞会",
+        "themeNameCn": "マスカレイド",
         "themeNameEn": "Anonymous Supporter",
         "count": 1
       },
@@ -27317,7 +27317,7 @@
       },
       {
         "themeId": 249,
-        "themeNameCn": "森林深处的巫师",
+        "themeNameCn": "深森の魔法使い",
         "themeNameEn": "Deepforest Magician",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝成立十周年",
+        "themeNameCn": "庆祝出道十周年的人们",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯卡",
+        "themeNameCn": "野生达尔马斯坎",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -28235,7 +28235,7 @@
       },
       {
         "themeId": 403,
-        "themeNameCn": "一个走向未来的探索者",
+        "themeNameCn": "迈向未来的探索者",
         "themeNameEn": "Advanced Explorer",
         "count": 1
       },
@@ -30279,7 +30279,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 178,
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeNameEn": "Diabolical",
           "count": 3
         },
