@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1779271495,
+  "generatedAt": 1779293026,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "燃烧的战士",
+      "weeklyThemeNameCn": "火热的战士",
       "slots": [
         {
           "week": 295,
@@ -11006,7 +11006,7 @@
       "weeklyThemeId": 249,
       "weeklyThemeNameEn": "Deepforest Magician",
       "weeklyThemeNameJa": "深森の魔法使い",
-      "weeklyThemeNameCn": "深森の魔法使い",
+      "weeklyThemeNameCn": "森林深处的巫师",
       "slots": [
         {
           "week": 240,
@@ -13785,7 +13785,7 @@
       "weeklyThemeId": 204,
       "weeklyThemeNameEn": "Anonymous Supporter",
       "weeklyThemeNameJa": "マスカレイド",
-      "weeklyThemeNameCn": "マスカレイド",
+      "weeklyThemeNameCn": "化装舞会",
       "slots": [
         {
           "week": 195,
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "軽装の闘士",
+      "weeklyThemeNameCn": "轻装甲战斗机",
       "slots": [
         {
           "week": 90,
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "軽装の闘士",
+        "themeNameCn": "轻装甲战斗机",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -27047,7 +27047,7 @@
       },
       {
         "themeId": 204,
-        "themeNameCn": "マスカレイド",
+        "themeNameCn": "化装舞会",
         "themeNameEn": "Anonymous Supporter",
         "count": 1
       },
@@ -27317,7 +27317,7 @@
       },
       {
         "themeId": 249,
-        "themeNameCn": "深森の魔法使い",
+        "themeNameCn": "森林深处的巫师",
         "themeNameEn": "Deepforest Magician",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "燃烧的战士",
+        "themeNameCn": "火热的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
