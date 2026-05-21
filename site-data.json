@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1779379020,
+  "generatedAt": 1779394613,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -21132,7 +21132,7 @@
       "weeklyThemeId": 88,
       "weeklyThemeNameEn": "Ul'dahn Nights",
       "weeklyThemeNameJa": "砂都の午後",
-      "weeklyThemeNameCn": "砂都の午後",
+      "weeklyThemeNameCn": "沙城的下午",
       "slots": [
         {
           "week": 79,
@@ -26357,7 +26357,7 @@
       },
       {
         "themeId": 88,
-        "themeNameCn": "砂都の午後",
+        "themeNameCn": "沙城的下午",
         "themeNameEn": "Ul'dahn Nights",
         "count": 1
       },
