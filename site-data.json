@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1779338996,
+  "generatedAt": 1779358800,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -4984,7 +4984,7 @@
       "weeklyThemeId": 348,
       "weeklyThemeNameEn": "Iniquitous Archon",
       "weeklyThemeNameJa": "悪魔的な賢人",
-      "weeklyThemeNameCn": "恶魔般的聪明人",
+      "weeklyThemeNameCn": "恶魔般的智者",
       "slots": [
         {
           "week": 339,
@@ -7329,7 +7329,7 @@
       "weeklyThemeId": 309,
       "weeklyThemeNameEn": "Cosmos of Thorns",
       "weeklyThemeNameJa": "茨に咲くコスモス",
-      "weeklyThemeNameCn": "荆棘上盛开的波斯菊",
+      "weeklyThemeNameCn": "荆棘上绽放的波斯菊",
       "slots": [
         {
           "week": 300,
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "火热的战士",
+      "weeklyThemeNameCn": "燃烧的战士",
       "slots": [
         {
           "week": 295,
@@ -10606,7 +10606,7 @@
       "weeklyThemeId": 255,
       "weeklyThemeNameEn": "Genteel Physician",
       "weeklyThemeNameJa": "紳士な奇術師",
-      "weeklyThemeNameCn": "绅士魔术师",
+      "weeklyThemeNameCn": "紳士な奇術師",
       "slots": [
         {
           "week": 246,
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "深红节参加者",
+      "weeklyThemeNameCn": "红莲祭参加者",
       "slots": [
         {
           "week": 225,
@@ -12033,7 +12033,7 @@
       "weeklyThemeId": 233,
       "weeklyThemeNameEn": "Animalistic Advisor",
       "weeklyThemeNameJa": "獣の参謀",
-      "weeklyThemeNameCn": "野兽的法杖",
+      "weeklyThemeNameCn": "野兽之杖",
       "slots": [
         {
           "week": 224,
@@ -13907,7 +13907,7 @@
       "weeklyThemeId": 202,
       "weeklyThemeNameEn": "Simple Chef",
       "weeklyThemeNameJa": "地味な調理師",
-      "weeklyThemeNameCn": "一个谦虚的厨师",
+      "weeklyThemeNameCn": "一个卑微的厨师",
       "slots": [
         {
           "week": 193,
@@ -14699,7 +14699,7 @@
       "weeklyThemeId": 189,
       "weeklyThemeNameEn": "Killer Jufuku",
       "weeklyThemeNameJa": "戎服の刺客",
-      "weeklyThemeNameCn": "穿制服的刺客",
+      "weeklyThemeNameCn": "穿着制服的刺客",
       "slots": [
         {
           "week": 180,
@@ -17282,7 +17282,7 @@
       "weeklyThemeId": 150,
       "weeklyThemeNameEn": "Urbane Ul'dahn",
       "weeklyThemeNameJa": "砂都の洒落者",
-      "weeklyThemeNameCn": "沙城时尚达人",
+      "weeklyThemeNameCn": "砂都の洒落者",
       "slots": [
         {
           "week": 141,
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻装甲战斗机",
+      "weeklyThemeNameCn": "轻甲战士",
       "slots": [
         {
           "week": 90,
@@ -21132,7 +21132,7 @@
       "weeklyThemeId": 88,
       "weeklyThemeNameEn": "Ul'dahn Nights",
       "weeklyThemeNameJa": "砂都の午後",
-      "weeklyThemeNameCn": "沙城的下午",
+      "weeklyThemeNameCn": "砂都の午後",
       "slots": [
         {
           "week": 79,
@@ -26357,7 +26357,7 @@
       },
       {
         "themeId": 88,
-        "themeNameCn": "沙城的下午",
+        "themeNameCn": "砂都の午後",
         "themeNameEn": "Ul'dahn Nights",
         "count": 1
       },
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻装甲战斗机",
+        "themeNameCn": "轻甲战士",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -26723,7 +26723,7 @@
       },
       {
         "themeId": 150,
-        "themeNameCn": "沙城时尚达人",
+        "themeNameCn": "砂都の洒落者",
         "themeNameEn": "Urbane Ul'dahn",
         "count": 1
       },
@@ -26957,7 +26957,7 @@
       },
       {
         "themeId": 189,
-        "themeNameCn": "穿制服的刺客",
+        "themeNameCn": "穿着制服的刺客",
         "themeNameEn": "Killer Jufuku",
         "count": 1
       },
@@ -27035,7 +27035,7 @@
       },
       {
         "themeId": 202,
-        "themeNameCn": "一个谦虚的厨师",
+        "themeNameCn": "一个卑微的厨师",
         "themeNameEn": "Simple Chef",
         "count": 1
       },
@@ -27221,13 +27221,13 @@
       },
       {
         "themeId": 233,
-        "themeNameCn": "野兽的法杖",
+        "themeNameCn": "野兽之杖",
         "themeNameEn": "Animalistic Advisor",
         "count": 1
       },
       {
         "themeId": 234,
-        "themeNameCn": "深红节参加者",
+        "themeNameCn": "红莲祭参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27353,7 +27353,7 @@
       },
       {
         "themeId": 255,
-        "themeNameCn": "绅士魔术师",
+        "themeNameCn": "紳士な奇術師",
         "themeNameEn": "Genteel Physician",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "火热的战士",
+        "themeNameCn": "燃烧的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
@@ -27677,7 +27677,7 @@
       },
       {
         "themeId": 309,
-        "themeNameCn": "荆棘上盛开的波斯菊",
+        "themeNameCn": "荆棘上绽放的波斯菊",
         "themeNameEn": "Cosmos of Thorns",
         "count": 1
       },
@@ -27911,7 +27911,7 @@
       },
       {
         "themeId": 348,
-        "themeNameCn": "恶魔般的聪明人",
+        "themeNameCn": "恶魔般的智者",
         "themeNameEn": "Iniquitous Archon",
         "count": 1
       },
