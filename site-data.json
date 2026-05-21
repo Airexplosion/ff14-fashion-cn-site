@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1779358800,
+  "generatedAt": 1779379020,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -10606,7 +10606,7 @@
       "weeklyThemeId": 255,
       "weeklyThemeNameEn": "Genteel Physician",
       "weeklyThemeNameJa": "紳士な奇術師",
-      "weeklyThemeNameCn": "紳士な奇術師",
+      "weeklyThemeNameCn": "绅士魔术师",
       "slots": [
         {
           "week": 246,
@@ -17282,7 +17282,7 @@
       "weeklyThemeId": 150,
       "weeklyThemeNameEn": "Urbane Ul'dahn",
       "weeklyThemeNameJa": "砂都の洒落者",
-      "weeklyThemeNameCn": "砂都の洒落者",
+      "weeklyThemeNameCn": "沙城时尚达人",
       "slots": [
         {
           "week": 141,
@@ -26723,7 +26723,7 @@
       },
       {
         "themeId": 150,
-        "themeNameCn": "砂都の洒落者",
+        "themeNameCn": "沙城时尚达人",
         "themeNameEn": "Urbane Ul'dahn",
         "count": 1
       },
@@ -27353,7 +27353,7 @@
       },
       {
         "themeId": 255,
-        "themeNameCn": "紳士な奇術師",
+        "themeNameCn": "绅士魔术师",
         "themeNameEn": "Genteel Physician",
         "count": 1
       },
