@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1779525412,
+  "generatedAt": 1779545918,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1816,7 +1816,7 @@
       "weeklyThemeId": 403,
       "weeklyThemeNameEn": "Advanced Explorer",
       "weeklyThemeNameJa": "未来を進む探検家",
-      "weeklyThemeNameCn": "迈向未来的探索者",
+      "weeklyThemeNameCn": "一个走向未来的探索者",
       "slots": [
         {
           "week": 394,
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯坎",
+      "weeklyThemeNameCn": "野生达尔马斯卡",
       "slots": [
         {
           "week": 388,
@@ -4984,7 +4984,7 @@
       "weeklyThemeId": 348,
       "weeklyThemeNameEn": "Iniquitous Archon",
       "weeklyThemeNameJa": "悪魔的な賢人",
-      "weeklyThemeNameCn": "恶魔般的智者",
+      "weeklyThemeNameCn": "恶魔般的聪明人",
       "slots": [
         {
           "week": 339,
@@ -7329,7 +7329,7 @@
       "weeklyThemeId": 309,
       "weeklyThemeNameEn": "Cosmos of Thorns",
       "weeklyThemeNameJa": "茨に咲くコスモス",
-      "weeklyThemeNameCn": "荆棘上绽放的波斯菊",
+      "weeklyThemeNameCn": "荆棘上盛开的波斯菊",
       "slots": [
         {
           "week": 300,
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝出道十周年的人们",
+      "weeklyThemeNameCn": "庆祝成立十周年",
       "slots": [
         {
           "week": 289,
@@ -11357,7 +11357,7 @@
           "themeId": 122,
           "themeNameEn": "Hells or High Water",
           "themeNameJa": "七分丈",
-          "themeNameCn": "四分之三长度",
+          "themeNameCn": "七分丈",
           "themeCnSource": "jp_translate",
           "dyeId": 25,
           "dyeNameCn": "山羊棕",
@@ -12033,7 +12033,7 @@
       "weeklyThemeId": 233,
       "weeklyThemeNameEn": "Animalistic Advisor",
       "weeklyThemeNameJa": "獣の参謀",
-      "weeklyThemeNameCn": "野兽之杖",
+      "weeklyThemeNameCn": "野兽的法杖",
       "slots": [
         {
           "week": 224,
@@ -13907,7 +13907,7 @@
       "weeklyThemeId": 202,
       "weeklyThemeNameEn": "Simple Chef",
       "weeklyThemeNameJa": "地味な調理師",
-      "weeklyThemeNameCn": "一个卑微的厨师",
+      "weeklyThemeNameCn": "一个谦虚的厨师",
       "slots": [
         {
           "week": 193,
@@ -14699,7 +14699,7 @@
       "weeklyThemeId": 189,
       "weeklyThemeNameEn": "Killer Jufuku",
       "weeklyThemeNameJa": "戎服の刺客",
-      "weeklyThemeNameCn": "穿着制服的刺客",
+      "weeklyThemeNameCn": "穿制服的刺客",
       "slots": [
         {
           "week": 180,
@@ -16933,7 +16933,7 @@
       "weeklyThemeId": 156,
       "weeklyThemeNameEn": "Drowned City Dandy",
       "weeklyThemeNameJa": "スカラの伊達者",
-      "weeklyThemeNameCn": "标量傲慢",
+      "weeklyThemeNameCn": "スカラの伊達者",
       "slots": [
         {
           "week": 147,
@@ -18336,7 +18336,7 @@
       "weeklyThemeId": 133,
       "weeklyThemeNameEn": "Rebel with a Cause",
       "weeklyThemeNameJa": "反乱の信徒",
-      "weeklyThemeNameCn": "叛逆的信徒",
+      "weeklyThemeNameCn": "反叛信徒",
       "slots": [
         {
           "week": 124,
@@ -20202,7 +20202,7 @@
           "themeId": 122,
           "themeNameEn": "Hells or High Water",
           "themeNameJa": "七分丈",
-          "themeNameCn": "四分之三长度",
+          "themeNameCn": "七分丈",
           "themeCnSource": "jp_translate",
           "dyeId": 25,
           "dyeNameCn": "山羊棕",
@@ -22818,7 +22818,7 @@
           "themeId": 122,
           "themeNameEn": "Hells or High Water",
           "themeNameJa": "七分丈",
-          "themeNameCn": "四分之三长度",
+          "themeNameCn": "七分丈",
           "themeCnSource": "jp_translate",
           "dyeId": 21,
           "dyeNameCn": "钴铁棕",
@@ -24175,7 +24175,7 @@
       "weeklyThemeId": 37,
       "weeklyThemeNameEn": "Revolution Gown",
       "weeklyThemeNameJa": "アラミガンガウンの使い手",
-      "weeklyThemeNameCn": "Ala Mhigan 礼服的使用者",
+      "weeklyThemeNameCn": "アラミガンガウンの使い手",
       "slots": [
         {
           "week": 28,
@@ -24221,7 +24221,7 @@
           "themeId": 122,
           "themeNameEn": "Hells or High Water",
           "themeNameJa": "七分丈",
-          "themeNameCn": "四分之三长度",
+          "themeNameCn": "七分丈",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24282,7 +24282,7 @@
           "themeId": 122,
           "themeNameEn": "Hells or High Water",
           "themeNameJa": "七分丈",
-          "themeNameCn": "四分之三长度",
+          "themeNameCn": "七分丈",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -26051,7 +26051,7 @@
       },
       {
         "themeId": 37,
-        "themeNameCn": "Ala Mhigan 礼服的使用者",
+        "themeNameCn": "アラミガンガウンの使い手",
         "themeNameEn": "Revolution Gown",
         "count": 1
       },
@@ -26621,7 +26621,7 @@
       },
       {
         "themeId": 133,
-        "themeNameCn": "叛逆的信徒",
+        "themeNameCn": "反叛信徒",
         "themeNameEn": "Rebel with a Cause",
         "count": 1
       },
@@ -26759,7 +26759,7 @@
       },
       {
         "themeId": 156,
-        "themeNameCn": "标量傲慢",
+        "themeNameCn": "スカラの伊達者",
         "themeNameEn": "Drowned City Dandy",
         "count": 1
       },
@@ -26957,7 +26957,7 @@
       },
       {
         "themeId": 189,
-        "themeNameCn": "穿着制服的刺客",
+        "themeNameCn": "穿制服的刺客",
         "themeNameEn": "Killer Jufuku",
         "count": 1
       },
@@ -27035,7 +27035,7 @@
       },
       {
         "themeId": 202,
-        "themeNameCn": "一个卑微的厨师",
+        "themeNameCn": "一个谦虚的厨师",
         "themeNameEn": "Simple Chef",
         "count": 1
       },
@@ -27221,7 +27221,7 @@
       },
       {
         "themeId": 233,
-        "themeNameCn": "野兽之杖",
+        "themeNameCn": "野兽的法杖",
         "themeNameEn": "Animalistic Advisor",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝出道十周年的人们",
+        "themeNameCn": "庆祝成立十周年",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -27677,7 +27677,7 @@
       },
       {
         "themeId": 309,
-        "themeNameCn": "荆棘上绽放的波斯菊",
+        "themeNameCn": "荆棘上盛开的波斯菊",
         "themeNameEn": "Cosmos of Thorns",
         "count": 1
       },
@@ -27911,7 +27911,7 @@
       },
       {
         "themeId": 348,
-        "themeNameCn": "恶魔般的智者",
+        "themeNameCn": "恶魔般的聪明人",
         "themeNameEn": "Iniquitous Archon",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯坎",
+        "themeNameCn": "野生达尔马斯卡",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -28235,7 +28235,7 @@
       },
       {
         "themeId": 403,
-        "themeNameCn": "迈向未来的探索者",
+        "themeNameCn": "一个走向未来的探索者",
         "themeNameEn": "Advanced Explorer",
         "count": 1
       },
@@ -30063,7 +30063,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 122,
-          "themeNameCn": "四分之三长度",
+          "themeNameCn": "七分丈",
           "themeNameEn": "Hells or High Water",
           "count": 5
         },
