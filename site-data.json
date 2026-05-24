@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1779597925,
+  "generatedAt": 1779612566,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -3580,7 +3580,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -3944,7 +3944,7 @@
       "weeklyThemeId": 367,
       "weeklyThemeNameEn": "Flair for Genius",
       "weeklyThemeNameJa": "洒落者の俊英",
-      "weeklyThemeNameCn": "时尚的俊秀",
+      "weeklyThemeNameCn": "时尚的俊英",
       "slots": [
         {
           "week": 358,
@@ -4242,7 +4242,7 @@
       "weeklyThemeId": 361,
       "weeklyThemeNameEn": "Sport Support",
       "weeklyThemeNameJa": "応援スタイルの観客",
-      "weeklyThemeNameCn": "欢呼风格的观众",
+      "weeklyThemeNameCn": "欢呼式的观众",
       "slots": [
         {
           "week": 352,
@@ -5982,7 +5982,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 1,
           "dyeNameCn": "素雪白",
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "火热的战士",
+      "weeklyThemeNameCn": "燃烧的战士",
       "slots": [
         {
           "week": 295,
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "深红节参加者",
+      "weeklyThemeNameCn": "红莲祭参加者",
       "slots": [
         {
           "week": 225,
@@ -14406,7 +14406,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 112,
           "dyeNameCn": "闪耀银",
@@ -16474,7 +16474,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16657,7 +16657,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -21071,7 +21071,7 @@
       "weeklyThemeId": 89,
       "weeklyThemeNameEn": "Garlond Says",
       "weeklyThemeNameJa": "ガーロンド社の作業員",
-      "weeklyThemeNameCn": "嘉隆工人",
+      "weeklyThemeNameCn": "嘉隆德工人",
       "slots": [
         {
           "week": 80,
@@ -21571,7 +21571,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -26363,7 +26363,7 @@
       },
       {
         "themeId": 89,
-        "themeNameCn": "嘉隆工人",
+        "themeNameCn": "嘉隆德工人",
         "themeNameEn": "Garlond Says",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "深红节参加者",
+        "themeNameCn": "红莲祭参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "火热的战士",
+        "themeNameCn": "燃烧的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
@@ -27983,7 +27983,7 @@
       },
       {
         "themeId": 361,
-        "themeNameCn": "欢呼风格的观众",
+        "themeNameCn": "欢呼式的观众",
         "themeNameEn": "Sport Support",
         "count": 1
       },
@@ -28019,7 +28019,7 @@
       },
       {
         "themeId": 367,
-        "themeNameCn": "时尚的俊秀",
+        "themeNameCn": "时尚的俊英",
         "themeNameEn": "Flair for Genius",
         "count": 1
       },
@@ -30171,7 +30171,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 4
         },
@@ -30812,7 +30812,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 2
         },
