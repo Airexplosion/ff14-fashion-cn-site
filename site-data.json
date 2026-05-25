@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1779631561,
+  "generatedAt": 1779685068,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1816,7 +1816,7 @@
       "weeklyThemeId": 403,
       "weeklyThemeNameEn": "Advanced Explorer",
       "weeklyThemeNameJa": "未来を進む探検家",
-      "weeklyThemeNameCn": "一个走向未来的探索者",
+      "weeklyThemeNameCn": "迈向未来的探索者",
       "slots": [
         {
           "week": 394,
@@ -3944,7 +3944,7 @@
       "weeklyThemeId": 367,
       "weeklyThemeNameEn": "Flair for Genius",
       "weeklyThemeNameJa": "洒落者の俊英",
-      "weeklyThemeNameCn": "时尚的俊英",
+      "weeklyThemeNameCn": "时尚的俊秀",
       "slots": [
         {
           "week": 358,
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬装",
+      "weeklyThemeNameCn": "帝都风格冬衣",
       "slots": [
         {
           "week": 262,
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻甲战士",
+      "weeklyThemeNameCn": "轻装甲战斗机",
       "slots": [
         {
           "week": 90,
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻甲战士",
+        "themeNameCn": "轻装甲战斗机",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬装",
+        "themeNameCn": "帝都风格冬衣",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -28019,7 +28019,7 @@
       },
       {
         "themeId": 367,
-        "themeNameCn": "时尚的俊英",
+        "themeNameCn": "时尚的俊秀",
         "themeNameEn": "Flair for Genius",
         "count": 1
       },
@@ -28235,7 +28235,7 @@
       },
       {
         "themeId": 403,
-        "themeNameCn": "一个走向未来的探索者",
+        "themeNameCn": "迈向未来的探索者",
         "themeNameEn": "Advanced Explorer",
         "count": 1
       },
