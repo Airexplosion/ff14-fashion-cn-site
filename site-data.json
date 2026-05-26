@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1779740146,
+  "generatedAt": 1779791432,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯卡",
+      "weeklyThemeNameCn": "野生达尔马斯坎",
       "slots": [
         {
           "week": 388,
@@ -3241,7 +3241,7 @@
           "themeId": 209,
           "themeNameEn": "Moon Unit",
           "themeNameJa": "三日月立物",
-          "themeNameCn": "三日月立物",
+          "themeNameCn": "新月雕像",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -3580,7 +3580,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -4078,7 +4078,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "狼人",
+          "themeNameCn": "加罗",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -4242,7 +4242,7 @@
       "weeklyThemeId": 361,
       "weeklyThemeNameEn": "Sport Support",
       "weeklyThemeNameJa": "応援スタイルの観客",
-      "weeklyThemeNameCn": "欢呼风格的观众",
+      "weeklyThemeNameCn": "欢呼式的观众",
       "slots": [
         {
           "week": 352,
@@ -5189,7 +5189,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "狼人",
+          "themeNameCn": "加罗",
           "themeCnSource": "jp_translate",
           "dyeId": 93,
           "dyeNameCn": "珍珠白",
@@ -5982,7 +5982,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 1,
           "dyeNameCn": "素雪白",
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝成立十周年",
+      "weeklyThemeNameCn": "庆祝出道十周年的人们",
       "slots": [
         {
           "week": 289,
@@ -11052,7 +11052,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -13907,7 +13907,7 @@
       "weeklyThemeId": 202,
       "weeklyThemeNameEn": "Simple Chef",
       "weeklyThemeNameJa": "地味な調理師",
-      "weeklyThemeNameCn": "一个卑微的厨师",
+      "weeklyThemeNameCn": "一个谦虚的厨师",
       "slots": [
         {
           "week": 193,
@@ -14085,7 +14085,7 @@
           "themeId": 209,
           "themeNameEn": "Moon Unit",
           "themeNameJa": "三日月立物",
-          "themeNameCn": "三日月立物",
+          "themeNameCn": "新月雕像",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -14406,7 +14406,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 112,
           "dyeNameCn": "闪耀银",
@@ -16474,7 +16474,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16657,7 +16657,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -17128,7 +17128,7 @@
           "themeId": 209,
           "themeNameEn": "Moon Unit",
           "themeNameJa": "三日月立物",
-          "themeNameCn": "三日月立物",
+          "themeNameCn": "新月雕像",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -17372,7 +17372,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -19434,7 +19434,7 @@
       "weeklyThemeId": 115,
       "weeklyThemeNameEn": "Snappy Socialite",
       "weeklyThemeNameJa": "都市の洒落者",
-      "weeklyThemeNameCn": "都市时尚人士",
+      "weeklyThemeNameCn": "都市时尚达人",
       "slots": [
         {
           "week": 106,
@@ -21571,7 +21571,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -24570,7 +24570,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24831,7 +24831,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -26513,7 +26513,7 @@
       },
       {
         "themeId": 115,
-        "themeNameCn": "都市时尚人士",
+        "themeNameCn": "都市时尚达人",
         "themeNameEn": "Snappy Socialite",
         "count": 1
       },
@@ -27035,7 +27035,7 @@
       },
       {
         "themeId": 202,
-        "themeNameCn": "一个卑微的厨师",
+        "themeNameCn": "一个谦虚的厨师",
         "themeNameEn": "Simple Chef",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝成立十周年",
+        "themeNameCn": "庆祝出道十周年的人们",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -27983,7 +27983,7 @@
       },
       {
         "themeId": 361,
-        "themeNameCn": "欢呼风格的观众",
+        "themeNameCn": "欢呼式的观众",
         "themeNameEn": "Sport Support",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯卡",
+        "themeNameCn": "野生达尔马斯坎",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -28691,7 +28691,7 @@
           "slotCn": "头部",
           "slotEn": "Head",
           "themeId": 209,
-          "themeNameCn": "三日月立物",
+          "themeNameCn": "新月雕像",
           "themeNameEn": "Moon Unit",
           "count": 3
         },
@@ -29818,7 +29818,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 37,
-          "themeNameCn": "狼人",
+          "themeNameCn": "加罗",
           "themeNameEn": "Going Garo",
           "count": 1
         },
@@ -30108,7 +30108,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 120,
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeNameEn": "Flutterbye",
           "count": 4
         },
@@ -30171,7 +30171,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 4
         },
@@ -30812,7 +30812,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 2
         },
@@ -30911,7 +30911,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 37,
-          "themeNameCn": "狼人",
+          "themeNameCn": "加罗",
           "themeNameEn": "Going Garo",
           "count": 1
         },
