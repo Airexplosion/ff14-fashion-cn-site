@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1779965150,
+  "generatedAt": 1779986340,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -13080,7 +13080,7 @@
       "weeklyThemeId": 215,
       "weeklyThemeNameEn": "Animalistic Samurai",
       "weeklyThemeNameJa": "獣武者",
-      "weeklyThemeNameCn": "獣武者",
+      "weeklyThemeNameCn": "野兽战士",
       "slots": [
         {
           "week": 206,
@@ -27113,7 +27113,7 @@
       },
       {
         "themeId": 215,
-        "themeNameCn": "獣武者",
+        "themeNameCn": "野兽战士",
         "themeNameEn": "Animalistic Samurai",
         "count": 1
       },
