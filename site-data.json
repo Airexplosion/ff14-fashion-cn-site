@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1780203846,
+  "generatedAt": 1780219705,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -11523,7 +11523,7 @@
           "themeId": 205,
           "themeNameEn": "Darkside of a Hero",
           "themeNameJa": "英雄の影身",
-          "themeNameCn": "英雄の影身",
+          "themeNameCn": "英雄的影子",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -12155,7 +12155,7 @@
       "weeklyThemeId": 231,
       "weeklyThemeNameEn": "Wolf in the Woods",
       "weeklyThemeNameJa": "狼の武芸者",
-      "weeklyThemeNameCn": "狼の武芸者",
+      "weeklyThemeNameCn": "狼战士",
       "slots": [
         {
           "week": 222,
@@ -13080,7 +13080,7 @@
       "weeklyThemeId": 215,
       "weeklyThemeNameEn": "Animalistic Samurai",
       "weeklyThemeNameJa": "獣武者",
-      "weeklyThemeNameCn": "獣武者",
+      "weeklyThemeNameCn": "野兽战士",
       "slots": [
         {
           "week": 206,
@@ -13158,7 +13158,7 @@
       "weeklyThemeId": 214,
       "weeklyThemeNameEn": "Miscreant Mascot",
       "weeklyThemeNameJa": "着ぐるみプリンス",
-      "weeklyThemeNameCn": "着ぐるみプリンス",
+      "weeklyThemeNameCn": "基古鲁米王子",
       "slots": [
         {
           "week": 205,
@@ -13219,7 +13219,7 @@
       "weeklyThemeId": 213,
       "weeklyThemeNameEn": "Patrician Magician",
       "weeklyThemeNameJa": "高貴な魔法使い",
-      "weeklyThemeNameCn": "高貴な魔法使い",
+      "weeklyThemeNameCn": "高贵的魔法师",
       "slots": [
         {
           "week": 204,
@@ -13419,7 +13419,7 @@
       "weeklyThemeId": 210,
       "weeklyThemeNameEn": "Iron of Leg, Steady of Heart",
       "weeklyThemeNameJa": "鉄脚の貴人",
-      "weeklyThemeNameCn": "鉄脚の貴人",
+      "weeklyThemeNameCn": "铁腿贵族",
       "slots": [
         {
           "week": 201,
@@ -16440,7 +16440,7 @@
           "themeId": 205,
           "themeNameEn": "Darkside of a Hero",
           "themeNameJa": "英雄の影身",
-          "themeNameCn": "英雄の影身",
+          "themeNameCn": "英雄的影子",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -18580,7 +18580,7 @@
       "weeklyThemeId": 129,
       "weeklyThemeNameEn": "Casual Quester",
       "weeklyThemeNameJa": "軽装の冒険家",
-      "weeklyThemeNameCn": "軽装の冒険家",
+      "weeklyThemeNameCn": "轻冒险家",
       "slots": [
         {
           "week": 120,
@@ -18624,7 +18624,7 @@
       "weeklyThemeId": 128,
       "weeklyThemeNameEn": "Masked Marauder",
       "weeklyThemeNameJa": "覆面の逆賊",
-      "weeklyThemeNameCn": "覆面の逆賊",
+      "weeklyThemeNameCn": "蒙面反叛者",
       "slots": [
         {
           "week": 119,
@@ -18636,7 +18636,7 @@
           "themeId": 205,
           "themeNameEn": "Darkside of a Hero",
           "themeNameJa": "英雄の影身",
-          "themeNameCn": "英雄の影身",
+          "themeNameCn": "英雄的影子",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -26591,13 +26591,13 @@
       },
       {
         "themeId": 128,
-        "themeNameCn": "覆面の逆賊",
+        "themeNameCn": "蒙面反叛者",
         "themeNameEn": "Masked Marauder",
         "count": 1
       },
       {
         "themeId": 129,
-        "themeNameCn": "軽装の冒険家",
+        "themeNameCn": "轻冒险家",
         "themeNameEn": "Casual Quester",
         "count": 1
       },
@@ -27083,7 +27083,7 @@
       },
       {
         "themeId": 210,
-        "themeNameCn": "鉄脚の貴人",
+        "themeNameCn": "铁腿贵族",
         "themeNameEn": "Iron of Leg, Steady of Heart",
         "count": 1
       },
@@ -27101,19 +27101,19 @@
       },
       {
         "themeId": 213,
-        "themeNameCn": "高貴な魔法使い",
+        "themeNameCn": "高贵的魔法师",
         "themeNameEn": "Patrician Magician",
         "count": 1
       },
       {
         "themeId": 214,
-        "themeNameCn": "着ぐるみプリンス",
+        "themeNameCn": "基古鲁米王子",
         "themeNameEn": "Miscreant Mascot",
         "count": 1
       },
       {
         "themeId": 215,
-        "themeNameCn": "獣武者",
+        "themeNameCn": "野兽战士",
         "themeNameEn": "Animalistic Samurai",
         "count": 1
       },
@@ -27209,7 +27209,7 @@
       },
       {
         "themeId": 231,
-        "themeNameCn": "狼の武芸者",
+        "themeNameCn": "狼战士",
         "themeNameEn": "Wolf in the Woods",
         "count": 1
       },
@@ -28655,7 +28655,7 @@
           "slotCn": "头部",
           "slotEn": "Head",
           "themeId": 205,
-          "themeNameCn": "英雄の影身",
+          "themeNameCn": "英雄的影子",
           "themeNameEn": "Darkside of a Hero",
           "count": 3
         },
