@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1780237743,
+  "generatedAt": 1780338111,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1618,7 +1618,7 @@
           "themeId": 238,
           "themeNameEn": "Adventure First Worn",
           "themeNameJa": "冒険の第一歩",
-          "themeNameCn": "冒険の第一歩",
+          "themeNameCn": "冒险的第一步",
           "themeCnSource": "jp_translate",
           "dyeId": 1,
           "dyeNameCn": "素雪白",
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯卡",
+      "weeklyThemeNameCn": "野生达尔马斯坎",
       "slots": [
         {
           "week": 388,
@@ -3107,7 +3107,7 @@
       "weeklyThemeId": 381,
       "weeklyThemeNameEn": "Blooming Builder",
       "weeklyThemeNameJa": "花好きの作業員",
-      "weeklyThemeNameCn": "一个爱花的工人",
+      "weeklyThemeNameCn": "一个爱花的工作者",
       "slots": [
         {
           "week": 372,
@@ -3168,7 +3168,7 @@
       "weeklyThemeId": 380,
       "weeklyThemeNameEn": "Well-dressed Imperialist",
       "weeklyThemeNameJa": "オシャレな帝都民",
-      "weeklyThemeNameCn": "オシャレな帝都民",
+      "weeklyThemeNameCn": "帝都时尚人士",
       "slots": [
         {
           "week": 371,
@@ -6092,7 +6092,7 @@
       "weeklyThemeId": 329,
       "weeklyThemeNameEn": "Formal Mobster",
       "weeklyThemeNameJa": "フォーマルなボス",
-      "weeklyThemeNameCn": "フォーマルなボス",
+      "weeklyThemeNameCn": "正式老板",
       "slots": [
         {
           "week": 320,
@@ -7329,7 +7329,7 @@
       "weeklyThemeId": 309,
       "weeklyThemeNameEn": "Cosmos of Thorns",
       "weeklyThemeNameJa": "茨に咲くコスモス",
-      "weeklyThemeNameCn": "荆棘上绽放的波斯菊",
+      "weeklyThemeNameCn": "荆棘上盛开的波斯菊",
       "slots": [
         {
           "week": 300,
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "火热的战士",
+      "weeklyThemeNameCn": "燃烧的战士",
       "slots": [
         {
           "week": 295,
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝出道十周年的人们",
+      "weeklyThemeNameCn": "庆祝成立十周年",
       "slots": [
         {
           "week": 289,
@@ -8029,7 +8029,7 @@
           "themeId": 238,
           "themeNameEn": "Adventure First Worn",
           "themeNameJa": "冒険の第一歩",
-          "themeNameCn": "冒険の第一歩",
+          "themeNameCn": "冒险的第一步",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -8046,7 +8046,7 @@
           "themeId": 238,
           "themeNameEn": "Adventure First Worn",
           "themeNameJa": "冒険の第一歩",
-          "themeNameCn": "冒険の第一歩",
+          "themeNameCn": "冒险的第一步",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -8063,7 +8063,7 @@
           "themeId": 238,
           "themeNameEn": "Adventure First Worn",
           "themeNameJa": "冒険の第一歩",
-          "themeNameCn": "冒険の第一歩",
+          "themeNameCn": "冒险的第一步",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -9454,7 +9454,7 @@
       "weeklyThemeId": 275,
       "weeklyThemeNameEn": "Jungle Guerrilla",
       "weeklyThemeNameJa": "近東のガンナー",
-      "weeklyThemeNameCn": "近東のガンナー",
+      "weeklyThemeNameCn": "近东炮手",
       "slots": [
         {
           "week": 266,
@@ -9515,7 +9515,7 @@
       "weeklyThemeId": 274,
       "weeklyThemeNameEn": "Lounging with Elegance",
       "weeklyThemeNameJa": "エレガントな部屋着",
-      "weeklyThemeNameCn": "エレガントな部屋着",
+      "weeklyThemeNameCn": "优雅的家居服",
       "slots": [
         {
           "week": 265,
@@ -11006,7 +11006,7 @@
       "weeklyThemeId": 249,
       "weeklyThemeNameEn": "Deepforest Magician",
       "weeklyThemeNameJa": "深森の魔法使い",
-      "weeklyThemeNameCn": "深森の魔法使い",
+      "weeklyThemeNameCn": "森林深处的巫师",
       "slots": [
         {
           "week": 240,
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "深红节参加者",
+      "weeklyThemeNameCn": "红莲祭参加者",
       "slots": [
         {
           "week": 225,
@@ -16811,7 +16811,7 @@
       "weeklyThemeId": 158,
       "weeklyThemeNameEn": "Unyielding Knight",
       "weeklyThemeNameJa": "鉄壁の騎士",
-      "weeklyThemeNameCn": "鉄壁の騎士",
+      "weeklyThemeNameCn": "铁甲骑士",
       "slots": [
         {
           "week": 149,
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻甲战士",
+      "weeklyThemeNameCn": "轻装甲战斗机",
       "slots": [
         {
           "week": 90,
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻甲战士",
+        "themeNameCn": "轻装甲战斗机",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -26771,7 +26771,7 @@
       },
       {
         "themeId": 158,
-        "themeNameCn": "鉄壁の騎士",
+        "themeNameCn": "铁甲骑士",
         "themeNameEn": "Unyielding Knight",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "深红节参加者",
+        "themeNameCn": "红莲祭参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27317,7 +27317,7 @@
       },
       {
         "themeId": 249,
-        "themeNameCn": "深森の魔法使い",
+        "themeNameCn": "森林深处的巫师",
         "themeNameEn": "Deepforest Magician",
         "count": 1
       },
@@ -27467,13 +27467,13 @@
       },
       {
         "themeId": 274,
-        "themeNameCn": "エレガントな部屋着",
+        "themeNameCn": "优雅的家居服",
         "themeNameEn": "Lounging with Elegance",
         "count": 1
       },
       {
         "themeId": 275,
-        "themeNameCn": "近東のガンナー",
+        "themeNameCn": "近东炮手",
         "themeNameEn": "Jungle Guerrilla",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝出道十周年的人们",
+        "themeNameCn": "庆祝成立十周年",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "火热的战士",
+        "themeNameCn": "燃烧的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
@@ -27677,7 +27677,7 @@
       },
       {
         "themeId": 309,
-        "themeNameCn": "荆棘上绽放的波斯菊",
+        "themeNameCn": "荆棘上盛开的波斯菊",
         "themeNameEn": "Cosmos of Thorns",
         "count": 1
       },
@@ -27797,7 +27797,7 @@
       },
       {
         "themeId": 329,
-        "themeNameCn": "フォーマルなボス",
+        "themeNameCn": "正式老板",
         "themeNameEn": "Formal Mobster",
         "count": 1
       },
@@ -28097,13 +28097,13 @@
       },
       {
         "themeId": 380,
-        "themeNameCn": "オシャレな帝都民",
+        "themeNameCn": "帝都时尚人士",
         "themeNameEn": "Well-dressed Imperialist",
         "count": 1
       },
       {
         "themeId": 381,
-        "themeNameCn": "一个爱花的工人",
+        "themeNameCn": "一个爱花的工作者",
         "themeNameEn": "Blooming Builder",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯卡",
+        "themeNameCn": "野生达尔马斯坎",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -29800,7 +29800,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 238,
-          "themeNameCn": "冒険の第一歩",
+          "themeNameCn": "冒险的第一步",
           "themeNameEn": "Adventure First Worn",
           "count": 1
         },
@@ -30423,7 +30423,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 238,
-          "themeNameCn": "冒険の第一歩",
+          "themeNameCn": "冒险的第一步",
           "themeNameEn": "Adventure First Worn",
           "count": 1
         },
@@ -30839,7 +30839,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 238,
-          "themeNameCn": "冒険の第一歩",
+          "themeNameCn": "冒险的第一步",
           "themeNameEn": "Adventure First Worn",
           "count": 2
         },
