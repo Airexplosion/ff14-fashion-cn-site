@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1780338111,
+  "generatedAt": 1780377157,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯坎",
+      "weeklyThemeNameCn": "野生达尔马斯卡",
       "slots": [
         {
           "week": 388,
@@ -2880,7 +2880,7 @@
       "weeklyThemeId": 385,
       "weeklyThemeNameEn": "Accomplished at Rest",
       "weeklyThemeNameJa": "くつろぐ実力者",
-      "weeklyThemeNameCn": "轻松的人才",
+      "weeklyThemeNameCn": "くつろぐ実力者",
       "slots": [
         {
           "week": 376,
@@ -3046,7 +3046,7 @@
       "weeklyThemeId": 382,
       "weeklyThemeNameEn": "Near Eastern Explorer",
       "weeklyThemeNameJa": "近東の冒険家",
-      "weeklyThemeNameCn": "近东冒险家",
+      "weeklyThemeNameCn": "近東の冒険家",
       "slots": [
         {
           "week": 373,
@@ -3168,7 +3168,7 @@
       "weeklyThemeId": 380,
       "weeklyThemeNameEn": "Well-dressed Imperialist",
       "weeklyThemeNameJa": "オシャレな帝都民",
-      "weeklyThemeNameCn": "帝都时尚人士",
+      "weeklyThemeNameCn": "オシャレな帝都民",
       "slots": [
         {
           "week": 371,
@@ -3229,7 +3229,7 @@
       "weeklyThemeId": 379,
       "weeklyThemeNameEn": "General Holiday",
       "weeklyThemeNameJa": "休暇中の武将",
-      "weeklyThemeNameCn": "军事指挥官休假",
+      "weeklyThemeNameCn": "休暇中の武将",
       "slots": [
         {
           "week": 370,
@@ -3851,7 +3851,7 @@
           "themeId": 223,
           "themeNameEn": "Coifed to Perfection",
           "themeNameJa": "コイフ",
-          "themeNameCn": "头巾",
+          "themeNameCn": "コイフ",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -3944,7 +3944,7 @@
       "weeklyThemeId": 367,
       "weeklyThemeNameEn": "Flair for Genius",
       "weeklyThemeNameJa": "洒落者の俊英",
-      "weeklyThemeNameCn": "时尚的俊英",
+      "weeklyThemeNameCn": "洒落者の俊英",
       "slots": [
         {
           "week": 358,
@@ -4198,7 +4198,7 @@
       "weeklyThemeId": 362,
       "weeklyThemeNameEn": "Blanched Bone Bodyguard",
       "weeklyThemeNameJa": "白骨の守り手",
-      "weeklyThemeNameCn": "白骨守护者",
+      "weeklyThemeNameCn": "白骨の守り手",
       "slots": [
         {
           "week": 353,
@@ -4574,7 +4574,7 @@
       "weeklyThemeId": 355,
       "weeklyThemeNameEn": "Officer of the Outlaw",
       "weeklyThemeNameJa": "野盗の参謀",
-      "weeklyThemeNameCn": "强盗法杖",
+      "weeklyThemeNameCn": "野盗の参謀",
       "slots": [
         {
           "week": 346,
@@ -4891,7 +4891,7 @@
           "themeId": 223,
           "themeNameEn": "Coifed to Perfection",
           "themeNameJa": "コイフ",
-          "themeNameCn": "头巾",
+          "themeNameCn": "コイフ",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -5221,7 +5221,7 @@
       "weeklyThemeId": 343,
       "weeklyThemeNameEn": "Jester on the Job",
       "weeklyThemeNameJa": "作業着の道化",
-      "weeklyThemeNameCn": "穿着工作服的小丑",
+      "weeklyThemeNameCn": "作業着の道化",
       "slots": [
         {
           "week": 334,
@@ -5326,7 +5326,7 @@
       "weeklyThemeId": 341,
       "weeklyThemeNameEn": "Jousting Gentleman",
       "weeklyThemeNameJa": "武闘派の紳士",
-      "weeklyThemeNameCn": "武侠",
+      "weeklyThemeNameCn": "武闘派の紳士",
       "slots": [
         {
           "week": 332,
@@ -5387,7 +5387,7 @@
       "weeklyThemeId": 340,
       "weeklyThemeNameEn": "Weekend Warden",
       "weeklyThemeNameJa": "守護者の休日",
-      "weeklyThemeNameCn": "监护人的假期",
+      "weeklyThemeNameCn": "守護者の休日",
       "slots": [
         {
           "week": 331,
@@ -5587,7 +5587,7 @@
       "weeklyThemeId": 337,
       "weeklyThemeNameEn": "In Full Flower",
       "weeklyThemeNameJa": "満開の花々",
-      "weeklyThemeNameCn": "鲜花盛开",
+      "weeklyThemeNameCn": "満開の花々",
       "slots": [
         {
           "week": 328,
@@ -5648,7 +5648,7 @@
       "weeklyThemeId": 336,
       "weeklyThemeNameEn": "Booted Bookworm",
       "weeklyThemeNameJa": "ロングブーツの読書家",
-      "weeklyThemeNameCn": "长靴读者",
+      "weeklyThemeNameCn": "ロングブーツの読書家",
       "slots": [
         {
           "week": 327,
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝成立十周年",
+      "weeklyThemeNameCn": "庆祝出道十周年的人们",
       "slots": [
         {
           "week": 289,
@@ -9576,7 +9576,7 @@
       "weeklyThemeId": 273,
       "weeklyThemeNameEn": "Amantes Sunt Amentes",
       "weeklyThemeNameJa": "ラブ・アンド・キュート",
-      "weeklyThemeNameCn": "爱又可爱",
+      "weeklyThemeNameCn": "ラブ・アンド・キュート",
       "slots": [
         {
           "week": 264,
@@ -9803,7 +9803,7 @@
       "weeklyThemeId": 269,
       "weeklyThemeNameEn": "Hot Head, Cold Feet, All Mage",
       "weeklyThemeNameJa": "頭熱足寒の超魔科学戦士",
-      "weeklyThemeNameCn": "头脑发热、脚冷的超级魔法科学战士。",
+      "weeklyThemeNameCn": "頭熱足寒の超魔科学戦士",
       "slots": [
         {
           "week": 260,
@@ -9864,7 +9864,7 @@
       "weeklyThemeId": 268,
       "weeklyThemeNameEn": "Beast of a Builder",
       "weeklyThemeNameJa": "獣好きな復興作業員",
-      "weeklyThemeNameCn": "一位热爱动物的重建工作者",
+      "weeklyThemeNameCn": "獣好きな復興作業員",
       "slots": [
         {
           "week": 259,
@@ -9925,7 +9925,7 @@
       "weeklyThemeId": 267,
       "weeklyThemeNameEn": "Rumbler's Rhapsody",
       "weeklyThemeNameJa": "秋空の決闘士",
-      "weeklyThemeNameCn": "秋空的决斗者",
+      "weeklyThemeNameCn": "秋空の決闘士",
       "slots": [
         {
           "week": 258,
@@ -10074,7 +10074,7 @@
       "weeklyThemeId": 264,
       "weeklyThemeNameEn": "Might Makes Rite",
       "weeklyThemeNameJa": "邪教の闘士",
-      "weeklyThemeNameCn": "邪恶宗教的战士",
+      "weeklyThemeNameCn": "邪教の闘士",
       "slots": [
         {
           "week": 255,
@@ -10135,7 +10135,7 @@
       "weeklyThemeId": 263,
       "weeklyThemeNameEn": "Knights of a Feather",
       "weeklyThemeNameJa": "着ぐるみ騎士",
-      "weeklyThemeNameCn": "盛装骑士",
+      "weeklyThemeNameCn": "着ぐるみ騎士",
       "slots": [
         {
           "week": 254,
@@ -10196,7 +10196,7 @@
       "weeklyThemeId": 262,
       "weeklyThemeNameEn": "Dalmascan Skies",
       "weeklyThemeNameJa": "ダルマスカの空賊",
-      "weeklyThemeNameCn": "达尔马斯卡空贼团",
+      "weeklyThemeNameCn": "ダルマスカの空賊",
       "slots": [
         {
           "week": 253,
@@ -10257,7 +10257,7 @@
       "weeklyThemeId": 261,
       "weeklyThemeNameEn": "New World Navigator",
       "weeklyThemeNameJa": "新大陸の船乗り",
-      "weeklyThemeNameCn": "新世界的水手",
+      "weeklyThemeNameCn": "新大陸の船乗り",
       "slots": [
         {
           "week": 252,
@@ -10667,7 +10667,7 @@
       "weeklyThemeId": 254,
       "weeklyThemeNameEn": "Battle-ready Jester",
       "weeklyThemeNameJa": "武闘派の道化師",
-      "weeklyThemeNameCn": "武术小丑",
+      "weeklyThemeNameCn": "武闘派の道化師",
       "slots": [
         {
           "week": 245,
@@ -10745,7 +10745,7 @@
       "weeklyThemeId": 253,
       "weeklyThemeNameEn": "Beastly Brawler",
       "weeklyThemeNameJa": "獣好きな武芸者",
-      "weeklyThemeNameCn": "热爱动物的武术家",
+      "weeklyThemeNameCn": "獣好きな武芸者",
       "slots": [
         {
           "week": 244,
@@ -10945,7 +10945,7 @@
       "weeklyThemeId": 250,
       "weeklyThemeNameEn": "Galley Cook",
       "weeklyThemeNameJa": "船上の料理人",
-      "weeklyThemeNameCn": "船上做饭",
+      "weeklyThemeNameCn": "船上の料理人",
       "slots": [
         {
           "week": 241,
@@ -11006,7 +11006,7 @@
       "weeklyThemeId": 249,
       "weeklyThemeNameEn": "Deepforest Magician",
       "weeklyThemeNameJa": "深森の魔法使い",
-      "weeklyThemeNameCn": "森林深处的巫师",
+      "weeklyThemeNameCn": "深森の魔法使い",
       "slots": [
         {
           "week": 240,
@@ -11633,7 +11633,7 @@
       "weeklyThemeId": 239,
       "weeklyThemeNameEn": "Hidden Allure",
       "weeklyThemeNameJa": "隠された色香",
-      "weeklyThemeNameCn": "隐藏的魅力",
+      "weeklyThemeNameCn": "隠された色香",
       "slots": [
         {
           "week": 230,
@@ -11694,7 +11694,7 @@
       "weeklyThemeId": 238,
       "weeklyThemeNameEn": "Diabolically Precise",
       "weeklyThemeNameJa": "悪魔の手腕",
-      "weeklyThemeNameCn": "魔鬼之手",
+      "weeklyThemeNameCn": "悪魔の手腕",
       "slots": [
         {
           "week": 229,
@@ -11755,7 +11755,7 @@
       "weeklyThemeId": 237,
       "weeklyThemeNameEn": "Ruins Explorer",
       "weeklyThemeNameJa": "史跡の探検家",
-      "weeklyThemeNameCn": "历史遗址探险家",
+      "weeklyThemeNameCn": "史跡の探検家",
       "slots": [
         {
           "week": 228,
@@ -11816,7 +11816,7 @@
       "weeklyThemeId": 236,
       "weeklyThemeNameEn": "Animalistic Armchair-wear",
       "weeklyThemeNameJa": "獣好きの読書家",
-      "weeklyThemeNameCn": "热爱动物的读者",
+      "weeklyThemeNameCn": "獣好きの読書家",
       "slots": [
         {
           "week": 227,
@@ -11894,7 +11894,7 @@
       "weeklyThemeId": 235,
       "weeklyThemeNameEn": "Futuristic Past",
       "weeklyThemeNameJa": "近未来の兵士",
-      "weeklyThemeNameCn": "未来派士兵",
+      "weeklyThemeNameCn": "近未来の兵士",
       "slots": [
         {
           "week": 226,
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "红莲祭参加者",
+      "weeklyThemeNameCn": "紅蓮祭の参列者",
       "slots": [
         {
           "week": 225,
@@ -12321,7 +12321,7 @@
       "weeklyThemeId": 228,
       "weeklyThemeNameEn": "Regal Exposure",
       "weeklyThemeNameJa": "悔い無き裸王",
-      "weeklyThemeNameCn": "无悔的赤身之王",
+      "weeklyThemeNameCn": "悔い無き裸王",
       "slots": [
         {
           "week": 219,
@@ -13968,7 +13968,7 @@
       "weeklyThemeId": 201,
       "weeklyThemeNameEn": "Fangs Bared",
       "weeklyThemeNameJa": "筋肉自慢の虎仮面",
-      "weeklyThemeNameCn": "肌肉发达的老虎面具",
+      "weeklyThemeNameCn": "筋肉自慢の虎仮面",
       "slots": [
         {
           "week": 192,
@@ -27029,7 +27029,7 @@
       },
       {
         "themeId": 201,
-        "themeNameCn": "肌肉发达的老虎面具",
+        "themeNameCn": "筋肉自慢の虎仮面",
         "themeNameEn": "Fangs Bared",
         "count": 1
       },
@@ -27191,7 +27191,7 @@
       },
       {
         "themeId": 228,
-        "themeNameCn": "无悔的赤身之王",
+        "themeNameCn": "悔い無き裸王",
         "themeNameEn": "Regal Exposure",
         "count": 1
       },
@@ -27227,37 +27227,37 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "红莲祭参加者",
+        "themeNameCn": "紅蓮祭の参列者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
       {
         "themeId": 235,
-        "themeNameCn": "未来派士兵",
+        "themeNameCn": "近未来の兵士",
         "themeNameEn": "Futuristic Past",
         "count": 1
       },
       {
         "themeId": 236,
-        "themeNameCn": "热爱动物的读者",
+        "themeNameCn": "獣好きの読書家",
         "themeNameEn": "Animalistic Armchair-wear",
         "count": 1
       },
       {
         "themeId": 237,
-        "themeNameCn": "历史遗址探险家",
+        "themeNameCn": "史跡の探検家",
         "themeNameEn": "Ruins Explorer",
         "count": 1
       },
       {
         "themeId": 238,
-        "themeNameCn": "魔鬼之手",
+        "themeNameCn": "悪魔の手腕",
         "themeNameEn": "Diabolically Precise",
         "count": 1
       },
       {
         "themeId": 239,
-        "themeNameCn": "隐藏的魅力",
+        "themeNameCn": "隠された色香",
         "themeNameEn": "Hidden Allure",
         "count": 1
       },
@@ -27317,13 +27317,13 @@
       },
       {
         "themeId": 249,
-        "themeNameCn": "森林深处的巫师",
+        "themeNameCn": "深森の魔法使い",
         "themeNameEn": "Deepforest Magician",
         "count": 1
       },
       {
         "themeId": 250,
-        "themeNameCn": "船上做饭",
+        "themeNameCn": "船上の料理人",
         "themeNameEn": "Galley Cook",
         "count": 1
       },
@@ -27341,13 +27341,13 @@
       },
       {
         "themeId": 253,
-        "themeNameCn": "热爱动物的武术家",
+        "themeNameCn": "獣好きな武芸者",
         "themeNameEn": "Beastly Brawler",
         "count": 1
       },
       {
         "themeId": 254,
-        "themeNameCn": "武术小丑",
+        "themeNameCn": "武闘派の道化師",
         "themeNameEn": "Battle-ready Jester",
         "count": 1
       },
@@ -27389,25 +27389,25 @@
       },
       {
         "themeId": 261,
-        "themeNameCn": "新世界的水手",
+        "themeNameCn": "新大陸の船乗り",
         "themeNameEn": "New World Navigator",
         "count": 1
       },
       {
         "themeId": 262,
-        "themeNameCn": "达尔马斯卡空贼团",
+        "themeNameCn": "ダルマスカの空賊",
         "themeNameEn": "Dalmascan Skies",
         "count": 1
       },
       {
         "themeId": 263,
-        "themeNameCn": "盛装骑士",
+        "themeNameCn": "着ぐるみ騎士",
         "themeNameEn": "Knights of a Feather",
         "count": 1
       },
       {
         "themeId": 264,
-        "themeNameCn": "邪恶宗教的战士",
+        "themeNameCn": "邪教の闘士",
         "themeNameEn": "Might Makes Rite",
         "count": 1
       },
@@ -27425,19 +27425,19 @@
       },
       {
         "themeId": 267,
-        "themeNameCn": "秋空的决斗者",
+        "themeNameCn": "秋空の決闘士",
         "themeNameEn": "Rumbler's Rhapsody",
         "count": 1
       },
       {
         "themeId": 268,
-        "themeNameCn": "一位热爱动物的重建工作者",
+        "themeNameCn": "獣好きな復興作業員",
         "themeNameEn": "Beast of a Builder",
         "count": 1
       },
       {
         "themeId": 269,
-        "themeNameCn": "头脑发热、脚冷的超级魔法科学战士。",
+        "themeNameCn": "頭熱足寒の超魔科学戦士",
         "themeNameEn": "Hot Head, Cold Feet, All Mage",
         "count": 1
       },
@@ -27461,7 +27461,7 @@
       },
       {
         "themeId": 273,
-        "themeNameCn": "爱又可爱",
+        "themeNameCn": "ラブ・アンド・キュート",
         "themeNameEn": "Amantes Sunt Amentes",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝成立十周年",
+        "themeNameCn": "庆祝出道十周年的人们",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -27839,13 +27839,13 @@
       },
       {
         "themeId": 336,
-        "themeNameCn": "长靴读者",
+        "themeNameCn": "ロングブーツの読書家",
         "themeNameEn": "Booted Bookworm",
         "count": 1
       },
       {
         "themeId": 337,
-        "themeNameCn": "鲜花盛开",
+        "themeNameCn": "満開の花々",
         "themeNameEn": "In Full Flower",
         "count": 1
       },
@@ -27863,13 +27863,13 @@
       },
       {
         "themeId": 340,
-        "themeNameCn": "监护人的假期",
+        "themeNameCn": "守護者の休日",
         "themeNameEn": "Weekend Warden",
         "count": 1
       },
       {
         "themeId": 341,
-        "themeNameCn": "武侠",
+        "themeNameCn": "武闘派の紳士",
         "themeNameEn": "Jousting Gentleman",
         "count": 1
       },
@@ -27881,7 +27881,7 @@
       },
       {
         "themeId": 343,
-        "themeNameCn": "穿着工作服的小丑",
+        "themeNameCn": "作業着の道化",
         "themeNameEn": "Jester on the Job",
         "count": 1
       },
@@ -27953,7 +27953,7 @@
       },
       {
         "themeId": 355,
-        "themeNameCn": "强盗法杖",
+        "themeNameCn": "野盗の参謀",
         "themeNameEn": "Officer of the Outlaw",
         "count": 1
       },
@@ -27989,7 +27989,7 @@
       },
       {
         "themeId": 362,
-        "themeNameCn": "白骨守护者",
+        "themeNameCn": "白骨の守り手",
         "themeNameEn": "Blanched Bone Bodyguard",
         "count": 1
       },
@@ -28019,7 +28019,7 @@
       },
       {
         "themeId": 367,
-        "themeNameCn": "时尚的俊英",
+        "themeNameCn": "洒落者の俊英",
         "themeNameEn": "Flair for Genius",
         "count": 1
       },
@@ -28091,13 +28091,13 @@
       },
       {
         "themeId": 379,
-        "themeNameCn": "军事指挥官休假",
+        "themeNameCn": "休暇中の武将",
         "themeNameEn": "General Holiday",
         "count": 1
       },
       {
         "themeId": 380,
-        "themeNameCn": "帝都时尚人士",
+        "themeNameCn": "オシャレな帝都民",
         "themeNameEn": "Well-dressed Imperialist",
         "count": 1
       },
@@ -28109,7 +28109,7 @@
       },
       {
         "themeId": 382,
-        "themeNameCn": "近东冒险家",
+        "themeNameCn": "近東の冒険家",
         "themeNameEn": "Near Eastern Explorer",
         "count": 1
       },
@@ -28127,7 +28127,7 @@
       },
       {
         "themeId": 385,
-        "themeNameCn": "轻松的人才",
+        "themeNameCn": "くつろぐ実力者",
         "themeNameEn": "Accomplished at Rest",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯坎",
+        "themeNameCn": "野生达尔马斯卡",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -28826,7 +28826,7 @@
           "slotCn": "头部",
           "slotEn": "Head",
           "themeId": 223,
-          "themeNameCn": "头巾",
+          "themeNameCn": "コイフ",
           "themeNameEn": "Coifed to Perfection",
           "count": 2
         },
