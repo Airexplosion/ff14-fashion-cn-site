@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1780420342,
+  "generatedAt": 1780435716,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1816,7 +1816,7 @@
       "weeklyThemeId": 403,
       "weeklyThemeNameEn": "Advanced Explorer",
       "weeklyThemeNameJa": "未来を進む探検家",
-      "weeklyThemeNameCn": "一个走向未来的探索者",
+      "weeklyThemeNameCn": "迈向未来的探索者",
       "slots": [
         {
           "week": 394,
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯坎",
+      "weeklyThemeNameCn": "野生达尔马斯卡",
       "slots": [
         {
           "week": 388,
@@ -3580,7 +3580,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -3944,7 +3944,7 @@
       "weeklyThemeId": 367,
       "weeklyThemeNameEn": "Flair for Genius",
       "weeklyThemeNameJa": "洒落者の俊英",
-      "weeklyThemeNameCn": "时尚的俊秀",
+      "weeklyThemeNameCn": "时尚的俊英",
       "slots": [
         {
           "week": 358,
@@ -4242,7 +4242,7 @@
       "weeklyThemeId": 361,
       "weeklyThemeNameEn": "Sport Support",
       "weeklyThemeNameJa": "応援スタイルの観客",
-      "weeklyThemeNameCn": "欢呼风格的观众",
+      "weeklyThemeNameCn": "欢呼式的观众",
       "slots": [
         {
           "week": 352,
@@ -5982,7 +5982,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 1,
           "dyeNameCn": "素雪白",
@@ -6565,7 +6565,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 23,
           "dyeNameCn": "卢恩棕",
@@ -7329,7 +7329,7 @@
       "weeklyThemeId": 309,
       "weeklyThemeNameEn": "Cosmos of Thorns",
       "weeklyThemeNameJa": "茨に咲くコスモス",
-      "weeklyThemeNameCn": "荆棘上绽放的波斯菊",
+      "weeklyThemeNameCn": "荆棘上盛开的波斯菊",
       "slots": [
         {
           "week": 300,
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "火热的战士",
+      "weeklyThemeNameCn": "燃烧的战士",
       "slots": [
         {
           "week": 295,
@@ -7758,7 +7758,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 24,
           "dyeNameCn": "奥猴棕",
@@ -7802,7 +7802,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 23,
           "dyeNameCn": "卢恩棕",
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝成立十周年",
+      "weeklyThemeNameCn": "庆祝出道十周年的人们",
       "slots": [
         {
           "week": 289,
@@ -8934,7 +8934,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 25,
           "dyeNameCn": "山羊棕",
@@ -9376,7 +9376,7 @@
       "weeklyThemeId": 276,
       "weeklyThemeNameEn": "The Mask of Skalla",
       "weeklyThemeNameJa": "スカラの仮面戦士",
-      "weeklyThemeNameCn": "スカラの仮面戦士",
+      "weeklyThemeNameCn": "斯卡拉蒙面武士",
       "slots": [
         {
           "week": 267,
@@ -9439,7 +9439,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 17,
           "dyeNameCn": "台地红",
@@ -9561,7 +9561,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 115,
           "dyeNameCn": "金属橙",
@@ -9576,7 +9576,7 @@
       "weeklyThemeId": 273,
       "weeklyThemeNameEn": "Amantes Sunt Amentes",
       "weeklyThemeNameJa": "ラブ・アンド・キュート",
-      "weeklyThemeNameCn": "ラブ・アンド・キュート",
+      "weeklyThemeNameCn": "爱又可爱",
       "slots": [
         {
           "week": 264,
@@ -9803,7 +9803,7 @@
       "weeklyThemeId": 269,
       "weeklyThemeNameEn": "Hot Head, Cold Feet, All Mage",
       "weeklyThemeNameJa": "頭熱足寒の超魔科学戦士",
-      "weeklyThemeNameCn": "頭熱足寒の超魔科学戦士",
+      "weeklyThemeNameCn": "头脑发热、脚冷的超级魔法科学战士。",
       "slots": [
         {
           "week": 260,
@@ -10530,7 +10530,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 18,
           "dyeNameCn": "树皮棕",
@@ -11052,7 +11052,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -11279,7 +11279,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 26,
           "dyeNameCn": "南瓜橙",
@@ -12033,7 +12033,7 @@
       "weeklyThemeId": 233,
       "weeklyThemeNameEn": "Animalistic Advisor",
       "weeklyThemeNameJa": "獣の参謀",
-      "weeklyThemeNameCn": "野兽之杖",
+      "weeklyThemeNameCn": "野兽的法杖",
       "slots": [
         {
           "week": 224,
@@ -12365,7 +12365,7 @@
       "weeklyThemeId": 227,
       "weeklyThemeNameEn": "Mountain Tribal",
       "weeklyThemeNameJa": "山岳民の洒落者",
-      "weeklyThemeNameCn": "山里人的时尚达人",
+      "weeklyThemeNameCn": "山里人的小丑",
       "slots": [
         {
           "week": 218,
@@ -12838,7 +12838,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 21,
           "dyeNameCn": "钴铁棕",
@@ -13892,7 +13892,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 24,
           "dyeNameCn": "奥猴棕",
@@ -14406,7 +14406,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 112,
           "dyeNameCn": "闪耀银",
@@ -15567,7 +15567,7 @@
       "weeklyThemeId": 177,
       "weeklyThemeNameEn": "Washboard Belligerent",
       "weeklyThemeNameJa": "肉体美の闘士",
-      "weeklyThemeNameCn": "肉体美の闘士",
+      "weeklyThemeNameCn": "身体美的战士",
       "slots": [
         {
           "week": 168,
@@ -15657,7 +15657,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 17,
           "dyeNameCn": "台地红",
@@ -15674,7 +15674,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 17,
           "dyeNameCn": "台地红",
@@ -15691,7 +15691,7 @@
           "themeId": 213,
           "themeNameEn": "You're So Whisperfine",
           "themeNameJa": "ウィスパーファイン",
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeCnSource": "jp_translate",
           "dyeId": 17,
           "dyeNameCn": "台地红",
@@ -16474,7 +16474,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16657,7 +16657,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -17372,7 +17372,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -18336,7 +18336,7 @@
       "weeklyThemeId": 133,
       "weeklyThemeNameEn": "Rebel with a Cause",
       "weeklyThemeNameJa": "反乱の信徒",
-      "weeklyThemeNameCn": "反叛信徒",
+      "weeklyThemeNameCn": "叛逆的信徒",
       "slots": [
         {
           "week": 124,
@@ -19434,7 +19434,7 @@
       "weeklyThemeId": 115,
       "weeklyThemeNameEn": "Snappy Socialite",
       "weeklyThemeNameJa": "都市の洒落者",
-      "weeklyThemeNameCn": "都市时尚人士",
+      "weeklyThemeNameCn": "都市时尚达人",
       "slots": [
         {
           "week": 106,
@@ -20339,7 +20339,7 @@
       "weeklyThemeId": 101,
       "weeklyThemeNameEn": "Dashing Duelist",
       "weeklyThemeNameJa": "決闘士の一張羅",
-      "weeklyThemeNameCn": "决斗者市春",
+      "weeklyThemeNameCn": "决斗者一郎",
       "slots": [
         {
           "week": 92,
@@ -21571,7 +21571,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -23172,7 +23172,7 @@
       "weeklyThemeId": 54,
       "weeklyThemeNameEn": "Weekend Knights",
       "weeklyThemeNameJa": "休日の騎士",
-      "weeklyThemeNameCn": "度假的骑士",
+      "weeklyThemeNameCn": "假日骑士",
       "slots": [
         {
           "week": 45,
@@ -24358,7 +24358,7 @@
       "weeklyThemeId": 34,
       "weeklyThemeNameEn": "The 48th Ronin",
       "weeklyThemeNameJa": "さすらいの浪人",
-      "weeklyThemeNameCn": "浪人",
+      "weeklyThemeNameCn": "流浪浪人",
       "slots": [
         {
           "week": 25,
@@ -24570,7 +24570,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24831,7 +24831,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -26033,7 +26033,7 @@
       },
       {
         "themeId": 34,
-        "themeNameCn": "浪人",
+        "themeNameCn": "流浪浪人",
         "themeNameEn": "The 48th Ronin",
         "count": 1
       },
@@ -26153,7 +26153,7 @@
       },
       {
         "themeId": 54,
-        "themeNameCn": "度假的骑士",
+        "themeNameCn": "假日骑士",
         "themeNameEn": "Weekend Knights",
         "count": 1
       },
@@ -26435,7 +26435,7 @@
       },
       {
         "themeId": 101,
-        "themeNameCn": "决斗者市春",
+        "themeNameCn": "决斗者一郎",
         "themeNameEn": "Dashing Duelist",
         "count": 1
       },
@@ -26513,7 +26513,7 @@
       },
       {
         "themeId": 115,
-        "themeNameCn": "都市时尚人士",
+        "themeNameCn": "都市时尚达人",
         "themeNameEn": "Snappy Socialite",
         "count": 1
       },
@@ -26621,7 +26621,7 @@
       },
       {
         "themeId": 133,
-        "themeNameCn": "反叛信徒",
+        "themeNameCn": "叛逆的信徒",
         "themeNameEn": "Rebel with a Cause",
         "count": 1
       },
@@ -26885,7 +26885,7 @@
       },
       {
         "themeId": 177,
-        "themeNameCn": "肉体美の闘士",
+        "themeNameCn": "身体美的战士",
         "themeNameEn": "Washboard Belligerent",
         "count": 1
       },
@@ -27185,7 +27185,7 @@
       },
       {
         "themeId": 227,
-        "themeNameCn": "山里人的时尚达人",
+        "themeNameCn": "山里人的小丑",
         "themeNameEn": "Mountain Tribal",
         "count": 1
       },
@@ -27221,7 +27221,7 @@
       },
       {
         "themeId": 233,
-        "themeNameCn": "野兽之杖",
+        "themeNameCn": "野兽的法杖",
         "themeNameEn": "Animalistic Advisor",
         "count": 1
       },
@@ -27437,7 +27437,7 @@
       },
       {
         "themeId": 269,
-        "themeNameCn": "頭熱足寒の超魔科学戦士",
+        "themeNameCn": "头脑发热、脚冷的超级魔法科学战士。",
         "themeNameEn": "Hot Head, Cold Feet, All Mage",
         "count": 1
       },
@@ -27461,7 +27461,7 @@
       },
       {
         "themeId": 273,
-        "themeNameCn": "ラブ・アンド・キュート",
+        "themeNameCn": "爱又可爱",
         "themeNameEn": "Amantes Sunt Amentes",
         "count": 1
       },
@@ -27479,7 +27479,7 @@
       },
       {
         "themeId": 276,
-        "themeNameCn": "スカラの仮面戦士",
+        "themeNameCn": "斯卡拉蒙面武士",
         "themeNameEn": "The Mask of Skalla",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝成立十周年",
+        "themeNameCn": "庆祝出道十周年的人们",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "火热的战士",
+        "themeNameCn": "燃烧的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
@@ -27677,7 +27677,7 @@
       },
       {
         "themeId": 309,
-        "themeNameCn": "荆棘上绽放的波斯菊",
+        "themeNameCn": "荆棘上盛开的波斯菊",
         "themeNameEn": "Cosmos of Thorns",
         "count": 1
       },
@@ -27983,7 +27983,7 @@
       },
       {
         "themeId": 361,
-        "themeNameCn": "欢呼风格的观众",
+        "themeNameCn": "欢呼式的观众",
         "themeNameEn": "Sport Support",
         "count": 1
       },
@@ -28019,7 +28019,7 @@
       },
       {
         "themeId": 367,
-        "themeNameCn": "时尚的俊秀",
+        "themeNameCn": "时尚的俊英",
         "themeNameEn": "Flair for Genius",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯坎",
+        "themeNameCn": "野生达尔马斯卡",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -28235,7 +28235,7 @@
       },
       {
         "themeId": 403,
-        "themeNameCn": "一个走向未来的探索者",
+        "themeNameCn": "迈向未来的探索者",
         "themeNameEn": "Advanced Explorer",
         "count": 1
       },
@@ -29530,7 +29530,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 213,
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeNameEn": "You're So Whisperfine",
           "count": 3
         },
@@ -30108,7 +30108,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 120,
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeNameEn": "Flutterbye",
           "count": 4
         },
@@ -30171,7 +30171,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 4
         },
@@ -30225,7 +30225,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 213,
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeNameEn": "You're So Whisperfine",
           "count": 4
         },
@@ -30605,7 +30605,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 213,
-          "themeNameCn": "ウィスパーファイン",
+          "themeNameCn": "细声细语",
           "themeNameEn": "You're So Whisperfine",
           "count": 6
         },
@@ -30812,7 +30812,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 2
         },
