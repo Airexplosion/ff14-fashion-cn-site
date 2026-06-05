@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1780655671,
+  "generatedAt": 1780673599,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -2409,7 +2409,7 @@
       "weeklyThemeId": 393,
       "weeklyThemeNameEn": "Glamorous Lengths",
       "weeklyThemeNameJa": "艶やかなロング丈",
-      "weeklyThemeNameCn": "艶やかなロング丈",
+      "weeklyThemeNameCn": "华丽的长款",
       "slots": [
         {
           "week": 384,
@@ -2453,7 +2453,7 @@
       "weeklyThemeId": 392,
       "weeklyThemeNameEn": "Protector Work Clothes",
       "weeklyThemeNameJa": "守護者の労働着",
-      "weeklyThemeNameCn": "守護者の労働着",
+      "weeklyThemeNameCn": "监护人工作服",
       "slots": [
         {
           "week": 383,
@@ -2514,7 +2514,7 @@
       "weeklyThemeId": 391,
       "weeklyThemeNameEn": "Ishgardian Agent",
       "weeklyThemeNameJa": "皇都のエージェント",
-      "weeklyThemeNameCn": "皇都のエージェント",
+      "weeklyThemeNameCn": "帝都代理人",
       "slots": [
         {
           "week": 382,
@@ -2575,7 +2575,7 @@
       "weeklyThemeId": 390,
       "weeklyThemeNameEn": "Rebel Elite",
       "weeklyThemeNameJa": "反乱軍の特殊部隊",
-      "weeklyThemeNameCn": "反乱軍の特殊部隊",
+      "weeklyThemeNameCn": "叛军特种部队",
       "slots": [
         {
           "week": 381,
@@ -2909,7 +2909,7 @@
           "themeId": 136,
           "themeNameEn": "The Creator",
           "themeNameJa": "天動",
-          "themeNameCn": "天動",
+          "themeNameCn": "天上的运动",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -3580,7 +3580,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "アラミガン",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -4078,7 +4078,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "牙狼",
+          "themeNameCn": "狼人",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -5189,7 +5189,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "牙狼",
+          "themeNameCn": "狼人",
           "themeCnSource": "jp_translate",
           "dyeId": 93,
           "dyeNameCn": "珍珠白",
@@ -5982,7 +5982,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "アラミガン",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 1,
           "dyeNameCn": "素雪白",
@@ -9727,7 +9727,7 @@
           "themeId": 136,
           "themeNameEn": "The Creator",
           "themeNameJa": "天動",
-          "themeNameCn": "天動",
+          "themeNameCn": "天上的运动",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -11940,7 +11940,7 @@
           "themeId": 136,
           "themeNameEn": "The Creator",
           "themeNameJa": "天動",
-          "themeNameCn": "天動",
+          "themeNameCn": "天上的运动",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -14406,7 +14406,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "アラミガン",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 112,
           "dyeNameCn": "闪耀银",
@@ -16184,7 +16184,7 @@
       "weeklyThemeId": 168,
       "weeklyThemeNameEn": "Battle in the Shade",
       "weeklyThemeNameJa": "漆黒の戦士",
-      "weeklyThemeNameCn": "漆黒の戦士",
+      "weeklyThemeNameCn": "漆黑战士",
       "slots": [
         {
           "week": 159,
@@ -16474,7 +16474,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "アラミガン",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16657,7 +16657,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "アラミガン",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -17267,7 +17267,7 @@
           "themeId": 136,
           "themeNameEn": "The Creator",
           "themeNameJa": "天動",
-          "themeNameCn": "天動",
+          "themeNameCn": "天上的运动",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -17282,7 +17282,7 @@
       "weeklyThemeId": 150,
       "weeklyThemeNameEn": "Urbane Ul'dahn",
       "weeklyThemeNameJa": "砂都の洒落者",
-      "weeklyThemeNameCn": "砂都の洒落者",
+      "weeklyThemeNameCn": "沙城时尚达人",
       "slots": [
         {
           "week": 141,
@@ -17343,7 +17343,7 @@
       "weeklyThemeId": 149,
       "weeklyThemeNameEn": "Folksy Flare",
       "weeklyThemeNameJa": "裾広の庶民",
-      "weeklyThemeNameCn": "裾広の庶民",
+      "weeklyThemeNameCn": "穿着宽裙子的普通人",
       "slots": [
         {
           "week": 140,
@@ -17387,7 +17387,7 @@
       "weeklyThemeId": 148,
       "weeklyThemeNameEn": "Warm and Cozy",
       "weeklyThemeNameJa": "冬の普段着",
-      "weeklyThemeNameCn": "冬の普段着",
+      "weeklyThemeNameCn": "冬季日常穿搭",
       "slots": [
         {
           "week": 139,
@@ -17448,7 +17448,7 @@
       "weeklyThemeId": 147,
       "weeklyThemeNameEn": "A Bandit and a Scholar",
       "weeklyThemeNameJa": "知的な野盗",
-      "weeklyThemeNameCn": "知的な野盗",
+      "weeklyThemeNameCn": "聪明的强盗",
       "slots": [
         {
           "week": 138,
@@ -17509,7 +17509,7 @@
       "weeklyThemeId": 146,
       "weeklyThemeNameEn": "Practiced Purveyor",
       "weeklyThemeNameJa": "熟練の調達人",
-      "weeklyThemeNameCn": "熟練の調達人",
+      "weeklyThemeNameCn": "熟练的采购员",
       "slots": [
         {
           "week": 137,
@@ -21571,7 +21571,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "アラミガン",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -26699,31 +26699,31 @@
       },
       {
         "themeId": 146,
-        "themeNameCn": "熟練の調達人",
+        "themeNameCn": "熟练的采购员",
         "themeNameEn": "Practiced Purveyor",
         "count": 1
       },
       {
         "themeId": 147,
-        "themeNameCn": "知的な野盗",
+        "themeNameCn": "聪明的强盗",
         "themeNameEn": "A Bandit and a Scholar",
         "count": 1
       },
       {
         "themeId": 148,
-        "themeNameCn": "冬の普段着",
+        "themeNameCn": "冬季日常穿搭",
         "themeNameEn": "Warm and Cozy",
         "count": 1
       },
       {
         "themeId": 149,
-        "themeNameCn": "裾広の庶民",
+        "themeNameCn": "穿着宽裙子的普通人",
         "themeNameEn": "Folksy Flare",
         "count": 1
       },
       {
         "themeId": 150,
-        "themeNameCn": "砂都の洒落者",
+        "themeNameCn": "沙城时尚达人",
         "themeNameEn": "Urbane Ul'dahn",
         "count": 1
       },
@@ -26831,7 +26831,7 @@
       },
       {
         "themeId": 168,
-        "themeNameCn": "漆黒の戦士",
+        "themeNameCn": "漆黑战士",
         "themeNameEn": "Battle in the Shade",
         "count": 1
       },
@@ -28157,25 +28157,25 @@
       },
       {
         "themeId": 390,
-        "themeNameCn": "反乱軍の特殊部隊",
+        "themeNameCn": "叛军特种部队",
         "themeNameEn": "Rebel Elite",
         "count": 1
       },
       {
         "themeId": 391,
-        "themeNameCn": "皇都のエージェント",
+        "themeNameCn": "帝都代理人",
         "themeNameEn": "Ishgardian Agent",
         "count": 1
       },
       {
         "themeId": 392,
-        "themeNameCn": "守護者の労働着",
+        "themeNameCn": "监护人工作服",
         "themeNameEn": "Protector Work Clothes",
         "count": 1
       },
       {
         "themeId": 393,
-        "themeNameCn": "艶やかなロング丈",
+        "themeNameCn": "华丽的长款",
         "themeNameEn": "Glamorous Lengths",
         "count": 1
       },
@@ -29818,7 +29818,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 37,
-          "themeNameCn": "牙狼",
+          "themeNameCn": "狼人",
           "themeNameEn": "Going Garo",
           "count": 1
         },
@@ -30171,7 +30171,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 181,
-          "themeNameCn": "アラミガン",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 4
         },
@@ -30216,7 +30216,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 136,
-          "themeNameCn": "天動",
+          "themeNameCn": "天上的运动",
           "themeNameEn": "The Creator",
           "count": 4
         },
@@ -30812,7 +30812,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 181,
-          "themeNameCn": "アラミガン",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 2
         },
@@ -30911,7 +30911,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 37,
-          "themeNameCn": "牙狼",
+          "themeNameCn": "狼人",
           "themeNameEn": "Going Garo",
           "count": 1
         },
