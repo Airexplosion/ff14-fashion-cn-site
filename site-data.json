@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1780605413,
+  "generatedAt": 1780635185,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -13280,7 +13280,7 @@
       "weeklyThemeId": 212,
       "weeklyThemeNameEn": "Spellbinding Drover",
       "weeklyThemeNameJa": "ワイルドな旅人",
-      "weeklyThemeNameCn": "ワイルドな旅人",
+      "weeklyThemeNameCn": "狂野的旅行者",
       "slots": [
         {
           "week": 203,
@@ -21315,7 +21315,7 @@
       "weeklyThemeId": 85,
       "weeklyThemeNameEn": "Learning to Dance",
       "weeklyThemeNameJa": "新米の舞踏家",
-      "weeklyThemeNameCn": "新米の舞踏家",
+      "weeklyThemeNameCn": "新手舞者",
       "slots": [
         {
           "week": 76,
@@ -21359,7 +21359,7 @@
       "weeklyThemeId": 84,
       "weeklyThemeNameEn": "Breaking Rules",
       "weeklyThemeNameJa": "掟の番人",
-      "weeklyThemeNameCn": "掟の番人",
+      "weeklyThemeNameCn": "规则的守护者",
       "slots": [
         {
           "week": 75,
@@ -21615,7 +21615,7 @@
           "themeId": 104,
           "themeNameEn": "Under-armor",
           "themeNameJa": "アンダーシャツ",
-          "themeNameCn": "アンダーシャツ",
+          "themeNameCn": "汗衫",
           "themeCnSource": "jp_translate",
           "dyeId": 7,
           "dyeNameCn": "玫瑰粉",
@@ -23977,7 +23977,7 @@
           "themeId": 104,
           "themeNameEn": "Under-armor",
           "themeNameJa": "アンダーシャツ",
-          "themeNameCn": "アンダーシャツ",
+          "themeNameCn": "汗衫",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -26333,13 +26333,13 @@
       },
       {
         "themeId": 84,
-        "themeNameCn": "掟の番人",
+        "themeNameCn": "规则的守护者",
         "themeNameEn": "Breaking Rules",
         "count": 1
       },
       {
         "themeId": 85,
-        "themeNameCn": "新米の舞踏家",
+        "themeNameCn": "新手舞者",
         "themeNameEn": "Learning to Dance",
         "count": 1
       },
@@ -27095,7 +27095,7 @@
       },
       {
         "themeId": 212,
-        "themeNameCn": "ワイルドな旅人",
+        "themeNameCn": "狂野的旅行者",
         "themeNameEn": "Spellbinding Drover",
         "count": 1
       },
@@ -29593,7 +29593,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 104,
-          "themeNameCn": "アンダーシャツ",
+          "themeNameCn": "汗衫",
           "themeNameEn": "Under-armor",
           "count": 2
         },
