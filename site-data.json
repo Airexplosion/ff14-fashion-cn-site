@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1780895221,
+  "generatedAt": 1780918356,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -3107,7 +3107,7 @@
       "weeklyThemeId": 381,
       "weeklyThemeNameEn": "Blooming Builder",
       "weeklyThemeNameJa": "花好きの作業員",
-      "weeklyThemeNameCn": "一个爱花的工人",
+      "weeklyThemeNameCn": "一个爱花的工作者",
       "slots": [
         {
           "week": 372,
@@ -3580,7 +3580,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -3944,7 +3944,7 @@
       "weeklyThemeId": 367,
       "weeklyThemeNameEn": "Flair for Genius",
       "weeklyThemeNameJa": "洒落者の俊英",
-      "weeklyThemeNameCn": "时尚的俊秀",
+      "weeklyThemeNameCn": "时尚的俊英",
       "slots": [
         {
           "week": 358,
@@ -4984,7 +4984,7 @@
       "weeklyThemeId": 348,
       "weeklyThemeNameEn": "Iniquitous Archon",
       "weeklyThemeNameJa": "悪魔的な賢人",
-      "weeklyThemeNameCn": "恶魔般的智者",
+      "weeklyThemeNameCn": "恶魔般的聪明人",
       "slots": [
         {
           "week": 339,
@@ -5982,7 +5982,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 1,
           "dyeNameCn": "素雪白",
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "火热的战士",
+      "weeklyThemeNameCn": "燃烧的战士",
       "slots": [
         {
           "week": 295,
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝成立十周年",
+      "weeklyThemeNameCn": "庆祝出道十周年的人们",
       "slots": [
         {
           "week": 289,
@@ -10257,7 +10257,7 @@
       "weeklyThemeId": 261,
       "weeklyThemeNameEn": "New World Navigator",
       "weeklyThemeNameJa": "新大陸の船乗り",
-      "weeklyThemeNameCn": "新世界的水手",
+      "weeklyThemeNameCn": "新大陸の船乗り",
       "slots": [
         {
           "week": 252,
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "红莲祭参加者",
+      "weeklyThemeNameCn": "紅蓮祭の参列者",
       "slots": [
         {
           "week": 225,
@@ -12365,7 +12365,7 @@
       "weeklyThemeId": 227,
       "weeklyThemeNameEn": "Mountain Tribal",
       "weeklyThemeNameJa": "山岳民の洒落者",
-      "weeklyThemeNameCn": "山里人的时尚达人",
+      "weeklyThemeNameCn": "山里人的小丑",
       "slots": [
         {
           "week": 218,
@@ -14406,7 +14406,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 112,
           "dyeNameCn": "闪耀银",
@@ -14699,7 +14699,7 @@
       "weeklyThemeId": 189,
       "weeklyThemeNameEn": "Killer Jufuku",
       "weeklyThemeNameJa": "戎服の刺客",
-      "weeklyThemeNameCn": "穿着制服的刺客",
+      "weeklyThemeNameCn": "穿制服的刺客",
       "slots": [
         {
           "week": 180,
@@ -16245,7 +16245,7 @@
       "weeklyThemeId": 167,
       "weeklyThemeNameEn": "Of Bright Mind and Spirit",
       "weeklyThemeNameJa": "陽気な賢人",
-      "weeklyThemeNameCn": "开朗的智者",
+      "weeklyThemeNameCn": "陽気な賢人",
       "slots": [
         {
           "week": 158,
@@ -16306,7 +16306,7 @@
       "weeklyThemeId": 166,
       "weeklyThemeNameEn": "Colosseum Contender",
       "weeklyThemeNameJa": "コロセウムの勇士",
-      "weeklyThemeNameCn": "斗兽场的英雄",
+      "weeklyThemeNameCn": "コロセウムの勇士",
       "slots": [
         {
           "week": 157,
@@ -16474,7 +16474,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16657,7 +16657,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -18336,7 +18336,7 @@
       "weeklyThemeId": 133,
       "weeklyThemeNameEn": "Rebel with a Cause",
       "weeklyThemeNameJa": "反乱の信徒",
-      "weeklyThemeNameCn": "反叛信徒",
+      "weeklyThemeNameCn": "叛逆的信徒",
       "slots": [
         {
           "week": 124,
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻装甲战斗机",
+      "weeklyThemeNameCn": "轻甲战士",
       "slots": [
         {
           "week": 90,
@@ -21571,7 +21571,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -24358,7 +24358,7 @@
       "weeklyThemeId": 34,
       "weeklyThemeNameEn": "The 48th Ronin",
       "weeklyThemeNameJa": "さすらいの浪人",
-      "weeklyThemeNameCn": "浪人",
+      "weeklyThemeNameCn": "流浪浪人",
       "slots": [
         {
           "week": 25,
@@ -26033,7 +26033,7 @@
       },
       {
         "themeId": 34,
-        "themeNameCn": "浪人",
+        "themeNameCn": "流浪浪人",
         "themeNameEn": "The 48th Ronin",
         "count": 1
       },
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻装甲战斗机",
+        "themeNameCn": "轻甲战士",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -26621,7 +26621,7 @@
       },
       {
         "themeId": 133,
-        "themeNameCn": "反叛信徒",
+        "themeNameCn": "叛逆的信徒",
         "themeNameEn": "Rebel with a Cause",
         "count": 1
       },
@@ -26819,13 +26819,13 @@
       },
       {
         "themeId": 166,
-        "themeNameCn": "斗兽场的英雄",
+        "themeNameCn": "コロセウムの勇士",
         "themeNameEn": "Colosseum Contender",
         "count": 1
       },
       {
         "themeId": 167,
-        "themeNameCn": "开朗的智者",
+        "themeNameCn": "陽気な賢人",
         "themeNameEn": "Of Bright Mind and Spirit",
         "count": 1
       },
@@ -26957,7 +26957,7 @@
       },
       {
         "themeId": 189,
-        "themeNameCn": "穿着制服的刺客",
+        "themeNameCn": "穿制服的刺客",
         "themeNameEn": "Killer Jufuku",
         "count": 1
       },
@@ -27185,7 +27185,7 @@
       },
       {
         "themeId": 227,
-        "themeNameCn": "山里人的时尚达人",
+        "themeNameCn": "山里人的小丑",
         "themeNameEn": "Mountain Tribal",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "红莲祭参加者",
+        "themeNameCn": "紅蓮祭の参列者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27389,7 +27389,7 @@
       },
       {
         "themeId": 261,
-        "themeNameCn": "新世界的水手",
+        "themeNameCn": "新大陸の船乗り",
         "themeNameEn": "New World Navigator",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝成立十周年",
+        "themeNameCn": "庆祝出道十周年的人们",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "火热的战士",
+        "themeNameCn": "燃烧的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
@@ -27911,7 +27911,7 @@
       },
       {
         "themeId": 348,
-        "themeNameCn": "恶魔般的智者",
+        "themeNameCn": "恶魔般的聪明人",
         "themeNameEn": "Iniquitous Archon",
         "count": 1
       },
@@ -28019,7 +28019,7 @@
       },
       {
         "themeId": 367,
-        "themeNameCn": "时尚的俊秀",
+        "themeNameCn": "时尚的俊英",
         "themeNameEn": "Flair for Genius",
         "count": 1
       },
@@ -28103,7 +28103,7 @@
       },
       {
         "themeId": 381,
-        "themeNameCn": "一个爱花的工人",
+        "themeNameCn": "一个爱花的工作者",
         "themeNameEn": "Blooming Builder",
         "count": 1
       },
@@ -30171,7 +30171,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 4
         },
@@ -30812,7 +30812,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 2
         },
