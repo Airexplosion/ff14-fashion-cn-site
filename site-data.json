@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1781068006,
+  "generatedAt": 1781088085,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -11433,7 +11433,7 @@
       "weeklyThemeId": 242,
       "weeklyThemeNameEn": "Roaming Researcher",
       "weeklyThemeNameJa": "山岳研究家",
-      "weeklyThemeNameCn": "山岳研究家",
+      "weeklyThemeNameCn": "山地研究员",
       "slots": [
         {
           "week": 233,
@@ -27275,7 +27275,7 @@
       },
       {
         "themeId": 242,
-        "themeNameCn": "山岳研究家",
+        "themeNameCn": "山地研究员",
         "themeNameEn": "Roaming Researcher",
         "count": 1
       },
