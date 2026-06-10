@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1781088085,
+  "generatedAt": 1781108452,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1645,7 +1645,7 @@
           "themeId": 155,
           "themeNameEn": "Bloodsands",
           "themeNameJa": "コロセウム",
-          "themeNameCn": "斗兽场",
+          "themeNameCn": "コロセウム",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -4847,7 +4847,7 @@
           "themeId": 155,
           "themeNameEn": "Bloodsands",
           "themeNameJa": "コロセウム",
-          "themeNameCn": "斗兽场",
+          "themeNameCn": "コロセウム",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -6843,7 +6843,7 @@
           "themeId": 155,
           "themeNameEn": "Bloodsands",
           "themeNameJa": "コロセウム",
-          "themeNameCn": "斗兽场",
+          "themeNameCn": "コロセウム",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝成立十周年",
+      "weeklyThemeNameCn": "庆祝出道十周年的人们",
       "slots": [
         {
           "week": 289,
@@ -11052,7 +11052,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "红莲祭参加者",
+      "weeklyThemeNameCn": "深红节参加者",
       "slots": [
         {
           "week": 225,
@@ -14699,7 +14699,7 @@
       "weeklyThemeId": 189,
       "weeklyThemeNameEn": "Killer Jufuku",
       "weeklyThemeNameJa": "戎服の刺客",
-      "weeklyThemeNameCn": "穿着制服的刺客",
+      "weeklyThemeNameCn": "穿制服的刺客",
       "slots": [
         {
           "week": 180,
@@ -15084,7 +15084,7 @@
           "themeId": 155,
           "themeNameEn": "Bloodsands",
           "themeNameJa": "コロセウム",
-          "themeNameCn": "斗兽场",
+          "themeNameCn": "コロセウム",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -15579,7 +15579,7 @@
           "themeId": 155,
           "themeNameEn": "Bloodsands",
           "themeNameJa": "コロセウム",
-          "themeNameCn": "斗兽场",
+          "themeNameCn": "コロセウム",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -16318,7 +16318,7 @@
           "themeId": 155,
           "themeNameEn": "Bloodsands",
           "themeNameJa": "コロセウム",
-          "themeNameCn": "斗兽场",
+          "themeNameCn": "コロセウム",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -17372,7 +17372,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -18931,7 +18931,7 @@
           "themeId": 155,
           "themeNameEn": "Bloodsands",
           "themeNameJa": "コロセウム",
-          "themeNameCn": "斗兽场",
+          "themeNameCn": "コロセウム",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -20046,7 +20046,7 @@
           "themeId": 155,
           "themeNameEn": "Bloodsands",
           "themeNameJa": "コロセウム",
-          "themeNameCn": "斗兽场",
+          "themeNameCn": "コロセウム",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻甲战士",
+      "weeklyThemeNameCn": "轻装甲战斗机",
       "slots": [
         {
           "week": 90,
@@ -20544,7 +20544,7 @@
           "themeId": 155,
           "themeNameEn": "Bloodsands",
           "themeNameJa": "コロセウム",
-          "themeNameCn": "斗兽场",
+          "themeNameCn": "コロセウム",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -21554,7 +21554,7 @@
           "themeId": 155,
           "themeNameEn": "Bloodsands",
           "themeNameJa": "コロセウム",
-          "themeNameCn": "斗兽场",
+          "themeNameCn": "コロセウム",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -21891,7 +21891,7 @@
       "weeklyThemeId": 75,
       "weeklyThemeNameEn": "Questing the Shore",
       "weeklyThemeNameJa": "海辺の冒険者",
-      "weeklyThemeNameCn": "海边冒险家",
+      "weeklyThemeNameCn": "海辺の冒険者",
       "slots": [
         {
           "week": 66,
@@ -21903,7 +21903,7 @@
           "themeId": 155,
           "themeNameEn": "Bloodsands",
           "themeNameJa": "コロセウム",
-          "themeNameCn": "斗兽场",
+          "themeNameCn": "コロセウム",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -23172,7 +23172,7 @@
       "weeklyThemeId": 54,
       "weeklyThemeNameEn": "Weekend Knights",
       "weeklyThemeNameJa": "休日の騎士",
-      "weeklyThemeNameCn": "假日骑士",
+      "weeklyThemeNameCn": "度假的骑士",
       "slots": [
         {
           "week": 45,
@@ -24570,7 +24570,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24831,7 +24831,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -26153,7 +26153,7 @@
       },
       {
         "themeId": 54,
-        "themeNameCn": "假日骑士",
+        "themeNameCn": "度假的骑士",
         "themeNameEn": "Weekend Knights",
         "count": 1
       },
@@ -26279,7 +26279,7 @@
       },
       {
         "themeId": 75,
-        "themeNameCn": "海边冒险家",
+        "themeNameCn": "海辺の冒険者",
         "themeNameEn": "Questing the Shore",
         "count": 1
       },
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻甲战士",
+        "themeNameCn": "轻装甲战斗机",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -26957,7 +26957,7 @@
       },
       {
         "themeId": 189,
-        "themeNameCn": "穿着制服的刺客",
+        "themeNameCn": "穿制服的刺客",
         "themeNameEn": "Killer Jufuku",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "红莲祭参加者",
+        "themeNameCn": "深红节参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝成立十周年",
+        "themeNameCn": "庆祝出道十周年的人们",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -29008,7 +29008,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 155,
-          "themeNameCn": "斗兽场",
+          "themeNameCn": "コロセウム",
           "themeNameEn": "Bloodsands",
           "count": 11
         },
@@ -30108,7 +30108,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 120,
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeNameEn": "Flutterbye",
           "count": 4
         },
