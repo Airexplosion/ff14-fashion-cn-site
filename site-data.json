@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1781279185,
+  "generatedAt": 1781326740,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1816,7 +1816,7 @@
       "weeklyThemeId": 403,
       "weeklyThemeNameEn": "Advanced Explorer",
       "weeklyThemeNameJa": "未来を進む探検家",
-      "weeklyThemeNameCn": "一个走向未来的探索者",
+      "weeklyThemeNameCn": "迈向未来的探索者",
       "slots": [
         {
           "week": 394,
@@ -1828,7 +1828,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -3580,7 +3580,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -3668,7 +3668,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -4242,7 +4242,7 @@
       "weeklyThemeId": 361,
       "weeklyThemeNameEn": "Sport Support",
       "weeklyThemeNameJa": "応援スタイルの観客",
-      "weeklyThemeNameCn": "欢呼风格的观众",
+      "weeklyThemeNameCn": "欢呼式的观众",
       "slots": [
         {
           "week": 352,
@@ -4708,7 +4708,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -4984,7 +4984,7 @@
       "weeklyThemeId": 348,
       "weeklyThemeNameEn": "Iniquitous Archon",
       "weeklyThemeNameJa": "悪魔的な賢人",
-      "weeklyThemeNameCn": "恶魔般的智者",
+      "weeklyThemeNameCn": "恶魔般的聪明人",
       "slots": [
         {
           "week": 339,
@@ -5982,7 +5982,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 1,
           "dyeNameCn": "素雪白",
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬衣",
+      "weeklyThemeNameCn": "帝都风格冬装",
       "slots": [
         {
           "week": 262,
@@ -11052,7 +11052,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -11906,7 +11906,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "深红节参加者",
+      "weeklyThemeNameCn": "红莲祭参加者",
       "slots": [
         {
           "week": 225,
@@ -13248,7 +13248,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -14406,7 +14406,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 112,
           "dyeNameCn": "闪耀银",
@@ -15535,7 +15535,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -16257,7 +16257,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16474,7 +16474,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16657,7 +16657,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -17372,7 +17372,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -17433,7 +17433,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -18336,7 +18336,7 @@
       "weeklyThemeId": 133,
       "weeklyThemeNameEn": "Rebel with a Cause",
       "weeklyThemeNameJa": "反乱の信徒",
-      "weeklyThemeNameCn": "反叛信徒",
+      "weeklyThemeNameCn": "叛逆的信徒",
       "slots": [
         {
           "week": 124,
@@ -20339,7 +20339,7 @@
       "weeklyThemeId": 101,
       "weeklyThemeNameEn": "Dashing Duelist",
       "weeklyThemeNameJa": "決闘士の一張羅",
-      "weeklyThemeNameCn": "决斗者市春",
+      "weeklyThemeNameCn": "决斗者一郎",
       "slots": [
         {
           "week": 92,
@@ -21571,7 +21571,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -22923,7 +22923,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -23172,7 +23172,7 @@
       "weeklyThemeId": 54,
       "weeklyThemeNameEn": "Weekend Knights",
       "weeklyThemeNameJa": "休日の騎士",
-      "weeklyThemeNameCn": "假日骑士",
+      "weeklyThemeNameCn": "度假的骑士",
       "slots": [
         {
           "week": 45,
@@ -24358,7 +24358,7 @@
       "weeklyThemeId": 34,
       "weeklyThemeNameEn": "The 48th Ronin",
       "weeklyThemeNameJa": "さすらいの浪人",
-      "weeklyThemeNameCn": "浪人",
+      "weeklyThemeNameCn": "流浪浪人",
       "slots": [
         {
           "week": 25,
@@ -24570,7 +24570,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24831,7 +24831,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -26033,7 +26033,7 @@
       },
       {
         "themeId": 34,
-        "themeNameCn": "浪人",
+        "themeNameCn": "流浪浪人",
         "themeNameEn": "The 48th Ronin",
         "count": 1
       },
@@ -26153,7 +26153,7 @@
       },
       {
         "themeId": 54,
-        "themeNameCn": "假日骑士",
+        "themeNameCn": "度假的骑士",
         "themeNameEn": "Weekend Knights",
         "count": 1
       },
@@ -26435,7 +26435,7 @@
       },
       {
         "themeId": 101,
-        "themeNameCn": "决斗者市春",
+        "themeNameCn": "决斗者一郎",
         "themeNameEn": "Dashing Duelist",
         "count": 1
       },
@@ -26621,7 +26621,7 @@
       },
       {
         "themeId": 133,
-        "themeNameCn": "反叛信徒",
+        "themeNameCn": "叛逆的信徒",
         "themeNameEn": "Rebel with a Cause",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "深红节参加者",
+        "themeNameCn": "红莲祭参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬衣",
+        "themeNameCn": "帝都风格冬装",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -27911,7 +27911,7 @@
       },
       {
         "themeId": 348,
-        "themeNameCn": "恶魔般的智者",
+        "themeNameCn": "恶魔般的聪明人",
         "themeNameEn": "Iniquitous Archon",
         "count": 1
       },
@@ -27983,7 +27983,7 @@
       },
       {
         "themeId": 361,
-        "themeNameCn": "欢呼风格的观众",
+        "themeNameCn": "欢呼式的观众",
         "themeNameEn": "Sport Support",
         "count": 1
       },
@@ -28235,7 +28235,7 @@
       },
       {
         "themeId": 403,
-        "themeNameCn": "一个走向未来的探索者",
+        "themeNameCn": "迈向未来的探索者",
         "themeNameEn": "Advanced Explorer",
         "count": 1
       },
@@ -28403,7 +28403,7 @@
           "slotCn": "头部",
           "slotEn": "Head",
           "themeId": 151,
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeNameEn": "Future Arma",
           "count": 6
         },
@@ -30108,7 +30108,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 120,
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeNameEn": "Flutterbye",
           "count": 4
         },
@@ -30171,7 +30171,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 4
         },
@@ -30279,7 +30279,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 178,
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeNameEn": "Diabolical",
           "count": 3
         },
@@ -30812,7 +30812,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 2
         },
