@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1781431226,
+  "generatedAt": 1781448189,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -7529,7 +7529,7 @@
       "weeklyThemeId": 306,
       "weeklyThemeNameEn": "Researcher Robes",
       "weeklyThemeNameJa": "式典の研究者",
-      "weeklyThemeNameCn": "仪式研究员",
+      "weeklyThemeNameCn": "式典の研究者",
       "slots": [
         {
           "week": 297,
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝成立十周年",
+      "weeklyThemeNameCn": "庆祝出道十周年的人们",
       "slots": [
         {
           "week": 289,
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻甲战士",
+      "weeklyThemeNameCn": "轻装甲战斗机",
       "slots": [
         {
           "week": 90,
@@ -23172,7 +23172,7 @@
       "weeklyThemeId": 54,
       "weeklyThemeNameEn": "Weekend Knights",
       "weeklyThemeNameJa": "休日の騎士",
-      "weeklyThemeNameCn": "度假的骑士",
+      "weeklyThemeNameCn": "假日骑士",
       "slots": [
         {
           "week": 45,
@@ -26153,7 +26153,7 @@
       },
       {
         "themeId": 54,
-        "themeNameCn": "度假的骑士",
+        "themeNameCn": "假日骑士",
         "themeNameEn": "Weekend Knights",
         "count": 1
       },
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻甲战士",
+        "themeNameCn": "轻装甲战斗机",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝成立十周年",
+        "themeNameCn": "庆祝出道十周年的人们",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -27659,7 +27659,7 @@
       },
       {
         "themeId": 306,
-        "themeNameCn": "仪式研究员",
+        "themeNameCn": "式典の研究者",
         "themeNameEn": "Researcher Robes",
         "count": 1
       },
