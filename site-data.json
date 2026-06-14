@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1781414804,
+  "generatedAt": 1781431226,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1816,7 +1816,7 @@
       "weeklyThemeId": 403,
       "weeklyThemeNameEn": "Advanced Explorer",
       "weeklyThemeNameJa": "未来を進む探検家",
-      "weeklyThemeNameCn": "一个走向未来的探索者",
+      "weeklyThemeNameCn": "迈向未来的探索者",
       "slots": [
         {
           "week": 394,
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯卡",
+      "weeklyThemeNameCn": "野生达尔马斯坎",
       "slots": [
         {
           "week": 388,
@@ -3580,7 +3580,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -4078,7 +4078,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "加罗",
+          "themeNameCn": "狼人",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -5189,7 +5189,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "加罗",
+          "themeNameCn": "狼人",
           "themeCnSource": "jp_translate",
           "dyeId": 93,
           "dyeNameCn": "珍珠白",
@@ -5982,7 +5982,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 1,
           "dyeNameCn": "素雪白",
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "火热的战士",
+      "weeklyThemeNameCn": "燃烧的战士",
       "slots": [
         {
           "week": 295,
@@ -11052,7 +11052,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -12033,7 +12033,7 @@
       "weeklyThemeId": 233,
       "weeklyThemeNameEn": "Animalistic Advisor",
       "weeklyThemeNameJa": "獣の参謀",
-      "weeklyThemeNameCn": "野兽之杖",
+      "weeklyThemeNameCn": "野兽的法杖",
       "slots": [
         {
           "week": 224,
@@ -14406,7 +14406,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 112,
           "dyeNameCn": "闪耀银",
@@ -14699,7 +14699,7 @@
       "weeklyThemeId": 189,
       "weeklyThemeNameEn": "Killer Jufuku",
       "weeklyThemeNameJa": "戎服の刺客",
-      "weeklyThemeNameCn": "穿着制服的刺客",
+      "weeklyThemeNameCn": "穿制服的刺客",
       "slots": [
         {
           "week": 180,
@@ -16474,7 +16474,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16657,7 +16657,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -17372,7 +17372,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -19434,7 +19434,7 @@
       "weeklyThemeId": 115,
       "weeklyThemeNameEn": "Snappy Socialite",
       "weeklyThemeNameJa": "都市の洒落者",
-      "weeklyThemeNameCn": "都市时尚人士",
+      "weeklyThemeNameCn": "都市时尚达人",
       "slots": [
         {
           "week": 106,
@@ -20593,7 +20593,7 @@
       "weeklyThemeId": 96,
       "weeklyThemeNameEn": "To the Practice Grounds",
       "weeklyThemeNameJa": "ファイターの練習着",
-      "weeklyThemeNameCn": "ファイターの練習着",
+      "weeklyThemeNameCn": "战斗机训练服",
       "slots": [
         {
           "week": 87,
@@ -21071,7 +21071,7 @@
       "weeklyThemeId": 89,
       "weeklyThemeNameEn": "Garlond Says",
       "weeklyThemeNameJa": "ガーロンド社の作業員",
-      "weeklyThemeNameCn": "嘉隆工人",
+      "weeklyThemeNameCn": "嘉隆德工人",
       "slots": [
         {
           "week": 80,
@@ -21571,7 +21571,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -23172,7 +23172,7 @@
       "weeklyThemeId": 54,
       "weeklyThemeNameEn": "Weekend Knights",
       "weeklyThemeNameJa": "休日の騎士",
-      "weeklyThemeNameCn": "假日骑士",
+      "weeklyThemeNameCn": "度假的骑士",
       "slots": [
         {
           "week": 45,
@@ -24570,7 +24570,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24831,7 +24831,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -26153,7 +26153,7 @@
       },
       {
         "themeId": 54,
-        "themeNameCn": "假日骑士",
+        "themeNameCn": "度假的骑士",
         "themeNameEn": "Weekend Knights",
         "count": 1
       },
@@ -26363,7 +26363,7 @@
       },
       {
         "themeId": 89,
-        "themeNameCn": "嘉隆工人",
+        "themeNameCn": "嘉隆德工人",
         "themeNameEn": "Garlond Says",
         "count": 1
       },
@@ -26405,7 +26405,7 @@
       },
       {
         "themeId": 96,
-        "themeNameCn": "ファイターの練習着",
+        "themeNameCn": "战斗机训练服",
         "themeNameEn": "To the Practice Grounds",
         "count": 1
       },
@@ -26513,7 +26513,7 @@
       },
       {
         "themeId": 115,
-        "themeNameCn": "都市时尚人士",
+        "themeNameCn": "都市时尚达人",
         "themeNameEn": "Snappy Socialite",
         "count": 1
       },
@@ -26957,7 +26957,7 @@
       },
       {
         "themeId": 189,
-        "themeNameCn": "穿着制服的刺客",
+        "themeNameCn": "穿制服的刺客",
         "themeNameEn": "Killer Jufuku",
         "count": 1
       },
@@ -27221,7 +27221,7 @@
       },
       {
         "themeId": 233,
-        "themeNameCn": "野兽之杖",
+        "themeNameCn": "野兽的法杖",
         "themeNameEn": "Animalistic Advisor",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "火热的战士",
+        "themeNameCn": "燃烧的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯卡",
+        "themeNameCn": "野生达尔马斯坎",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -28235,7 +28235,7 @@
       },
       {
         "themeId": 403,
-        "themeNameCn": "一个走向未来的探索者",
+        "themeNameCn": "迈向未来的探索者",
         "themeNameEn": "Advanced Explorer",
         "count": 1
       },
@@ -29818,7 +29818,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 37,
-          "themeNameCn": "加罗",
+          "themeNameCn": "狼人",
           "themeNameEn": "Going Garo",
           "count": 1
         },
@@ -30108,7 +30108,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 120,
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeNameEn": "Flutterbye",
           "count": 4
         },
@@ -30171,7 +30171,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 4
         },
@@ -30812,7 +30812,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 2
         },
@@ -30911,7 +30911,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 37,
-          "themeNameCn": "加罗",
+          "themeNameCn": "狼人",
           "themeNameEn": "Going Garo",
           "count": 1
         },
