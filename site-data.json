@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1781589084,
+  "generatedAt": 1781609995,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -12687,7 +12687,7 @@
       "weeklyThemeId": 222,
       "weeklyThemeNameEn": "Sunken Sentry",
       "weeklyThemeNameJa": "スカラの衛士",
-      "weeklyThemeNameCn": "スカラの衛士",
+      "weeklyThemeNameCn": "斯卡拉守卫",
       "slots": [
         {
           "week": 213,
@@ -13646,7 +13646,7 @@
       "weeklyThemeId": 206,
       "weeklyThemeNameEn": "Cloudborne Cutthroat",
       "weeklyThemeNameJa": "空賊の飛空士",
-      "weeklyThemeNameCn": "空賊の飛空士",
+      "weeklyThemeNameCn": "空贼飞行员",
       "slots": [
         {
           "week": 197,
@@ -13724,7 +13724,7 @@
       "weeklyThemeId": 205,
       "weeklyThemeNameEn": "Magnificent Majesty",
       "weeklyThemeNameJa": "煌びやかな教皇",
-      "weeklyThemeNameCn": "煌びやかな教皇",
+      "weeklyThemeNameCn": "闪闪发光的教皇",
       "slots": [
         {
           "week": 196,
@@ -14282,7 +14282,7 @@
       "weeklyThemeId": 195,
       "weeklyThemeNameEn": "Enlightened Conservationist",
       "weeklyThemeNameJa": "自然保護活動家",
-      "weeklyThemeNameCn": "自然保護活動家",
+      "weeklyThemeNameCn": "自然资源保护主义者",
       "slots": [
         {
           "week": 186,
@@ -26993,7 +26993,7 @@
       },
       {
         "themeId": 195,
-        "themeNameCn": "自然保護活動家",
+        "themeNameCn": "自然资源保护主义者",
         "themeNameEn": "Enlightened Conservationist",
         "count": 1
       },
@@ -27053,13 +27053,13 @@
       },
       {
         "themeId": 205,
-        "themeNameCn": "煌びやかな教皇",
+        "themeNameCn": "闪闪发光的教皇",
         "themeNameEn": "Magnificent Majesty",
         "count": 1
       },
       {
         "themeId": 206,
-        "themeNameCn": "空賊の飛空士",
+        "themeNameCn": "空贼飞行员",
         "themeNameEn": "Cloudborne Cutthroat",
         "count": 1
       },
@@ -27155,7 +27155,7 @@
       },
       {
         "themeId": 222,
-        "themeNameCn": "スカラの衛士",
+        "themeNameCn": "斯卡拉守卫",
         "themeNameEn": "Sunken Sentry",
         "count": 1
       },
