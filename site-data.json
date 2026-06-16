@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1781558933,
+  "generatedAt": 1781589084,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1816,7 +1816,7 @@
       "weeklyThemeId": 403,
       "weeklyThemeNameEn": "Advanced Explorer",
       "weeklyThemeNameJa": "未来を進む探検家",
-      "weeklyThemeNameCn": "迈向未来的探索者",
+      "weeklyThemeNameCn": "一个走向未来的探索者",
       "slots": [
         {
           "week": 394,
@@ -3107,7 +3107,7 @@
       "weeklyThemeId": 381,
       "weeklyThemeNameEn": "Blooming Builder",
       "weeklyThemeNameJa": "花好きの作業員",
-      "weeklyThemeNameCn": "一个爱花的工作者",
+      "weeklyThemeNameCn": "一个爱花的工人",
       "slots": [
         {
           "week": 372,
@@ -3944,7 +3944,7 @@
       "weeklyThemeId": 367,
       "weeklyThemeNameEn": "Flair for Genius",
       "weeklyThemeNameJa": "洒落者の俊英",
-      "weeklyThemeNameCn": "时尚的俊英",
+      "weeklyThemeNameCn": "时尚的俊秀",
       "slots": [
         {
           "week": 358,
@@ -4984,7 +4984,7 @@
       "weeklyThemeId": 348,
       "weeklyThemeNameEn": "Iniquitous Archon",
       "weeklyThemeNameJa": "悪魔的な賢人",
-      "weeklyThemeNameCn": "恶魔般的聪明人",
+      "weeklyThemeNameCn": "恶魔般的智者",
       "slots": [
         {
           "week": 339,
@@ -7329,7 +7329,7 @@
       "weeklyThemeId": 309,
       "weeklyThemeNameEn": "Cosmos of Thorns",
       "weeklyThemeNameJa": "茨に咲くコスモス",
-      "weeklyThemeNameCn": "荆棘上盛开的波斯菊",
+      "weeklyThemeNameCn": "荆棘上绽放的波斯菊",
       "slots": [
         {
           "week": 300,
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝出道十周年的人们",
+      "weeklyThemeNameCn": "庆祝成立十周年",
       "slots": [
         {
           "week": 289,
@@ -8888,7 +8888,7 @@
       "weeklyThemeId": 284,
       "weeklyThemeNameEn": "New World, New Workfolk",
       "weeklyThemeNameJa": "新大陸のフィールドワーカー",
-      "weeklyThemeNameCn": "新大陆的野外工作人员",
+      "weeklyThemeNameCn": "新大陆的现场工作者",
       "slots": [
         {
           "week": 275,
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬装",
+      "weeklyThemeNameCn": "帝都风格冬衣",
       "slots": [
         {
           "week": 262,
@@ -11052,7 +11052,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -12687,7 +12687,7 @@
       "weeklyThemeId": 222,
       "weeklyThemeNameEn": "Sunken Sentry",
       "weeklyThemeNameJa": "スカラの衛士",
-      "weeklyThemeNameCn": "斯卡拉守卫",
+      "weeklyThemeNameCn": "スカラの衛士",
       "slots": [
         {
           "week": 213,
@@ -13248,7 +13248,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔般的",
+          "themeNameCn": "恶魔的",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -13646,7 +13646,7 @@
       "weeklyThemeId": 206,
       "weeklyThemeNameEn": "Cloudborne Cutthroat",
       "weeklyThemeNameJa": "空賊の飛空士",
-      "weeklyThemeNameCn": "空贼飞行员",
+      "weeklyThemeNameCn": "空賊の飛空士",
       "slots": [
         {
           "week": 197,
@@ -13724,7 +13724,7 @@
       "weeklyThemeId": 205,
       "weeklyThemeNameEn": "Magnificent Majesty",
       "weeklyThemeNameJa": "煌びやかな教皇",
-      "weeklyThemeNameCn": "闪闪发光的教皇",
+      "weeklyThemeNameCn": "煌びやかな教皇",
       "slots": [
         {
           "week": 196,
@@ -14282,7 +14282,7 @@
       "weeklyThemeId": 195,
       "weeklyThemeNameEn": "Enlightened Conservationist",
       "weeklyThemeNameJa": "自然保護活動家",
-      "weeklyThemeNameCn": "自然资源保护主义者",
+      "weeklyThemeNameCn": "自然保護活動家",
       "slots": [
         {
           "week": 186,
@@ -15535,7 +15535,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔般的",
+          "themeNameCn": "恶魔的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -17372,7 +17372,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -17433,7 +17433,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔般的",
+          "themeNameCn": "恶魔的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻装甲战斗机",
+      "weeklyThemeNameCn": "轻甲战士",
       "slots": [
         {
           "week": 90,
@@ -24358,7 +24358,7 @@
       "weeklyThemeId": 34,
       "weeklyThemeNameEn": "The 48th Ronin",
       "weeklyThemeNameJa": "さすらいの浪人",
-      "weeklyThemeNameCn": "流浪浪人",
+      "weeklyThemeNameCn": "浪人",
       "slots": [
         {
           "week": 25,
@@ -24570,7 +24570,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24831,7 +24831,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -26033,7 +26033,7 @@
       },
       {
         "themeId": 34,
-        "themeNameCn": "流浪浪人",
+        "themeNameCn": "浪人",
         "themeNameEn": "The 48th Ronin",
         "count": 1
       },
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻装甲战斗机",
+        "themeNameCn": "轻甲战士",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -26993,7 +26993,7 @@
       },
       {
         "themeId": 195,
-        "themeNameCn": "自然资源保护主义者",
+        "themeNameCn": "自然保護活動家",
         "themeNameEn": "Enlightened Conservationist",
         "count": 1
       },
@@ -27053,13 +27053,13 @@
       },
       {
         "themeId": 205,
-        "themeNameCn": "闪闪发光的教皇",
+        "themeNameCn": "煌びやかな教皇",
         "themeNameEn": "Magnificent Majesty",
         "count": 1
       },
       {
         "themeId": 206,
-        "themeNameCn": "空贼飞行员",
+        "themeNameCn": "空賊の飛空士",
         "themeNameEn": "Cloudborne Cutthroat",
         "count": 1
       },
@@ -27155,7 +27155,7 @@
       },
       {
         "themeId": 222,
-        "themeNameCn": "斯卡拉守卫",
+        "themeNameCn": "スカラの衛士",
         "themeNameEn": "Sunken Sentry",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬装",
+        "themeNameCn": "帝都风格冬衣",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -27527,7 +27527,7 @@
       },
       {
         "themeId": 284,
-        "themeNameCn": "新大陆的野外工作人员",
+        "themeNameCn": "新大陆的现场工作者",
         "themeNameEn": "New World, New Workfolk",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝出道十周年的人们",
+        "themeNameCn": "庆祝成立十周年",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -27677,7 +27677,7 @@
       },
       {
         "themeId": 309,
-        "themeNameCn": "荆棘上盛开的波斯菊",
+        "themeNameCn": "荆棘上绽放的波斯菊",
         "themeNameEn": "Cosmos of Thorns",
         "count": 1
       },
@@ -27911,7 +27911,7 @@
       },
       {
         "themeId": 348,
-        "themeNameCn": "恶魔般的聪明人",
+        "themeNameCn": "恶魔般的智者",
         "themeNameEn": "Iniquitous Archon",
         "count": 1
       },
@@ -28019,7 +28019,7 @@
       },
       {
         "themeId": 367,
-        "themeNameCn": "时尚的俊英",
+        "themeNameCn": "时尚的俊秀",
         "themeNameEn": "Flair for Genius",
         "count": 1
       },
@@ -28103,7 +28103,7 @@
       },
       {
         "themeId": 381,
-        "themeNameCn": "一个爱花的工作者",
+        "themeNameCn": "一个爱花的工人",
         "themeNameEn": "Blooming Builder",
         "count": 1
       },
@@ -28235,7 +28235,7 @@
       },
       {
         "themeId": 403,
-        "themeNameCn": "迈向未来的探索者",
+        "themeNameCn": "一个走向未来的探索者",
         "themeNameEn": "Advanced Explorer",
         "count": 1
       },
@@ -30108,7 +30108,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 120,
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeNameEn": "Flutterbye",
           "count": 4
         },
@@ -30279,7 +30279,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 178,
-          "themeNameCn": "恶魔般的",
+          "themeNameCn": "恶魔的",
           "themeNameEn": "Diabolical",
           "count": 3
         },
