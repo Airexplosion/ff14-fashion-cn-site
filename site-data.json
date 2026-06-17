@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1781674286,
+  "generatedAt": 1781695305,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -6704,7 +6704,7 @@
           "themeId": 97,
           "themeNameEn": "True Linen",
           "themeNameJa": "トゥルーリネン",
-          "themeNameCn": "トゥルーリネン",
+          "themeNameCn": "纯亚麻",
           "themeCnSource": "jp_translate",
           "dyeId": 21,
           "dyeNameCn": "钴铁棕",
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝出道十周年的人们",
+      "weeklyThemeNameCn": "庆祝成立十周年",
       "slots": [
         {
           "week": 289,
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬装",
+      "weeklyThemeNameCn": "帝都风格冬衣",
       "slots": [
         {
           "week": 262,
@@ -10103,7 +10103,7 @@
           "themeId": 97,
           "themeNameEn": "True Linen",
           "themeNameJa": "トゥルーリネン",
-          "themeNameCn": "トゥルーリネン",
+          "themeNameCn": "纯亚麻",
           "themeCnSource": "jp_translate",
           "dyeId": 25,
           "dyeNameCn": "山羊棕",
@@ -11052,7 +11052,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "深红节参加者",
+      "weeklyThemeNameCn": "红莲祭参加者",
       "slots": [
         {
           "week": 225,
@@ -16196,7 +16196,7 @@
           "themeId": 97,
           "themeNameEn": "True Linen",
           "themeNameJa": "トゥルーリネン",
-          "themeNameCn": "トゥルーリネン",
+          "themeNameCn": "纯亚麻",
           "themeCnSource": "jp_translate",
           "dyeId": 29,
           "dyeNameCn": "山栗棕",
@@ -17372,7 +17372,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻甲战士",
+      "weeklyThemeNameCn": "轻装甲战斗机",
       "slots": [
         {
           "week": 90,
@@ -22147,7 +22147,7 @@
           "themeId": 97,
           "themeNameEn": "True Linen",
           "themeNameJa": "トゥルーリネン",
-          "themeNameCn": "トゥルーリネン",
+          "themeNameCn": "纯亚麻",
           "themeCnSource": "jp_translate",
           "dyeId": 32,
           "dyeNameCn": "鼹鼠棕",
@@ -24480,7 +24480,7 @@
       "weeklyThemeId": 32,
       "weeklyThemeNameEn": "A Hard Bargain",
       "weeklyThemeNameJa": "手堅い売り子",
-      "weeklyThemeNameCn": "手堅い売り子",
+      "weeklyThemeNameCn": "扎实的销售员",
       "slots": [
         {
           "week": 23,
@@ -24541,7 +24541,7 @@
       "weeklyThemeId": 31,
       "weeklyThemeNameEn": "The Silent Hero",
       "weeklyThemeNameJa": "静かなる冒険者",
-      "weeklyThemeNameCn": "静かなる冒険者",
+      "weeklyThemeNameCn": "安静的冒险家",
       "slots": [
         {
           "week": 22,
@@ -24553,7 +24553,7 @@
           "themeId": 97,
           "themeNameEn": "True Linen",
           "themeNameJa": "トゥルーリネン",
-          "themeNameCn": "トゥルーリネン",
+          "themeNameCn": "纯亚麻",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24570,7 +24570,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24602,7 +24602,7 @@
       "weeklyThemeId": 30,
       "weeklyThemeNameEn": "In the Shadows",
       "weeklyThemeNameJa": "裏社会の住人",
-      "weeklyThemeNameCn": "裏社会の住人",
+      "weeklyThemeNameCn": "地下世界的居民",
       "slots": [
         {
           "week": 21,
@@ -24831,7 +24831,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -26009,19 +26009,19 @@
       },
       {
         "themeId": 30,
-        "themeNameCn": "裏社会の住人",
+        "themeNameCn": "地下世界的居民",
         "themeNameEn": "In the Shadows",
         "count": 1
       },
       {
         "themeId": 31,
-        "themeNameCn": "静かなる冒険者",
+        "themeNameCn": "安静的冒险家",
         "themeNameEn": "The Silent Hero",
         "count": 1
       },
       {
         "themeId": 32,
-        "themeNameCn": "手堅い売り子",
+        "themeNameCn": "扎实的销售员",
         "themeNameEn": "A Hard Bargain",
         "count": 1
       },
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻甲战士",
+        "themeNameCn": "轻装甲战斗机",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "深红节参加者",
+        "themeNameCn": "红莲祭参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬装",
+        "themeNameCn": "帝都风格冬衣",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝出道十周年的人们",
+        "themeNameCn": "庆祝成立十周年",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -29233,7 +29233,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 97,
-          "themeNameCn": "トゥルーリネン",
+          "themeNameCn": "纯亚麻",
           "themeNameEn": "True Linen",
           "count": 5
         },
@@ -30108,7 +30108,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 120,
-          "themeNameCn": "飘飘",
+          "themeNameCn": "飘动的",
           "themeNameEn": "Flutterbye",
           "count": 4
         },
