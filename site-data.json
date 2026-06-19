@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1781815383,
+  "generatedAt": 1781847582,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -3944,7 +3944,7 @@
       "weeklyThemeId": 367,
       "weeklyThemeNameEn": "Flair for Genius",
       "weeklyThemeNameJa": "洒落者の俊英",
-      "weeklyThemeNameCn": "时尚的俊秀",
+      "weeklyThemeNameCn": "时尚的俊英",
       "slots": [
         {
           "week": 358,
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬衣",
+      "weeklyThemeNameCn": "帝都风格冬装",
       "slots": [
         {
           "week": 262,
@@ -11052,7 +11052,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "红莲祭参加者",
+      "weeklyThemeNameCn": "深红节参加者",
       "slots": [
         {
           "week": 225,
@@ -17372,7 +17372,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 30,
           "dyeNameCn": "哥布林",
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻装甲战斗机",
+      "weeklyThemeNameCn": "轻甲战士",
       "slots": [
         {
           "week": 90,
@@ -24570,7 +24570,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24831,7 +24831,7 @@
           "themeId": 120,
           "themeNameEn": "Flutterbye",
           "themeNameJa": "ひらひら",
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻装甲战斗机",
+        "themeNameCn": "轻甲战士",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "红莲祭参加者",
+        "themeNameCn": "深红节参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬衣",
+        "themeNameCn": "帝都风格冬装",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -28019,7 +28019,7 @@
       },
       {
         "themeId": 367,
-        "themeNameCn": "时尚的俊秀",
+        "themeNameCn": "时尚的俊英",
         "themeNameEn": "Flair for Genius",
         "count": 1
       },
@@ -30108,7 +30108,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 120,
-          "themeNameCn": "飘动的",
+          "themeNameCn": "飘飘",
           "themeNameEn": "Flutterbye",
           "count": 4
         },
