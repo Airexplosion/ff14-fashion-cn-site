@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1782228598,
+  "generatedAt": 1782247206,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -3107,7 +3107,7 @@
       "weeklyThemeId": 381,
       "weeklyThemeNameEn": "Blooming Builder",
       "weeklyThemeNameJa": "花好きの作業員",
-      "weeklyThemeNameCn": "一个爱花的工作者",
+      "weeklyThemeNameCn": "一个爱花的工人",
       "slots": [
         {
           "week": 372,
@@ -6431,7 +6431,7 @@
       "weeklyThemeId": 324,
       "weeklyThemeNameEn": "New World Harvester",
       "weeklyThemeNameJa": "新大陸のギャザラー",
-      "weeklyThemeNameCn": "新世界的采集者",
+      "weeklyThemeNameCn": "新大陸のギャザラー",
       "slots": [
         {
           "week": 315,
@@ -8888,7 +8888,7 @@
       "weeklyThemeId": 284,
       "weeklyThemeNameEn": "New World, New Workfolk",
       "weeklyThemeNameJa": "新大陸のフィールドワーカー",
-      "weeklyThemeNameCn": "新大陆的野外工作人员",
+      "weeklyThemeNameCn": "新大陆的现场工作者",
       "slots": [
         {
           "week": 275,
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬衣",
+      "weeklyThemeNameCn": "帝都风格冬装",
       "slots": [
         {
           "week": 262,
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "红莲祭参加者",
+      "weeklyThemeNameCn": "深红节参加者",
       "slots": [
         {
           "week": 225,
@@ -18519,7 +18519,7 @@
       "weeklyThemeId": 130,
       "weeklyThemeNameEn": "Swords and Plowshares",
       "weeklyThemeNameJa": "好戦的なファーマー",
-      "weeklyThemeNameCn": "好战的农民",
+      "weeklyThemeNameCn": "好戦的なファーマー",
       "slots": [
         {
           "week": 121,
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻装甲战斗机",
+      "weeklyThemeNameCn": "轻甲战士",
       "slots": [
         {
           "week": 90,
@@ -25683,7 +25683,7 @@
       "weeklyThemeId": 12,
       "weeklyThemeNameEn": "Keeping It Cool",
       "weeklyThemeNameJa": "とことんクール",
-      "weeklyThemeNameCn": "彻底酷",
+      "weeklyThemeNameCn": "とことんクール",
       "slots": [
         {
           "week": 3,
@@ -25901,7 +25901,7 @@
       },
       {
         "themeId": 12,
-        "themeNameCn": "彻底酷",
+        "themeNameCn": "とことんクール",
         "themeNameEn": "Keeping It Cool",
         "count": 1
       },
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻装甲战斗机",
+        "themeNameCn": "轻甲战士",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -26603,7 +26603,7 @@
       },
       {
         "themeId": 130,
-        "themeNameCn": "好战的农民",
+        "themeNameCn": "好戦的なファーマー",
         "themeNameEn": "Swords and Plowshares",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "红莲祭参加者",
+        "themeNameCn": "深红节参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬衣",
+        "themeNameCn": "帝都风格冬装",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -27527,7 +27527,7 @@
       },
       {
         "themeId": 284,
-        "themeNameCn": "新大陆的野外工作人员",
+        "themeNameCn": "新大陆的现场工作者",
         "themeNameEn": "New World, New Workfolk",
         "count": 1
       },
@@ -27767,7 +27767,7 @@
       },
       {
         "themeId": 324,
-        "themeNameCn": "新世界的采集者",
+        "themeNameCn": "新大陸のギャザラー",
         "themeNameEn": "New World Harvester",
         "count": 1
       },
@@ -28103,7 +28103,7 @@
       },
       {
         "themeId": 381,
-        "themeNameCn": "一个爱花的工作者",
+        "themeNameCn": "一个爱花的工人",
         "themeNameEn": "Blooming Builder",
         "count": 1
       },
