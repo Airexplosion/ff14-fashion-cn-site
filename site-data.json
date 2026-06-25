@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1782381373,
+  "generatedAt": 1782400840,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -2348,7 +2348,7 @@
       "weeklyThemeId": 394,
       "weeklyThemeNameEn": "Lover of Peace and Quiet",
       "weeklyThemeNameJa": "リラックスした平和主義者",
-      "weeklyThemeNameCn": "リラックスした平和主義者",
+      "weeklyThemeNameCn": "轻松的和平主义者",
       "slots": [
         {
           "week": 385,
@@ -28181,7 +28181,7 @@
       },
       {
         "themeId": 394,
-        "themeNameCn": "リラックスした平和主義者",
+        "themeNameCn": "轻松的和平主义者",
         "themeNameEn": "Lover of Peace and Quiet",
         "count": 1
       },
