@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1782449544,
+  "generatedAt": 1782467769,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -5089,7 +5089,7 @@
       "weeklyThemeId": 346,
       "weeklyThemeNameEn": "Hibernation Anticipation",
       "weeklyThemeNameJa": "獣の冬支度",
-      "weeklyThemeNameCn": "獣の冬支度",
+      "weeklyThemeNameCn": "动物过冬准备",
       "slots": [
         {
           "week": 337,
@@ -27899,7 +27899,7 @@
       },
       {
         "themeId": 346,
-        "themeNameCn": "獣の冬支度",
+        "themeNameCn": "动物过冬准备",
         "themeNameEn": "Hibernation Anticipation",
         "count": 1
       },
