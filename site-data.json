@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1782639879,
+  "generatedAt": 1782656445,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -2636,7 +2636,7 @@
       "weeklyThemeId": 389,
       "weeklyThemeNameEn": "Pajama Party",
       "weeklyThemeNameJa": "パジャマパーティー",
-      "weeklyThemeNameCn": "パジャマパーティー",
+      "weeklyThemeNameCn": "睡衣派对",
       "slots": [
         {
           "week": 380,
@@ -2714,7 +2714,7 @@
       "weeklyThemeId": 388,
       "weeklyThemeNameEn": "Cool Beast",
       "weeklyThemeNameJa": "クールビースト",
-      "weeklyThemeNameCn": "クールビースト",
+      "weeklyThemeNameCn": "酷兽",
       "slots": [
         {
           "week": 379,
@@ -2819,7 +2819,7 @@
       "weeklyThemeId": 386,
       "weeklyThemeNameEn": "Crafting on the Edge",
       "weeklyThemeNameJa": "先鋭の匠",
-      "weeklyThemeNameCn": "先鋭の匠",
+      "weeklyThemeNameCn": "尖端工匠",
       "slots": [
         {
           "week": 377,
@@ -17477,7 +17477,7 @@
           "themeId": 27,
           "themeNameEn": "Vagabond",
           "themeNameJa": "無頼",
-          "themeNameCn": "無頼",
+          "themeNameCn": "不可靠",
           "themeCnSource": "jp_translate",
           "dyeId": 103,
           "dyeNameCn": "柔彩粉",
@@ -18548,7 +18548,7 @@
           "themeId": 27,
           "themeNameEn": "Vagabond",
           "themeNameJa": "無頼",
-          "themeNameCn": "無頼",
+          "themeNameCn": "不可靠",
           "themeCnSource": "jp_translate",
           "dyeId": 7,
           "dyeNameCn": "玫瑰粉",
@@ -28133,7 +28133,7 @@
       },
       {
         "themeId": 386,
-        "themeNameCn": "先鋭の匠",
+        "themeNameCn": "尖端工匠",
         "themeNameEn": "Crafting on the Edge",
         "count": 1
       },
@@ -28145,13 +28145,13 @@
       },
       {
         "themeId": 388,
-        "themeNameCn": "クールビースト",
+        "themeNameCn": "酷兽",
         "themeNameEn": "Cool Beast",
         "count": 1
       },
       {
         "themeId": 389,
-        "themeNameCn": "パジャマパーティー",
+        "themeNameCn": "睡衣派对",
         "themeNameEn": "Pajama Party",
         "count": 1
       },
@@ -29620,7 +29620,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 27,
-          "themeNameCn": "無頼",
+          "themeNameCn": "不可靠",
           "themeNameEn": "Vagabond",
           "count": 2
         },
