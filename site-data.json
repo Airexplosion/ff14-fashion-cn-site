@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1782623308,
+  "generatedAt": 1782639879,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1706,7 +1706,7 @@
           "themeId": 60,
           "themeNameEn": "Allagan Attack",
           "themeNameJa": "アラグ儀礼",
-          "themeNameCn": "アラグ儀礼",
+          "themeNameCn": "阿拉格仪式",
           "themeCnSource": "jp_translate",
           "dyeId": 103,
           "dyeNameCn": "柔彩粉",
@@ -1828,7 +1828,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯卡",
+      "weeklyThemeNameCn": "野生达尔马斯坎",
       "slots": [
         {
           "week": 388,
@@ -2636,7 +2636,7 @@
       "weeklyThemeId": 389,
       "weeklyThemeNameEn": "Pajama Party",
       "weeklyThemeNameJa": "パジャマパーティー",
-      "weeklyThemeNameCn": "睡衣派对",
+      "weeklyThemeNameCn": "パジャマパーティー",
       "slots": [
         {
           "week": 380,
@@ -2714,7 +2714,7 @@
       "weeklyThemeId": 388,
       "weeklyThemeNameEn": "Cool Beast",
       "weeklyThemeNameJa": "クールビースト",
-      "weeklyThemeNameCn": "酷兽",
+      "weeklyThemeNameCn": "クールビースト",
       "slots": [
         {
           "week": 379,
@@ -2819,7 +2819,7 @@
       "weeklyThemeId": 386,
       "weeklyThemeNameEn": "Crafting on the Edge",
       "weeklyThemeNameJa": "先鋭の匠",
-      "weeklyThemeNameCn": "尖端工匠",
+      "weeklyThemeNameCn": "先鋭の匠",
       "slots": [
         {
           "week": 377,
@@ -3275,7 +3275,7 @@
           "themeId": 222,
           "themeNameEn": "Fringed and Footloose",
           "themeNameJa": "フリンジブーツ",
-          "themeNameCn": "フリンジブーツ",
+          "themeNameCn": "流苏靴子",
           "themeCnSource": "jp_translate",
           "dyeId": 20,
           "dyeNameCn": "铁锈棕",
@@ -3668,7 +3668,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -3746,7 +3746,7 @@
           "themeId": 224,
           "themeNameEn": "Best Dress-ed",
           "themeNameJa": "ガーリードレス",
-          "themeNameCn": "ガーリードレス",
+          "themeNameCn": "少女连衣裙",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -4515,7 +4515,7 @@
           "themeId": 222,
           "themeNameEn": "Fringed and Footloose",
           "themeNameJa": "フリンジブーツ",
-          "themeNameCn": "フリンジブーツ",
+          "themeNameCn": "流苏靴子",
           "themeCnSource": "jp_translate",
           "dyeId": 18,
           "dyeNameCn": "树皮棕",
@@ -4708,7 +4708,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -5162,7 +5162,7 @@
           "themeId": 222,
           "themeNameEn": "Fringed and Footloose",
           "themeNameJa": "フリンジブーツ",
-          "themeNameCn": "フリンジブーツ",
+          "themeNameCn": "流苏靴子",
           "themeCnSource": "jp_translate",
           "dyeId": 26,
           "dyeNameCn": "南瓜橙",
@@ -5555,7 +5555,7 @@
           "themeId": 184,
           "themeNameEn": "Storm of Blood",
           "themeNameJa": "紅蓮の装束",
-          "themeNameCn": "紅蓮の装束",
+          "themeNameCn": "深红色服装",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -6277,7 +6277,7 @@
           "themeId": 222,
           "themeNameEn": "Fringed and Footloose",
           "themeNameJa": "フリンジブーツ",
-          "themeNameCn": "フリンジブーツ",
+          "themeNameCn": "流苏靴子",
           "themeCnSource": "jp_translate",
           "dyeId": 28,
           "dyeNameCn": "果园棕",
@@ -7836,7 +7836,7 @@
           "themeId": 222,
           "themeNameEn": "Fringed and Footloose",
           "themeNameJa": "フリンジブーツ",
-          "themeNameCn": "フリンジブーツ",
+          "themeNameCn": "流苏靴子",
           "themeCnSource": "jp_translate",
           "dyeId": 23,
           "dyeNameCn": "卢恩棕",
@@ -9544,7 +9544,7 @@
           "themeId": 184,
           "themeNameEn": "Storm of Blood",
           "themeNameJa": "紅蓮の装束",
-          "themeNameCn": "紅蓮の装束",
+          "themeNameCn": "深红色服装",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -11067,7 +11067,7 @@
       "weeklyThemeId": 248,
       "weeklyThemeNameEn": "Wild-eared Gambler",
       "weeklyThemeNameJa": "獣耳の勝負師",
-      "weeklyThemeNameCn": "獣耳の勝負師",
+      "weeklyThemeNameCn": "兽耳战斗机",
       "slots": [
         {
           "week": 239,
@@ -11401,7 +11401,7 @@
           "themeId": 184,
           "themeNameEn": "Storm of Blood",
           "themeNameJa": "紅蓮の装束",
-          "themeNameCn": "紅蓮の装束",
+          "themeNameCn": "深红色服装",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -11511,7 +11511,7 @@
       "weeklyThemeId": 241,
       "weeklyThemeNameEn": "Anonymous Acrobat",
       "weeklyThemeNameJa": "覆面の軽業師",
-      "weeklyThemeNameCn": "覆面の軽業師",
+      "weeklyThemeNameCn": "蒙面杂技演员",
       "slots": [
         {
           "week": 232,
@@ -11755,7 +11755,7 @@
       "weeklyThemeId": 237,
       "weeklyThemeNameEn": "Ruins Explorer",
       "weeklyThemeNameJa": "史跡の探検家",
-      "weeklyThemeNameCn": "史跡の探検家",
+      "weeklyThemeNameCn": "历史遗址探险家",
       "slots": [
         {
           "week": 228,
@@ -11906,7 +11906,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "深红节参加者",
+      "weeklyThemeNameCn": "红莲祭参加者",
       "slots": [
         {
           "week": 225,
@@ -12914,7 +12914,7 @@
       "weeklyThemeId": 218,
       "weeklyThemeNameEn": "Poor Man's Pugilist",
       "weeklyThemeNameJa": "一線級の調理師",
-      "weeklyThemeNameCn": "一線級の調理師",
+      "weeklyThemeNameCn": "一流厨师",
       "slots": [
         {
           "week": 209,
@@ -12987,7 +12987,7 @@
           "themeId": 224,
           "themeNameEn": "Best Dress-ed",
           "themeNameJa": "ガーリードレス",
-          "themeNameCn": "ガーリードレス",
+          "themeNameCn": "少女连衣裙",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -13080,7 +13080,7 @@
       "weeklyThemeId": 215,
       "weeklyThemeNameEn": "Animalistic Samurai",
       "weeklyThemeNameJa": "獣武者",
-      "weeklyThemeNameCn": "獣武者",
+      "weeklyThemeNameCn": "野兽战士",
       "slots": [
         {
           "week": 206,
@@ -13158,7 +13158,7 @@
       "weeklyThemeId": 214,
       "weeklyThemeNameEn": "Miscreant Mascot",
       "weeklyThemeNameJa": "着ぐるみプリンス",
-      "weeklyThemeNameCn": "着ぐるみプリンス",
+      "weeklyThemeNameCn": "基古鲁米王子",
       "slots": [
         {
           "week": 205,
@@ -13219,7 +13219,7 @@
       "weeklyThemeId": 213,
       "weeklyThemeNameEn": "Patrician Magician",
       "weeklyThemeNameJa": "高貴な魔法使い",
-      "weeklyThemeNameCn": "高貴な魔法使い",
+      "weeklyThemeNameCn": "高贵的魔法师",
       "slots": [
         {
           "week": 204,
@@ -13448,7 +13448,7 @@
           "themeId": 184,
           "themeNameEn": "Storm of Blood",
           "themeNameJa": "紅蓮の装束",
-          "themeNameCn": "紅蓮の装束",
+          "themeNameCn": "深红色服装",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -13480,7 +13480,7 @@
       "weeklyThemeId": 209,
       "weeklyThemeNameEn": "Fashion Gatekeeper",
       "weeklyThemeNameJa": "皇都の貴婦人",
-      "weeklyThemeNameCn": "皇都の貴婦人",
+      "weeklyThemeNameCn": "帝都小姐",
       "slots": [
         {
           "week": 200,
@@ -13526,7 +13526,7 @@
           "themeId": 222,
           "themeNameEn": "Fringed and Footloose",
           "themeNameJa": "フリンジブーツ",
-          "themeNameCn": "フリンジブーツ",
+          "themeNameCn": "流苏靴子",
           "themeCnSource": "jp_translate",
           "dyeId": 39,
           "dyeNameCn": "猛豹黄",
@@ -13646,7 +13646,7 @@
       "weeklyThemeId": 206,
       "weeklyThemeNameEn": "Cloudborne Cutthroat",
       "weeklyThemeNameJa": "空賊の飛空士",
-      "weeklyThemeNameCn": "空賊の飛空士",
+      "weeklyThemeNameCn": "空贼飞行员",
       "slots": [
         {
           "week": 197,
@@ -13724,7 +13724,7 @@
       "weeklyThemeId": 205,
       "weeklyThemeNameEn": "Magnificent Majesty",
       "weeklyThemeNameJa": "煌びやかな教皇",
-      "weeklyThemeNameCn": "煌びやかな教皇",
+      "weeklyThemeNameCn": "闪闪发光的教皇",
       "slots": [
         {
           "week": 196,
@@ -14151,7 +14151,7 @@
       "weeklyThemeId": 198,
       "weeklyThemeNameEn": "Hidden Trinkets",
       "weeklyThemeNameJa": "隠されたオシャレ",
-      "weeklyThemeNameCn": "隠されたオシャレ",
+      "weeklyThemeNameCn": "隐藏的时尚",
       "slots": [
         {
           "week": 189,
@@ -14360,7 +14360,7 @@
       "weeklyThemeId": 194,
       "weeklyThemeNameEn": "Warm-weather Contraband",
       "weeklyThemeNameJa": "温暖地域の観光者",
-      "weeklyThemeNameCn": "温暖地域の観光者",
+      "weeklyThemeNameCn": "来自温暖地区的游客",
       "slots": [
         {
           "week": 185,
@@ -14499,7 +14499,7 @@
       "weeklyThemeId": 192,
       "weeklyThemeNameEn": "High-class Postmaster",
       "weeklyThemeNameJa": "上級の配達士",
-      "weeklyThemeNameCn": "上級の配達士",
+      "weeklyThemeNameCn": "高级送货员",
       "slots": [
         {
           "week": 183,
@@ -14577,7 +14577,7 @@
       "weeklyThemeId": 191,
       "weeklyThemeNameEn": "Ringmaster",
       "weeklyThemeNameJa": "見世物一座の団長",
-      "weeklyThemeNameCn": "見世物一座の団長",
+      "weeklyThemeNameCn": "眼镜团团长",
       "slots": [
         {
           "week": 182,
@@ -14638,7 +14638,7 @@
       "weeklyThemeId": 190,
       "weeklyThemeNameEn": "Woodland Whimsy",
       "weeklyThemeNameJa": "古き森の司祭",
-      "weeklyThemeNameCn": "古き森の司祭",
+      "weeklyThemeNameCn": "旧森林的牧师",
       "slots": [
         {
           "week": 181,
@@ -14684,7 +14684,7 @@
           "themeId": 222,
           "themeNameEn": "Fringed and Footloose",
           "themeNameJa": "フリンジブーツ",
-          "themeNameCn": "フリンジブーツ",
+          "themeNameCn": "流苏靴子",
           "themeCnSource": "jp_translate",
           "dyeId": 31,
           "dyeNameCn": "页岩棕",
@@ -14699,7 +14699,7 @@
       "weeklyThemeId": 189,
       "weeklyThemeNameEn": "Killer Jufuku",
       "weeklyThemeNameJa": "戎服の刺客",
-      "weeklyThemeNameCn": "戎服の刺客",
+      "weeklyThemeNameCn": "穿制服的刺客",
       "slots": [
         {
           "week": 180,
@@ -14916,7 +14916,7 @@
       "weeklyThemeId": 186,
       "weeklyThemeNameEn": "Advisor in Bloom",
       "weeklyThemeNameJa": "可憐なる参謀",
-      "weeklyThemeNameCn": "可憐なる参謀",
+      "weeklyThemeNameCn": "可爱的参谋",
       "slots": [
         {
           "week": 177,
@@ -15067,7 +15067,7 @@
           "themeId": 60,
           "themeNameEn": "Allagan Attack",
           "themeNameJa": "アラグ儀礼",
-          "themeNameCn": "アラグ儀礼",
+          "themeNameCn": "阿拉格仪式",
           "themeCnSource": "jp_translate",
           "dyeId": 13,
           "dyeNameCn": "珊瑚粉",
@@ -15101,7 +15101,7 @@
           "themeId": 184,
           "themeNameEn": "Storm of Blood",
           "themeNameJa": "紅蓮の装束",
-          "themeNameCn": "紅蓮の装束",
+          "themeNameCn": "深红色服装",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -15116,7 +15116,7 @@
       "weeklyThemeId": 183,
       "weeklyThemeNameEn": "Dandified Deckhand",
       "weeklyThemeNameJa": "洒落た船乗り",
-      "weeklyThemeNameCn": "洒落た船乗り",
+      "weeklyThemeNameCn": "时尚水手",
       "slots": [
         {
           "week": 174,
@@ -15628,7 +15628,7 @@
       "weeklyThemeId": 176,
       "weeklyThemeNameEn": "Elementary Winterwear",
       "weeklyThemeNameJa": "冬の学徒",
-      "weeklyThemeNameCn": "冬の学徒",
+      "weeklyThemeNameCn": "冬季学生",
       "slots": [
         {
           "week": 167,
@@ -16245,7 +16245,7 @@
       "weeklyThemeId": 167,
       "weeklyThemeNameEn": "Of Bright Mind and Spirit",
       "weeklyThemeNameJa": "陽気な賢人",
-      "weeklyThemeNameCn": "陽気な賢人",
+      "weeklyThemeNameCn": "开朗的智者",
       "slots": [
         {
           "week": 158,
@@ -16257,7 +16257,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16306,7 +16306,7 @@
       "weeklyThemeId": 166,
       "weeklyThemeNameEn": "Colosseum Contender",
       "weeklyThemeNameJa": "コロセウムの勇士",
-      "weeklyThemeNameCn": "コロセウムの勇士",
+      "weeklyThemeNameCn": "斗兽场的英雄",
       "slots": [
         {
           "week": 157,
@@ -16350,7 +16350,7 @@
       "weeklyThemeId": 165,
       "weeklyThemeNameEn": "Warm-hearted Gentleman",
       "weeklyThemeNameJa": "紳士の防寒対策",
-      "weeklyThemeNameCn": "紳士の防寒対策",
+      "weeklyThemeNameCn": "绅士们的寒冷天气措施",
       "slots": [
         {
           "week": 156,
@@ -17477,7 +17477,7 @@
           "themeId": 27,
           "themeNameEn": "Vagabond",
           "themeNameJa": "無頼",
-          "themeNameCn": "不可靠",
+          "themeNameCn": "無頼",
           "themeCnSource": "jp_translate",
           "dyeId": 103,
           "dyeNameCn": "柔彩粉",
@@ -18548,7 +18548,7 @@
           "themeId": 27,
           "themeNameEn": "Vagabond",
           "themeNameJa": "無頼",
-          "themeNameCn": "不可靠",
+          "themeNameCn": "無頼",
           "themeCnSource": "jp_translate",
           "dyeId": 7,
           "dyeNameCn": "玫瑰粉",
@@ -19434,7 +19434,7 @@
       "weeklyThemeId": 115,
       "weeklyThemeNameEn": "Snappy Socialite",
       "weeklyThemeNameJa": "都市の洒落者",
-      "weeklyThemeNameCn": "都市时尚人士",
+      "weeklyThemeNameCn": "都市时尚达人",
       "slots": [
         {
           "week": 106,
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻甲战士",
+      "weeklyThemeNameCn": "轻装甲战斗机",
       "slots": [
         {
           "week": 90,
@@ -22923,7 +22923,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻甲战士",
+        "themeNameCn": "轻装甲战斗机",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -26513,7 +26513,7 @@
       },
       {
         "themeId": 115,
-        "themeNameCn": "都市时尚人士",
+        "themeNameCn": "都市时尚达人",
         "themeNameEn": "Snappy Socialite",
         "count": 1
       },
@@ -26813,19 +26813,19 @@
       },
       {
         "themeId": 165,
-        "themeNameCn": "紳士の防寒対策",
+        "themeNameCn": "绅士们的寒冷天气措施",
         "themeNameEn": "Warm-hearted Gentleman",
         "count": 1
       },
       {
         "themeId": 166,
-        "themeNameCn": "コロセウムの勇士",
+        "themeNameCn": "斗兽场的英雄",
         "themeNameEn": "Colosseum Contender",
         "count": 1
       },
       {
         "themeId": 167,
-        "themeNameCn": "陽気な賢人",
+        "themeNameCn": "开朗的智者",
         "themeNameEn": "Of Bright Mind and Spirit",
         "count": 1
       },
@@ -26879,7 +26879,7 @@
       },
       {
         "themeId": 176,
-        "themeNameCn": "冬の学徒",
+        "themeNameCn": "冬季学生",
         "themeNameEn": "Elementary Winterwear",
         "count": 1
       },
@@ -26921,7 +26921,7 @@
       },
       {
         "themeId": 183,
-        "themeNameCn": "洒落た船乗り",
+        "themeNameCn": "时尚水手",
         "themeNameEn": "Dandified Deckhand",
         "count": 1
       },
@@ -26939,7 +26939,7 @@
       },
       {
         "themeId": 186,
-        "themeNameCn": "可憐なる参謀",
+        "themeNameCn": "可爱的参谋",
         "themeNameEn": "Advisor in Bloom",
         "count": 1
       },
@@ -26957,25 +26957,25 @@
       },
       {
         "themeId": 189,
-        "themeNameCn": "戎服の刺客",
+        "themeNameCn": "穿制服的刺客",
         "themeNameEn": "Killer Jufuku",
         "count": 1
       },
       {
         "themeId": 190,
-        "themeNameCn": "古き森の司祭",
+        "themeNameCn": "旧森林的牧师",
         "themeNameEn": "Woodland Whimsy",
         "count": 1
       },
       {
         "themeId": 191,
-        "themeNameCn": "見世物一座の団長",
+        "themeNameCn": "眼镜团团长",
         "themeNameEn": "Ringmaster",
         "count": 1
       },
       {
         "themeId": 192,
-        "themeNameCn": "上級の配達士",
+        "themeNameCn": "高级送货员",
         "themeNameEn": "High-class Postmaster",
         "count": 1
       },
@@ -26987,7 +26987,7 @@
       },
       {
         "themeId": 194,
-        "themeNameCn": "温暖地域の観光者",
+        "themeNameCn": "来自温暖地区的游客",
         "themeNameEn": "Warm-weather Contraband",
         "count": 1
       },
@@ -27011,7 +27011,7 @@
       },
       {
         "themeId": 198,
-        "themeNameCn": "隠されたオシャレ",
+        "themeNameCn": "隐藏的时尚",
         "themeNameEn": "Hidden Trinkets",
         "count": 1
       },
@@ -27053,13 +27053,13 @@
       },
       {
         "themeId": 205,
-        "themeNameCn": "煌びやかな教皇",
+        "themeNameCn": "闪闪发光的教皇",
         "themeNameEn": "Magnificent Majesty",
         "count": 1
       },
       {
         "themeId": 206,
-        "themeNameCn": "空賊の飛空士",
+        "themeNameCn": "空贼飞行员",
         "themeNameEn": "Cloudborne Cutthroat",
         "count": 1
       },
@@ -27077,7 +27077,7 @@
       },
       {
         "themeId": 209,
-        "themeNameCn": "皇都の貴婦人",
+        "themeNameCn": "帝都小姐",
         "themeNameEn": "Fashion Gatekeeper",
         "count": 1
       },
@@ -27101,19 +27101,19 @@
       },
       {
         "themeId": 213,
-        "themeNameCn": "高貴な魔法使い",
+        "themeNameCn": "高贵的魔法师",
         "themeNameEn": "Patrician Magician",
         "count": 1
       },
       {
         "themeId": 214,
-        "themeNameCn": "着ぐるみプリンス",
+        "themeNameCn": "基古鲁米王子",
         "themeNameEn": "Miscreant Mascot",
         "count": 1
       },
       {
         "themeId": 215,
-        "themeNameCn": "獣武者",
+        "themeNameCn": "野兽战士",
         "themeNameEn": "Animalistic Samurai",
         "count": 1
       },
@@ -27131,7 +27131,7 @@
       },
       {
         "themeId": 218,
-        "themeNameCn": "一線級の調理師",
+        "themeNameCn": "一流厨师",
         "themeNameEn": "Poor Man's Pugilist",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "深红节参加者",
+        "themeNameCn": "红莲祭参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27245,7 +27245,7 @@
       },
       {
         "themeId": 237,
-        "themeNameCn": "史跡の探検家",
+        "themeNameCn": "历史遗址探险家",
         "themeNameEn": "Ruins Explorer",
         "count": 1
       },
@@ -27269,7 +27269,7 @@
       },
       {
         "themeId": 241,
-        "themeNameCn": "覆面の軽業師",
+        "themeNameCn": "蒙面杂技演员",
         "themeNameEn": "Anonymous Acrobat",
         "count": 1
       },
@@ -27311,7 +27311,7 @@
       },
       {
         "themeId": 248,
-        "themeNameCn": "獣耳の勝負師",
+        "themeNameCn": "兽耳战斗机",
         "themeNameEn": "Wild-eared Gambler",
         "count": 1
       },
@@ -28133,7 +28133,7 @@
       },
       {
         "themeId": 386,
-        "themeNameCn": "尖端工匠",
+        "themeNameCn": "先鋭の匠",
         "themeNameEn": "Crafting on the Edge",
         "count": 1
       },
@@ -28145,13 +28145,13 @@
       },
       {
         "themeId": 388,
-        "themeNameCn": "酷兽",
+        "themeNameCn": "クールビースト",
         "themeNameEn": "Cool Beast",
         "count": 1
       },
       {
         "themeId": 389,
-        "themeNameCn": "睡衣派对",
+        "themeNameCn": "パジャマパーティー",
         "themeNameEn": "Pajama Party",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯卡",
+        "themeNameCn": "野生达尔马斯坎",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -28403,7 +28403,7 @@
           "slotCn": "头部",
           "slotEn": "Head",
           "themeId": 151,
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeNameEn": "Future Arma",
           "count": 6
         },
@@ -28763,7 +28763,7 @@
           "slotCn": "头部",
           "slotEn": "Head",
           "themeId": 60,
-          "themeNameCn": "アラグ儀礼",
+          "themeNameCn": "阿拉格仪式",
           "themeNameEn": "Allagan Attack",
           "count": 2
         },
@@ -29620,7 +29620,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 27,
-          "themeNameCn": "不可靠",
+          "themeNameCn": "無頼",
           "themeNameEn": "Vagabond",
           "count": 2
         },
@@ -29656,7 +29656,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 224,
-          "themeNameCn": "ガーリードレス",
+          "themeNameCn": "少女连衣裙",
           "themeNameEn": "Best Dress-ed",
           "count": 2
         },
@@ -30090,7 +30090,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 184,
-          "themeNameCn": "紅蓮の装束",
+          "themeNameCn": "深红色服装",
           "themeNameEn": "Storm of Blood",
           "count": 5
         },
@@ -30587,7 +30587,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 222,
-          "themeNameCn": "フリンジブーツ",
+          "themeNameCn": "流苏靴子",
           "themeNameEn": "Fringed and Footloose",
           "count": 7
         },
