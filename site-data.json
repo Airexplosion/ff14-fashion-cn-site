@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1782733201,
+  "generatedAt": 1782749831,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -4469,7 +4469,7 @@
       "weeklyThemeId": 357,
       "weeklyThemeNameEn": "Best Man Not Yes-man",
       "weeklyThemeNameJa": "型破りなベストマン",
-      "weeklyThemeNameCn": "型破りなベストマン",
+      "weeklyThemeNameCn": "非传统的伴郎",
       "slots": [
         {
           "week": 348,
@@ -12853,7 +12853,7 @@
       "weeklyThemeId": 219,
       "weeklyThemeNameEn": "Stay-at-home Steward",
       "weeklyThemeNameJa": "控えめな家令",
-      "weeklyThemeNameCn": "控えめな家令",
+      "weeklyThemeNameCn": "谦虚的管家",
       "slots": [
         {
           "week": 210,
@@ -27137,7 +27137,7 @@
       },
       {
         "themeId": 219,
-        "themeNameCn": "控えめな家令",
+        "themeNameCn": "谦虚的管家",
         "themeNameEn": "Stay-at-home Steward",
         "count": 1
       },
@@ -27965,7 +27965,7 @@
       },
       {
         "themeId": 357,
-        "themeNameCn": "型破りなベストマン",
+        "themeNameCn": "非传统的伴郎",
         "themeNameEn": "Best Man Not Yes-man",
         "count": 1
       },
