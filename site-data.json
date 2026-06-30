@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1782830916,
+  "generatedAt": 1782851209,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1828,7 +1828,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -3668,7 +3668,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -4708,7 +4708,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "火热的战士",
+      "weeklyThemeNameCn": "燃烧的战士",
       "slots": [
         {
           "week": 295,
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝成立十周年",
+      "weeklyThemeNameCn": "庆祝成立 10 周年的人们",
       "slots": [
         {
           "week": 289,
@@ -8888,7 +8888,7 @@
       "weeklyThemeId": 284,
       "weeklyThemeNameEn": "New World, New Workfolk",
       "weeklyThemeNameJa": "新大陸のフィールドワーカー",
-      "weeklyThemeNameCn": "新大陆的现场工作者",
+      "weeklyThemeNameCn": "新大陆的野外工作人员",
       "slots": [
         {
           "week": 275,
@@ -11906,7 +11906,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "红莲祭参加者",
+      "weeklyThemeNameCn": "深红节参加者",
       "slots": [
         {
           "week": 225,
@@ -16257,7 +16257,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -18336,7 +18336,7 @@
       "weeklyThemeId": 133,
       "weeklyThemeNameEn": "Rebel with a Cause",
       "weeklyThemeNameJa": "反乱の信徒",
-      "weeklyThemeNameCn": "反叛信徒",
+      "weeklyThemeNameCn": "叛逆的信徒",
       "slots": [
         {
           "week": 124,
@@ -21071,7 +21071,7 @@
       "weeklyThemeId": 89,
       "weeklyThemeNameEn": "Garlond Says",
       "weeklyThemeNameJa": "ガーロンド社の作業員",
-      "weeklyThemeNameCn": "嘉隆工人",
+      "weeklyThemeNameCn": "嘉隆德工人",
       "slots": [
         {
           "week": 80,
@@ -22923,7 +22923,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -26363,7 +26363,7 @@
       },
       {
         "themeId": 89,
-        "themeNameCn": "嘉隆工人",
+        "themeNameCn": "嘉隆德工人",
         "themeNameEn": "Garlond Says",
         "count": 1
       },
@@ -26621,7 +26621,7 @@
       },
       {
         "themeId": 133,
-        "themeNameCn": "反叛信徒",
+        "themeNameCn": "叛逆的信徒",
         "themeNameEn": "Rebel with a Cause",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "红莲祭参加者",
+        "themeNameCn": "深红节参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27527,7 +27527,7 @@
       },
       {
         "themeId": 284,
-        "themeNameCn": "新大陆的现场工作者",
+        "themeNameCn": "新大陆的野外工作人员",
         "themeNameEn": "New World, New Workfolk",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝成立十周年",
+        "themeNameCn": "庆祝成立 10 周年的人们",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "火热的战士",
+        "themeNameCn": "燃烧的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
@@ -28403,7 +28403,7 @@
           "slotCn": "头部",
           "slotEn": "Head",
           "themeId": 151,
-          "themeNameCn": "未来派",
+          "themeNameCn": "未来派的",
           "themeNameEn": "Future Arma",
           "count": 6
         },
