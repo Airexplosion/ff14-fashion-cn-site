@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1783108962,
+  "generatedAt": 1783138017,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -6170,7 +6170,7 @@
       "weeklyThemeId": 328,
       "weeklyThemeNameEn": "Twenty-year Hunter",
       "weeklyThemeNameJa": "20周年のハンター",
-      "weeklyThemeNameCn": "20周年のハンター",
+      "weeklyThemeNameCn": "猎人20周年",
       "slots": [
         {
           "week": 319,
@@ -6292,7 +6292,7 @@
       "weeklyThemeId": 326,
       "weeklyThemeNameEn": "Outlaw Explorer",
       "weeklyThemeNameJa": "アウトローな探検家",
-      "weeklyThemeNameCn": "アウトローな探検家",
+      "weeklyThemeNameCn": "亡命之徒探险家",
       "slots": [
         {
           "week": 317,
@@ -7451,7 +7451,7 @@
       "weeklyThemeId": 307,
       "weeklyThemeNameEn": "Imagining Peace",
       "weeklyThemeNameJa": "イマジン・アンド・ピース",
-      "weeklyThemeNameCn": "イマジン・アンド・ピース",
+      "weeklyThemeNameCn": "想象与和平",
       "slots": [
         {
           "week": 298,
@@ -8139,7 +8139,7 @@
       "weeklyThemeId": 296,
       "weeklyThemeNameEn": "Utility Camper",
       "weeklyThemeNameJa": "野営の便利屋",
-      "weeklyThemeNameCn": "野営の便利屋",
+      "weeklyThemeNameCn": "营地勤杂工",
       "slots": [
         {
           "week": 287,
@@ -24236,7 +24236,7 @@
       "weeklyThemeId": 36,
       "weeklyThemeNameEn": "Beachcomber",
       "weeklyThemeNameJa": "砂浜の行楽客",
-      "weeklyThemeNameCn": "砂浜の行楽客",
+      "weeklyThemeNameCn": "沙滩上的度假者",
       "slots": [
         {
           "week": 27,
@@ -26045,7 +26045,7 @@
       },
       {
         "themeId": 36,
-        "themeNameCn": "砂浜の行楽客",
+        "themeNameCn": "沙滩上的度假者",
         "themeNameEn": "Beachcomber",
         "count": 1
       },
@@ -27599,7 +27599,7 @@
       },
       {
         "themeId": 296,
-        "themeNameCn": "野営の便利屋",
+        "themeNameCn": "营地勤杂工",
         "themeNameEn": "Utility Camper",
         "count": 1
       },
@@ -27665,7 +27665,7 @@
       },
       {
         "themeId": 307,
-        "themeNameCn": "イマジン・アンド・ピース",
+        "themeNameCn": "想象与和平",
         "themeNameEn": "Imagining Peace",
         "count": 1
       },
@@ -27779,7 +27779,7 @@
       },
       {
         "themeId": 326,
-        "themeNameCn": "アウトローな探検家",
+        "themeNameCn": "亡命之徒探险家",
         "themeNameEn": "Outlaw Explorer",
         "count": 1
       },
@@ -27791,7 +27791,7 @@
       },
       {
         "themeId": 328,
-        "themeNameCn": "20周年のハンター",
+        "themeNameCn": "猎人20周年",
         "themeNameEn": "Twenty-year Hunter",
         "count": 1
       },
