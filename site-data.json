@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1783226091,
+  "generatedAt": 1783244263,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1816,7 +1816,7 @@
       "weeklyThemeId": 403,
       "weeklyThemeNameEn": "Advanced Explorer",
       "weeklyThemeNameJa": "未来を進む探検家",
-      "weeklyThemeNameCn": "一个走向未来的探索者",
+      "weeklyThemeNameCn": "迈向未来的探索者",
       "slots": [
         {
           "week": 394,
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯坎",
+      "weeklyThemeNameCn": "野生达尔马斯卡",
       "slots": [
         {
           "week": 388,
@@ -3580,7 +3580,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -5982,7 +5982,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 1,
           "dyeNameCn": "素雪白",
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "火热的战士",
+      "weeklyThemeNameCn": "燃烧的战士",
       "slots": [
         {
           "week": 295,
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬衣",
+      "weeklyThemeNameCn": "帝都风格冬装",
       "slots": [
         {
           "week": 262,
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "红莲祭参加者",
+      "weeklyThemeNameCn": "深红节参加者",
       "slots": [
         {
           "week": 225,
@@ -14406,7 +14406,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 112,
           "dyeNameCn": "闪耀银",
@@ -16474,7 +16474,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16657,7 +16657,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -18336,7 +18336,7 @@
       "weeklyThemeId": 133,
       "weeklyThemeNameEn": "Rebel with a Cause",
       "weeklyThemeNameJa": "反乱の信徒",
-      "weeklyThemeNameCn": "反叛信徒",
+      "weeklyThemeNameCn": "叛逆的信徒",
       "slots": [
         {
           "week": 124,
@@ -21571,7 +21571,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -26621,7 +26621,7 @@
       },
       {
         "themeId": 133,
-        "themeNameCn": "反叛信徒",
+        "themeNameCn": "叛逆的信徒",
         "themeNameEn": "Rebel with a Cause",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "红莲祭参加者",
+        "themeNameCn": "深红节参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬衣",
+        "themeNameCn": "帝都风格冬装",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "火热的战士",
+        "themeNameCn": "燃烧的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯坎",
+        "themeNameCn": "野生达尔马斯卡",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -28235,7 +28235,7 @@
       },
       {
         "themeId": 403,
-        "themeNameCn": "一个走向未来的探索者",
+        "themeNameCn": "迈向未来的探索者",
         "themeNameEn": "Advanced Explorer",
         "count": 1
       },
@@ -30171,7 +30171,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 4
         },
@@ -30812,7 +30812,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 2
         },
