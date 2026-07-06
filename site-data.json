@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1783281527,
+  "generatedAt": 1783313071,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -17770,7 +17770,7 @@
       "weeklyThemeId": 142,
       "weeklyThemeNameEn": "Marquee Whalaqee",
       "weeklyThemeNameJa": "斬新なワラキ族",
-      "weeklyThemeNameCn": "斬新なワラキ族",
+      "weeklyThemeNameCn": "创新的瓦拉基部落",
       "slots": [
         {
           "week": 133,
@@ -26675,7 +26675,7 @@
       },
       {
         "themeId": 142,
-        "themeNameCn": "斬新なワラキ族",
+        "themeNameCn": "创新的瓦拉基部落",
         "themeNameEn": "Marquee Whalaqee",
         "count": 1
       },
