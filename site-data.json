@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1783522254,
+  "generatedAt": 1783540809,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯卡",
+      "weeklyThemeNameCn": "野生达尔马斯坎",
       "slots": [
         {
           "week": 388,
@@ -4078,7 +4078,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "狼人",
+          "themeNameCn": "加罗",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -5189,7 +5189,7 @@
           "themeId": 37,
           "themeNameEn": "Going Garo",
           "themeNameJa": "牙狼",
-          "themeNameCn": "狼人",
+          "themeNameCn": "加罗",
           "themeCnSource": "jp_translate",
           "dyeId": 93,
           "dyeNameCn": "珍珠白",
@@ -5826,7 +5826,7 @@
           "themeId": 218,
           "themeNameEn": "Sugarloaf Sweet",
           "themeNameJa": "シュガーローフ",
-          "themeNameCn": "シュガーローフ",
+          "themeNameCn": "糖面包",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -6492,7 +6492,7 @@
       "weeklyThemeId": 323,
       "weeklyThemeNameEn": "Spotted Demon",
       "weeklyThemeNameJa": "悪鬼の装い",
-      "weeklyThemeNameCn": "悪鬼の装い",
+      "weeklyThemeNameCn": "恶魔的服装",
       "slots": [
         {
           "week": 314,
@@ -8017,7 +8017,7 @@
       "weeklyThemeId": 298,
       "weeklyThemeNameEn": "Ten Years Ago Today",
       "weeklyThemeNameJa": "10周年を祝す者",
-      "weeklyThemeNameCn": "庆祝成立十周年",
+      "weeklyThemeNameCn": "庆祝出道十周年的人们",
       "slots": [
         {
           "week": 289,
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬装",
+      "weeklyThemeNameCn": "帝都风格冬衣",
       "slots": [
         {
           "week": 262,
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "红莲祭参加者",
+      "weeklyThemeNameCn": "深红节参加者",
       "slots": [
         {
           "week": 225,
@@ -12958,7 +12958,7 @@
       "weeklyThemeId": 217,
       "weeklyThemeNameEn": "Rainy Day Maiden",
       "weeklyThemeNameJa": "雨の日のお嬢さん",
-      "weeklyThemeNameCn": "雨の日のお嬢さん",
+      "weeklyThemeNameCn": "女孩在一个雨天",
       "slots": [
         {
           "week": 208,
@@ -13031,7 +13031,7 @@
           "themeId": 218,
           "themeNameEn": "Sugarloaf Sweet",
           "themeNameJa": "シュガーローフ",
-          "themeNameCn": "シュガーローフ",
+          "themeNameCn": "糖面包",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -20444,7 +20444,7 @@
       "weeklyThemeId": 99,
       "weeklyThemeNameEn": "Fighting Light",
       "weeklyThemeNameJa": "軽装の闘士",
-      "weeklyThemeNameCn": "轻甲战士",
+      "weeklyThemeNameCn": "轻装甲战斗机",
       "slots": [
         {
           "week": 90,
@@ -26423,7 +26423,7 @@
       },
       {
         "themeId": 99,
-        "themeNameCn": "轻甲战士",
+        "themeNameCn": "轻装甲战斗机",
         "themeNameEn": "Fighting Light",
         "count": 1
       },
@@ -27125,7 +27125,7 @@
       },
       {
         "themeId": 217,
-        "themeNameCn": "雨の日のお嬢さん",
+        "themeNameCn": "女孩在一个雨天",
         "themeNameEn": "Rainy Day Maiden",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "红莲祭参加者",
+        "themeNameCn": "深红节参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬装",
+        "themeNameCn": "帝都风格冬衣",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -27611,7 +27611,7 @@
       },
       {
         "themeId": 298,
-        "themeNameCn": "庆祝成立十周年",
+        "themeNameCn": "庆祝出道十周年的人们",
         "themeNameEn": "Ten Years Ago Today",
         "count": 1
       },
@@ -27761,7 +27761,7 @@
       },
       {
         "themeId": 323,
-        "themeNameCn": "悪鬼の装い",
+        "themeNameCn": "恶魔的服装",
         "themeNameEn": "Spotted Demon",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯卡",
+        "themeNameCn": "野生达尔马斯坎",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -28790,7 +28790,7 @@
           "slotCn": "头部",
           "slotEn": "Head",
           "themeId": 218,
-          "themeNameCn": "シュガーローフ",
+          "themeNameCn": "糖面包",
           "themeNameEn": "Sugarloaf Sweet",
           "count": 2
         },
@@ -29818,7 +29818,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 37,
-          "themeNameCn": "狼人",
+          "themeNameCn": "加罗",
           "themeNameEn": "Going Garo",
           "count": 1
         },
@@ -30911,7 +30911,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 37,
-          "themeNameCn": "狼人",
+          "themeNameCn": "加罗",
           "themeNameEn": "Going Garo",
           "count": 1
         },
