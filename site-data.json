@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1783611859,
+  "generatedAt": 1783627835,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -19312,7 +19312,7 @@
       "weeklyThemeId": 117,
       "weeklyThemeNameEn": "Wasteland Liberator",
       "weeklyThemeNameJa": "荒野の革命闘士",
-      "weeklyThemeNameCn": "荒野の革命闘士",
+      "weeklyThemeNameCn": "荒野中的革命战士",
       "slots": [
         {
           "week": 108,
@@ -26525,7 +26525,7 @@
       },
       {
         "themeId": 117,
-        "themeNameCn": "荒野の革命闘士",
+        "themeNameCn": "荒野中的革命战士",
         "themeNameEn": "Wasteland Liberator",
         "count": 1
       },
