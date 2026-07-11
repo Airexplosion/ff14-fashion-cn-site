@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1783713902,
+  "generatedAt": 1783757998,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -1816,7 +1816,7 @@
       "weeklyThemeId": 403,
       "weeklyThemeNameEn": "Advanced Explorer",
       "weeklyThemeNameJa": "未来を進む探検家",
-      "weeklyThemeNameCn": "迈向未来的探索者",
+      "weeklyThemeNameCn": "一个走向未来的探索者",
       "slots": [
         {
           "week": 394,
@@ -1828,7 +1828,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -3668,7 +3668,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -4708,7 +4708,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -7651,7 +7651,7 @@
       "weeklyThemeId": 304,
       "weeklyThemeNameEn": "Burning Brawn",
       "weeklyThemeNameJa": "燃える闘士",
-      "weeklyThemeNameCn": "燃烧的战士",
+      "weeklyThemeNameCn": "火热的战士",
       "slots": [
         {
           "week": 295,
@@ -11906,7 +11906,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -16257,7 +16257,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -21615,7 +21615,7 @@
           "themeId": 104,
           "themeNameEn": "Under-armor",
           "themeNameJa": "アンダーシャツ",
-          "themeNameCn": "アンダーシャツ",
+          "themeNameCn": "汗衫",
           "themeCnSource": "jp_translate",
           "dyeId": 7,
           "dyeNameCn": "玫瑰粉",
@@ -22923,7 +22923,7 @@
           "themeId": 151,
           "themeNameEn": "Future Arma",
           "themeNameJa": "未来的",
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -23111,7 +23111,7 @@
       "weeklyThemeId": 55,
       "weeklyThemeNameEn": "Surly Scout",
       "weeklyThemeNameJa": "熟練の斥候",
-      "weeklyThemeNameCn": "熟練の斥候",
+      "weeklyThemeNameCn": "熟练的侦察兵",
       "slots": [
         {
           "week": 46,
@@ -23172,7 +23172,7 @@
       "weeklyThemeId": 54,
       "weeklyThemeNameEn": "Weekend Knights",
       "weeklyThemeNameJa": "休日の騎士",
-      "weeklyThemeNameCn": "度假的骑士",
+      "weeklyThemeNameCn": "假日骑士",
       "slots": [
         {
           "week": 45,
@@ -23977,7 +23977,7 @@
           "themeId": 104,
           "themeNameEn": "Under-armor",
           "themeNameJa": "アンダーシャツ",
-          "themeNameCn": "アンダーシャツ",
+          "themeNameCn": "汗衫",
           "themeCnSource": "jp_translate",
           "dyeId": 128,
           "dyeNameCn": "",
@@ -24070,7 +24070,7 @@
       "weeklyThemeId": 39,
       "weeklyThemeNameEn": "Moonfire Inferno",
       "weeklyThemeNameJa": "いなせな紅蓮祭",
-      "weeklyThemeNameCn": "いなせな紅蓮祭",
+      "weeklyThemeNameCn": "伊那塞纳红莲节",
       "slots": [
         {
           "week": 30,
@@ -26063,7 +26063,7 @@
       },
       {
         "themeId": 39,
-        "themeNameCn": "いなせな紅蓮祭",
+        "themeNameCn": "伊那塞纳红莲节",
         "themeNameEn": "Moonfire Inferno",
         "count": 1
       },
@@ -26153,13 +26153,13 @@
       },
       {
         "themeId": 54,
-        "themeNameCn": "度假的骑士",
+        "themeNameCn": "假日骑士",
         "themeNameEn": "Weekend Knights",
         "count": 1
       },
       {
         "themeId": 55,
-        "themeNameCn": "熟練の斥候",
+        "themeNameCn": "熟练的侦察兵",
         "themeNameEn": "Surly Scout",
         "count": 1
       },
@@ -27647,7 +27647,7 @@
       },
       {
         "themeId": 304,
-        "themeNameCn": "燃烧的战士",
+        "themeNameCn": "火热的战士",
         "themeNameEn": "Burning Brawn",
         "count": 1
       },
@@ -28235,7 +28235,7 @@
       },
       {
         "themeId": 403,
-        "themeNameCn": "迈向未来的探索者",
+        "themeNameCn": "一个走向未来的探索者",
         "themeNameEn": "Advanced Explorer",
         "count": 1
       },
@@ -28403,7 +28403,7 @@
           "slotCn": "头部",
           "slotEn": "Head",
           "themeId": 151,
-          "themeNameCn": "未来派的",
+          "themeNameCn": "未来派",
           "themeNameEn": "Future Arma",
           "count": 6
         },
@@ -29593,7 +29593,7 @@
           "slotCn": "身体",
           "slotEn": "Body",
           "themeId": 104,
-          "themeNameCn": "アンダーシャツ",
+          "themeNameCn": "汗衫",
           "themeNameEn": "Under-armor",
           "count": 2
         },
