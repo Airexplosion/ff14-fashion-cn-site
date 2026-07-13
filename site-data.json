@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1783915583,
+  "generatedAt": 1783936901,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -2165,7 +2165,7 @@
       "weeklyThemeId": 397,
       "weeklyThemeNameEn": "Dalmascan in the Wild",
       "weeklyThemeNameJa": "ワイルドダルマスカン",
-      "weeklyThemeNameCn": "野生达尔马斯卡",
+      "weeklyThemeNameCn": "野生达尔马斯坎",
       "slots": [
         {
           "week": 388,
@@ -3002,7 +3002,7 @@
       "weeklyThemeId": 383,
       "weeklyThemeNameEn": "Flirtatious Pacifist",
       "weeklyThemeNameJa": "セクシーな平和主義者",
-      "weeklyThemeNameCn": "性感的和平主义者",
+      "weeklyThemeNameCn": "セクシーな平和主義者",
       "slots": [
         {
           "week": 374,
@@ -3046,7 +3046,7 @@
       "weeklyThemeId": 382,
       "weeklyThemeNameEn": "Near Eastern Explorer",
       "weeklyThemeNameJa": "近東の冒険家",
-      "weeklyThemeNameCn": "近东冒险家",
+      "weeklyThemeNameCn": "近東の冒険家",
       "slots": [
         {
           "week": 373,
@@ -3107,7 +3107,7 @@
       "weeklyThemeId": 381,
       "weeklyThemeNameEn": "Blooming Builder",
       "weeklyThemeNameJa": "花好きの作業員",
-      "weeklyThemeNameCn": "一个爱花的工人",
+      "weeklyThemeNameCn": "一个爱花的工作者",
       "slots": [
         {
           "week": 372,
@@ -3429,7 +3429,7 @@
       "weeklyThemeId": 376,
       "weeklyThemeNameEn": "Common Company",
       "weeklyThemeNameJa": "庶民派ノ部隊員",
-      "weeklyThemeNameCn": "平民派成员",
+      "weeklyThemeNameCn": "庶民派ノ部隊員",
       "slots": [
         {
           "week": 367,
@@ -3580,7 +3580,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -3944,7 +3944,7 @@
       "weeklyThemeId": 367,
       "weeklyThemeNameEn": "Flair for Genius",
       "weeklyThemeNameJa": "洒落者の俊英",
-      "weeklyThemeNameCn": "时尚的俊秀",
+      "weeklyThemeNameCn": "时尚的俊英",
       "slots": [
         {
           "week": 358,
@@ -4984,7 +4984,7 @@
       "weeklyThemeId": 348,
       "weeklyThemeNameEn": "Iniquitous Archon",
       "weeklyThemeNameJa": "悪魔的な賢人",
-      "weeklyThemeNameCn": "恶魔般的智者",
+      "weeklyThemeNameCn": "恶魔般的聪明人",
       "slots": [
         {
           "week": 339,
@@ -5982,7 +5982,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 1,
           "dyeNameCn": "素雪白",
@@ -7329,7 +7329,7 @@
       "weeklyThemeId": 309,
       "weeklyThemeNameEn": "Cosmos of Thorns",
       "weeklyThemeNameJa": "茨に咲くコスモス",
-      "weeklyThemeNameCn": "荆棘上绽放的波斯菊",
+      "weeklyThemeNameCn": "荆棘上盛开的波斯菊",
       "slots": [
         {
           "week": 300,
@@ -8888,7 +8888,7 @@
       "weeklyThemeId": 284,
       "weeklyThemeNameEn": "New World, New Workfolk",
       "weeklyThemeNameJa": "新大陸のフィールドワーカー",
-      "weeklyThemeNameCn": "新大陆的现场工作者",
+      "weeklyThemeNameCn": "新大陆的野外工作人员",
       "slots": [
         {
           "week": 275,
@@ -9698,7 +9698,7 @@
       "weeklyThemeId": 271,
       "weeklyThemeNameEn": "Garlean Winter",
       "weeklyThemeNameJa": "帝都風の防寒着",
-      "weeklyThemeNameCn": "帝都风格冬装",
+      "weeklyThemeNameCn": "帝都风格冬衣",
       "slots": [
         {
           "week": 262,
@@ -11972,7 +11972,7 @@
       "weeklyThemeId": 234,
       "weeklyThemeNameEn": "Festival Frequenter",
       "weeklyThemeNameJa": "紅蓮祭の参列者",
-      "weeklyThemeNameCn": "深红节参加者",
+      "weeklyThemeNameCn": "红莲祭参加者",
       "slots": [
         {
           "week": 225,
@@ -13019,7 +13019,7 @@
       "weeklyThemeId": 216,
       "weeklyThemeNameEn": "Party for One",
       "weeklyThemeNameJa": "孤独なホームパーティー",
-      "weeklyThemeNameCn": "孤独的房子聚会",
+      "weeklyThemeNameCn": "孤独なホームパーティー",
       "slots": [
         {
           "week": 207,
@@ -13248,7 +13248,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeCnSource": "jp_translate",
           "dyeId": 6,
           "dyeNameCn": "煤烟黑",
@@ -14406,7 +14406,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 112,
           "dyeNameCn": "闪耀银",
@@ -15535,7 +15535,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -16474,7 +16474,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 102,
           "dyeNameCn": "煤玉黑",
@@ -16657,7 +16657,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -17433,7 +17433,7 @@
           "themeId": 178,
           "themeNameEn": "Diabolical",
           "themeNameJa": "ディアボリック",
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeCnSource": "jp_translate",
           "dyeId": 92,
           "dyeNameCn": "炮铜黑",
@@ -20339,7 +20339,7 @@
       "weeklyThemeId": 101,
       "weeklyThemeNameEn": "Dashing Duelist",
       "weeklyThemeNameJa": "決闘士の一張羅",
-      "weeklyThemeNameCn": "决斗者市春",
+      "weeklyThemeNameCn": "决斗者一郎",
       "slots": [
         {
           "week": 92,
@@ -21571,7 +21571,7 @@
           "themeId": 181,
           "themeNameEn": "“Ala” Carte",
           "themeNameJa": "アラミガン",
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeCnSource": "jp_translate",
           "dyeId": 101,
           "dyeNameCn": "无瑕白",
@@ -24358,7 +24358,7 @@
       "weeklyThemeId": 34,
       "weeklyThemeNameEn": "The 48th Ronin",
       "weeklyThemeNameJa": "さすらいの浪人",
-      "weeklyThemeNameCn": "浪人",
+      "weeklyThemeNameCn": "流浪浪人",
       "slots": [
         {
           "week": 25,
@@ -26033,7 +26033,7 @@
       },
       {
         "themeId": 34,
-        "themeNameCn": "浪人",
+        "themeNameCn": "流浪浪人",
         "themeNameEn": "The 48th Ronin",
         "count": 1
       },
@@ -26435,7 +26435,7 @@
       },
       {
         "themeId": 101,
-        "themeNameCn": "决斗者市春",
+        "themeNameCn": "决斗者一郎",
         "themeNameEn": "Dashing Duelist",
         "count": 1
       },
@@ -27119,7 +27119,7 @@
       },
       {
         "themeId": 216,
-        "themeNameCn": "孤独的房子聚会",
+        "themeNameCn": "孤独なホームパーティー",
         "themeNameEn": "Party for One",
         "count": 1
       },
@@ -27227,7 +27227,7 @@
       },
       {
         "themeId": 234,
-        "themeNameCn": "深红节参加者",
+        "themeNameCn": "红莲祭参加者",
         "themeNameEn": "Festival Frequenter",
         "count": 1
       },
@@ -27449,7 +27449,7 @@
       },
       {
         "themeId": 271,
-        "themeNameCn": "帝都风格冬装",
+        "themeNameCn": "帝都风格冬衣",
         "themeNameEn": "Garlean Winter",
         "count": 1
       },
@@ -27527,7 +27527,7 @@
       },
       {
         "themeId": 284,
-        "themeNameCn": "新大陆的现场工作者",
+        "themeNameCn": "新大陆的野外工作人员",
         "themeNameEn": "New World, New Workfolk",
         "count": 1
       },
@@ -27677,7 +27677,7 @@
       },
       {
         "themeId": 309,
-        "themeNameCn": "荆棘上绽放的波斯菊",
+        "themeNameCn": "荆棘上盛开的波斯菊",
         "themeNameEn": "Cosmos of Thorns",
         "count": 1
       },
@@ -27911,7 +27911,7 @@
       },
       {
         "themeId": 348,
-        "themeNameCn": "恶魔般的智者",
+        "themeNameCn": "恶魔般的聪明人",
         "themeNameEn": "Iniquitous Archon",
         "count": 1
       },
@@ -28019,7 +28019,7 @@
       },
       {
         "themeId": 367,
-        "themeNameCn": "时尚的俊秀",
+        "themeNameCn": "时尚的俊英",
         "themeNameEn": "Flair for Genius",
         "count": 1
       },
@@ -28073,7 +28073,7 @@
       },
       {
         "themeId": 376,
-        "themeNameCn": "平民派成员",
+        "themeNameCn": "庶民派ノ部隊員",
         "themeNameEn": "Common Company",
         "count": 1
       },
@@ -28103,19 +28103,19 @@
       },
       {
         "themeId": 381,
-        "themeNameCn": "一个爱花的工人",
+        "themeNameCn": "一个爱花的工作者",
         "themeNameEn": "Blooming Builder",
         "count": 1
       },
       {
         "themeId": 382,
-        "themeNameCn": "近东冒险家",
+        "themeNameCn": "近東の冒険家",
         "themeNameEn": "Near Eastern Explorer",
         "count": 1
       },
       {
         "themeId": 383,
-        "themeNameCn": "性感的和平主义者",
+        "themeNameCn": "セクシーな平和主義者",
         "themeNameEn": "Flirtatious Pacifist",
         "count": 1
       },
@@ -28199,7 +28199,7 @@
       },
       {
         "themeId": 397,
-        "themeNameCn": "野生达尔马斯卡",
+        "themeNameCn": "野生达尔马斯坎",
         "themeNameEn": "Dalmascan in the Wild",
         "count": 1
       },
@@ -30171,7 +30171,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 4
         },
@@ -30279,7 +30279,7 @@
           "slotCn": "腿部",
           "slotEn": "Legs",
           "themeId": 178,
-          "themeNameCn": "恶魔的",
+          "themeNameCn": "恶魔般的",
           "themeNameEn": "Diabolical",
           "count": 3
         },
@@ -30812,7 +30812,7 @@
           "slotCn": "脚部",
           "slotEn": "Feet",
           "themeId": 181,
-          "themeNameCn": "阿拉米甘",
+          "themeNameCn": "阿拉姆希甘",
           "themeNameEn": "“Ala” Carte",
           "count": 2
         },
