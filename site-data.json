@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": 1783936901,
+  "generatedAt": 1783955882,
   "week": 405,
   "weeklyThemeId": 414,
   "weeklyThemeNameEn": "Genteel Jester",
@@ -3002,7 +3002,7 @@
       "weeklyThemeId": 383,
       "weeklyThemeNameEn": "Flirtatious Pacifist",
       "weeklyThemeNameJa": "セクシーな平和主義者",
-      "weeklyThemeNameCn": "セクシーな平和主義者",
+      "weeklyThemeNameCn": "性感的和平主义者",
       "slots": [
         {
           "week": 374,
@@ -3046,7 +3046,7 @@
       "weeklyThemeId": 382,
       "weeklyThemeNameEn": "Near Eastern Explorer",
       "weeklyThemeNameJa": "近東の冒険家",
-      "weeklyThemeNameCn": "近東の冒険家",
+      "weeklyThemeNameCn": "近东冒险家",
       "slots": [
         {
           "week": 373,
@@ -3429,7 +3429,7 @@
       "weeklyThemeId": 376,
       "weeklyThemeNameEn": "Common Company",
       "weeklyThemeNameJa": "庶民派ノ部隊員",
-      "weeklyThemeNameCn": "庶民派ノ部隊員",
+      "weeklyThemeNameCn": "平民派成员",
       "slots": [
         {
           "week": 367,
@@ -13019,7 +13019,7 @@
       "weeklyThemeId": 216,
       "weeklyThemeNameEn": "Party for One",
       "weeklyThemeNameJa": "孤独なホームパーティー",
-      "weeklyThemeNameCn": "孤独なホームパーティー",
+      "weeklyThemeNameCn": "孤独的房子聚会",
       "slots": [
         {
           "week": 207,
@@ -27119,7 +27119,7 @@
       },
       {
         "themeId": 216,
-        "themeNameCn": "孤独なホームパーティー",
+        "themeNameCn": "孤独的房子聚会",
         "themeNameEn": "Party for One",
         "count": 1
       },
@@ -28073,7 +28073,7 @@
       },
       {
         "themeId": 376,
-        "themeNameCn": "庶民派ノ部隊員",
+        "themeNameCn": "平民派成员",
         "themeNameEn": "Common Company",
         "count": 1
       },
@@ -28109,13 +28109,13 @@
       },
       {
         "themeId": 382,
-        "themeNameCn": "近東の冒険家",
+        "themeNameCn": "近东冒险家",
         "themeNameEn": "Near Eastern Explorer",
         "count": 1
       },
       {
         "themeId": 383,
-        "themeNameCn": "セクシーな平和主義者",
+        "themeNameCn": "性感的和平主义者",
         "themeNameEn": "Flirtatious Pacifist",
         "count": 1
       },
